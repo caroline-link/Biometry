@@ -1,0 +1,48 @@
+---
+title: "C. Link - Biometry Assignment #1"
+output: html_document
+date: "2026-09-16"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## CREMP Dataset
+
+### Description
+
+-   Select a dataset, provide a brief description, and provide citation/URL
+
+### Data Structure
+
+```{r}
+# Read in dataset
+
+
+# Note the class of the dataset
+```
+
+-   List variables of interest and their classes
+
+```{r}
+# Find class for variables of interest
+
+```
+
+```{r}
+# Examine the structure of the dataset and correct any formatting mistakes
+
+```
+
+### Summary Statistics
+
+```{r}
+# Provide summary statistics for variables of interest
+```
+
+### Figures
+
+```{r}
+# Produce at least three different figures that convey different information
+```
