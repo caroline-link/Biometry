@@ -1,0 +1,1801 @@
+"SampleYear","FirstSampleDate","ProjectRegion","Subregion","Habitat","SiteCode","SiteID","SiteName","StationID","TRANSECT","AbbrName","SciName","Tally","Density"
+2011,2011-06-29,"NPSDT","DT","P","1PA",27,"The Maze",271,"300-10","OCTO","Total Octocoral",78,7.8
+2011,2011-06-29,"NPSDT","DT","P","1PA",27,"The Maze",272,"300-10","OCTO","Total Octocoral",58,5.8
+2011,2011-06-29,"NPSDT","DT","P","1PA",27,"The Maze",273,"300-10","OCTO","Total Octocoral",54,5.4
+2011,2011-06-29,"NPSDT","DT","P","1PA",27,"The Maze",274,"300-10","OCTO","Total Octocoral",55,5.5
+2011,2011-06-28,"NPSDT","DT","P","1PB",28,"Davis Rock",281,"300-10","OCTO","Total Octocoral",0,0
+2011,2011-06-28,"NPSDT","DT","P","1PB",28,"Davis Rock",282,"300-10","OCTO","Total Octocoral",0,0
+2011,2011-06-28,"NPSDT","DT","P","1PB",28,"Davis Rock",283,"300-10","OCTO","Total Octocoral",0,0
+2011,2011-06-28,"NPSDT","DT","P","1PB",28,"Davis Rock",284,"300-10","OCTO","Total Octocoral",0,0
+2011,2011-06-28,"NPSDT","DT","P","1PC",29,"Texas Rock",291,"300-10","OCTO","Total Octocoral",7,0.7
+2011,2011-06-28,"NPSDT","DT","P","1PC",29,"Texas Rock",292,"300-10","OCTO","Total Octocoral",8,0.8
+2011,2011-06-28,"NPSDT","DT","P","1PC",29,"Texas Rock",293,"300-10","OCTO","Total Octocoral",2,0.2
+2011,2011-06-28,"NPSDT","DT","P","1PC",29,"Texas Rock",294,"300-10","OCTO","Total Octocoral",10,1
+2011,2011-06-08,"FKNMS","UK","P","9P3",32,"Porter Patch",321,"300-10","OCTO","Total Octocoral",90,9
+2011,2011-06-08,"FKNMS","UK","P","9P3",32,"Porter Patch",322,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-06-08,"FKNMS","UK","P","9P3",32,"Porter Patch",323,"300-10","OCTO","Total Octocoral",72,7.2
+2011,2011-06-08,"FKNMS","UK","P","9P3",32,"Porter Patch",324,"300-10","OCTO","Total Octocoral",86,8.6
+2011,2011-06-11,"FKNMS","UK","P","9P4",33,"Admiral",331,"300-10","OCTO","Total Octocoral",23,2.3
+2011,2011-06-11,"FKNMS","UK","P","9P4",33,"Admiral",332,"300-10","OCTO","Total Octocoral",9,0.9
+2011,2011-06-11,"FKNMS","UK","P","9P4",33,"Admiral",333,"300-10","OCTO","Total Octocoral",57,5.7
+2011,2011-06-11,"FKNMS","UK","P","9P4",33,"Admiral",334,"300-10","OCTO","Total Octocoral",51,5.1
+2011,2011-05-18,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",341,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-18,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",342,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-18,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",343,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-18,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",344,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-13,"FKNMS","MK","P","7P2",35,"Dustan Rocks",351,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-13,"FKNMS","MK","P","7P2",35,"Dustan Rocks",352,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-13,"FKNMS","MK","P","7P2",35,"Dustan Rocks",353,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-13,"FKNMS","MK","P","7P2",35,"Dustan Rocks",354,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-07-20,"FKNMS","LK","P","5P1",36,"West Washer Women",361,"300-10","OCTO","Total Octocoral",59,5.9
+2011,2011-07-20,"FKNMS","LK","P","5P1",36,"West Washer Women",362,"300-10","OCTO","Total Octocoral",89,8.9
+2011,2011-07-21,"FKNMS","LK","P","5P1",36,"West Washer Women",363,"300-10","OCTO","Total Octocoral",35,3.5
+2011,2011-07-21,"FKNMS","LK","P","5P1",36,"West Washer Women",364,"300-10","OCTO","Total Octocoral",68,6.8
+2011,2011-07-20,"FKNMS","LK","P","5P3",38,"Cliff Green",381,"300-10","OCTO","Total Octocoral",112,11.2
+2011,2011-07-19,"FKNMS","LK","P","5P3",38,"Cliff Green",382,"300-10","OCTO","Total Octocoral",107,10.7
+2011,2011-07-20,"FKNMS","LK","P","5P3",38,"Cliff Green",383,"300-10","OCTO","Total Octocoral",133,13.3
+2011,2011-07-19,"FKNMS","LK","P","5P3",38,"Cliff Green",384,"300-10","OCTO","Total Octocoral",71,7.1
+2011,2011-06-26,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",411,"300-10","OCTO","Total Octocoral",48,4.8
+2011,2011-06-26,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",412,"300-10","OCTO","Total Octocoral",72,7.2
+2011,2011-06-26,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",413,"300-10","OCTO","Total Octocoral",56,5.6
+2011,2011-06-26,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",414,"300-10","OCTO","Total Octocoral",90,9
+2011,2011-07-01,"NPSDT","DT","P","1P4",44,"Temptation Rock",441,"300-10","OCTO","Total Octocoral",54,5.4
+2011,2011-07-01,"NPSDT","DT","P","1P4",44,"Temptation Rock",442,"300-10","OCTO","Total Octocoral",36,3.6
+2011,2011-07-01,"NPSDT","DT","P","1P4",44,"Temptation Rock",443,"300-10","OCTO","Total Octocoral",56,5.6
+2011,2011-07-01,"NPSDT","DT","P","1P4",44,"Temptation Rock",444,"300-10","OCTO","Total Octocoral",25,2.5
+2011,2011-06-30,"NPSDT","DT","P","1P5",45,"Mayer's Peak",451,"300-10","OCTO","Total Octocoral",140,14
+2011,2011-06-29,"NPSDT","DT","P","1P5",45,"Mayer's Peak",452,"300-10","OCTO","Total Octocoral",244,24.4
+2011,2011-06-29,"NPSDT","DT","P","1P5",45,"Mayer's Peak",453,"300-10","OCTO","Total Octocoral",135,13.5
+2011,2011-06-29,"NPSDT","DT","P","1P5",45,"Mayer's Peak",454,"300-10","OCTO","Total Octocoral",206,20.6
+2011,2011-06-13,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",501,"300-10","OCTO","Total Octocoral",41,4.1
+2011,2011-06-13,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",502,"300-10","OCTO","Total Octocoral",20,2
+2011,2011-06-13,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",503,"300-10","OCTO","Total Octocoral",405,40.5
+2011,2011-06-13,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",504,"300-10","OCTO","Total Octocoral",204,20.4
+2011,2011-06-14,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",541,"300-10","OCTO","Total Octocoral",232,23.2
+2011,2011-06-14,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",542,"300-10","OCTO","Total Octocoral",218,21.8
+2011,2011-06-14,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",543,"300-10","OCTO","Total Octocoral",284,28.4
+2011,2011-06-14,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",199,19.9
+2011,2011-05-12,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",551,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-12,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",552,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-12,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-12,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",554,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-10,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",561,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-10,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",562,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-10,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",563,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-10,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",564,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-07-18,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",109,10.9
+2011,2011-07-17,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",592,"300-10","OCTO","Total Octocoral",65,6.5
+2011,2011-07-18,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",593,"300-10","OCTO","Total Octocoral",45,4.5
+2011,2011-07-18,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",594,"300-10","OCTO","Total Octocoral",37,3.7
+2011,2011-07-15,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",611,"300-10","OCTO","Total Octocoral",83,8.3
+2011,2011-07-15,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",612,"300-10","OCTO","Total Octocoral",87,8.7
+2011,2011-07-15,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",613,"300-10","OCTO","Total Octocoral",70,7
+2011,2011-07-15,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",614,"300-10","OCTO","Total Octocoral",73,7.3
+2011,2011-06-13,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",701,"300-10","OCTO","Total Octocoral",190,19
+2011,2011-06-13,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",702,"300-10","OCTO","Total Octocoral",133,13.3
+2011,2011-06-13,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",703,"300-10","OCTO","Total Octocoral",107,10.7
+2011,2011-06-13,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",704,"300-10","OCTO","Total Octocoral",254,25.4
+2011,2011-06-14,"FKNMS","MK","OD","7D1",74,"Alligator Deep",741,"300-10","OCTO","Total Octocoral",163,16.3
+2011,2011-06-14,"FKNMS","MK","OD","7D1",74,"Alligator Deep",742,"300-10","OCTO","Total Octocoral",78,7.8
+2011,2011-06-14,"FKNMS","MK","OD","7D1",74,"Alligator Deep",743,"300-10","OCTO","Total Octocoral",95,9.5
+2011,2011-06-14,"FKNMS","MK","OD","7D1",74,"Alligator Deep",744,"300-10","OCTO","Total Octocoral",162,16.2
+2011,2011-05-12,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",751,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-12,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",752,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-12,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",753,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-12,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",754,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-11,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",761,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-11,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",762,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-11,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",763,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-05-11,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",764,"300-10","OCTO","Total Octocoral",NA,NA
+2011,2011-07-18,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",791,"300-10","OCTO","Total Octocoral",143,14.3
+2011,2011-07-18,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",115,11.5
+2011,2011-07-18,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",793,"300-10","OCTO","Total Octocoral",142,14.2
+2011,2011-07-18,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",794,"300-10","OCTO","Total Octocoral",127,12.7
+2011,2011-07-20,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",811,"300-10","OCTO","Total Octocoral",164,16.4
+2011,2011-07-20,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",812,"300-10","OCTO","Total Octocoral",163,16.3
+2011,2011-07-19,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",813,"300-10","OCTO","Total Octocoral",255,25.5
+2011,2011-07-19,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",814,"300-10","OCTO","Total Octocoral",275,27.5
+2011,2011-06-30,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",821,"300-10","OCTO","Total Octocoral",66,6.6
+2011,2011-06-30,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",822,"300-10","OCTO","Total Octocoral",95,9.5
+2011,2011-06-30,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",823,"300-10","OCTO","Total Octocoral",142,14.2
+2011,2011-06-30,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",824,"300-10","OCTO","Total Octocoral",110,11
+2012,2012-06-01,"NPSDT","DT","P","1PA",27,"The Maze",271,"300-10","OCTO","Total Octocoral",75,7.5
+2012,2012-06-01,"NPSDT","DT","P","1PA",27,"The Maze",272,"300-10","OCTO","Total Octocoral",60,6
+2012,2012-06-01,"NPSDT","DT","P","1PA",27,"The Maze",273,"300-10","OCTO","Total Octocoral",20,2
+2012,2012-06-01,"NPSDT","DT","P","1PA",27,"The Maze",274,"300-10","OCTO","Total Octocoral",46,4.6
+2012,2012-05-31,"NPSDT","DT","P","1PB",28,"Davis Rock",281,"300-10","OCTO","Total Octocoral",0,0
+2012,2012-05-31,"NPSDT","DT","P","1PB",28,"Davis Rock",282,"300-10","OCTO","Total Octocoral",0,0
+2012,2012-05-31,"NPSDT","DT","P","1PB",28,"Davis Rock",283,"300-10","OCTO","Total Octocoral",0,0
+2012,2012-05-31,"NPSDT","DT","P","1PB",28,"Davis Rock",284,"300-10","OCTO","Total Octocoral",0,0
+2012,2012-06-01,"NPSDT","DT","P","1PC",29,"Texas Rock",291,"300-10","OCTO","Total Octocoral",2,0.2
+2012,2012-06-01,"NPSDT","DT","P","1PC",29,"Texas Rock",292,"300-10","OCTO","Total Octocoral",9,0.9
+2012,2012-06-01,"NPSDT","DT","P","1PC",29,"Texas Rock",293,"300-10","OCTO","Total Octocoral",0,0
+2012,2012-06-01,"NPSDT","DT","P","1PC",29,"Texas Rock",294,"300-10","OCTO","Total Octocoral",13,1.3
+2012,2012-08-17,"FKNMS","UK","P","9P3",32,"Porter Patch",321,"300-10","OCTO","Total Octocoral",187,18.7
+2012,2012-08-17,"FKNMS","UK","P","9P3",32,"Porter Patch",322,"300-10","OCTO","Total Octocoral",146,14.6
+2012,2012-08-17,"FKNMS","UK","P","9P3",32,"Porter Patch",323,"300-10","OCTO","Total Octocoral",159,15.9
+2012,2012-08-17,"FKNMS","UK","P","9P3",32,"Porter Patch",324,"300-10","OCTO","Total Octocoral",200,20
+2012,2012-08-18,"FKNMS","UK","P","9P4",33,"Admiral",331,"300-10","OCTO","Total Octocoral",109,10.9
+2012,2012-08-18,"FKNMS","UK","P","9P4",33,"Admiral",332,"300-10","OCTO","Total Octocoral",57,5.7
+2012,2012-08-18,"FKNMS","UK","P","9P4",33,"Admiral",333,"300-10","OCTO","Total Octocoral",156,15.6
+2012,2012-08-18,"FKNMS","UK","P","9P4",33,"Admiral",334,"300-10","OCTO","Total Octocoral",225,22.5
+2012,2012-05-09,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",341,"300-10","OCTO","Total Octocoral",110,11
+2012,2012-05-09,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",342,"300-10","OCTO","Total Octocoral",142,14.2
+2012,2012-05-09,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",343,"300-10","OCTO","Total Octocoral",110,11
+2012,2012-05-09,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",344,"300-10","OCTO","Total Octocoral",117,11.7
+2012,2012-05-07,"FKNMS","MK","P","7P2",35,"Dustan Rocks",351,"300-10","OCTO","Total Octocoral",137,13.7
+2012,2012-05-07,"FKNMS","MK","P","7P2",35,"Dustan Rocks",352,"300-10","OCTO","Total Octocoral",130,13
+2012,2012-05-07,"FKNMS","MK","P","7P2",35,"Dustan Rocks",353,"300-10","OCTO","Total Octocoral",130,13
+2012,2012-05-07,"FKNMS","MK","P","7P2",35,"Dustan Rocks",354,"300-10","OCTO","Total Octocoral",70,7
+2012,2012-07-17,"FKNMS","LK","P","5P1",36,"West Washer Women",361,"300-10","OCTO","Total Octocoral",73,7.3
+2012,2012-07-17,"FKNMS","LK","P","5P1",36,"West Washer Women",362,"300-10","OCTO","Total Octocoral",126,12.6
+2012,2012-07-17,"FKNMS","LK","P","5P1",36,"West Washer Women",363,"300-10","OCTO","Total Octocoral",41,4.1
+2012,2012-07-17,"FKNMS","LK","P","5P1",36,"West Washer Women",364,"300-10","OCTO","Total Octocoral",78,7.8
+2012,2012-07-18,"FKNMS","LK","P","5P3",38,"Cliff Green",381,"300-10","OCTO","Total Octocoral",134,13.4
+2012,2012-07-18,"FKNMS","LK","P","5P3",38,"Cliff Green",382,"300-10","OCTO","Total Octocoral",100,10
+2012,2012-07-18,"FKNMS","LK","P","5P3",38,"Cliff Green",383,"300-10","OCTO","Total Octocoral",152,15.2
+2012,2012-07-18,"FKNMS","LK","P","5P3",38,"Cliff Green",384,"300-10","OCTO","Total Octocoral",77,7.7
+2012,2012-05-31,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",411,"300-10","OCTO","Total Octocoral",98,9.8
+2012,2012-05-31,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",412,"300-10","OCTO","Total Octocoral",95,9.5
+2012,2012-05-31,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",413,"300-10","OCTO","Total Octocoral",63,6.3
+2012,2012-05-31,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",414,"300-10","OCTO","Total Octocoral",102,10.2
+2012,2012-06-03,"NPSDT","DT","P","1P2",42,"Palmata Patch",421,"300-10","OCTO","Total Octocoral",54,5.4
+2012,2012-06-03,"NPSDT","DT","P","1P2",42,"Palmata Patch",422,"300-10","OCTO","Total Octocoral",5,0.5
+2012,2012-06-03,"NPSDT","DT","P","1P3",43,"Prolifera Patch",431,"300-10","OCTO","Total Octocoral",8,0.8
+2012,2012-06-03,"NPSDT","DT","P","1P3",43,"Prolifera Patch",432,"300-10","OCTO","Total Octocoral",22,2.2
+2012,2012-06-03,"NPSDT","DT","P","1P3",43,"Prolifera Patch",433,"300-10","OCTO","Total Octocoral",27,2.7
+2012,2012-06-04,"NPSDT","DT","P","1P4",44,"Temptation Rock",441,"300-10","OCTO","Total Octocoral",55,5.5
+2012,2012-06-04,"NPSDT","DT","P","1P4",44,"Temptation Rock",442,"300-10","OCTO","Total Octocoral",29,2.9
+2012,2012-06-04,"NPSDT","DT","P","1P4",44,"Temptation Rock",443,"300-10","OCTO","Total Octocoral",51,5.1
+2012,2012-06-04,"NPSDT","DT","P","1P4",44,"Temptation Rock",444,"300-10","OCTO","Total Octocoral",24,2.4
+2012,2012-06-06,"NPSDT","DT","P","1P5",45,"Mayer's Peak",451,"300-10","OCTO","Total Octocoral",187,18.7
+2012,2012-06-06,"NPSDT","DT","P","1P5",45,"Mayer's Peak",452,"300-10","OCTO","Total Octocoral",191,19.1
+2012,2012-06-06,"NPSDT","DT","P","1P5",45,"Mayer's Peak",453,"300-10","OCTO","Total Octocoral",194,19.4
+2012,2012-06-06,"NPSDT","DT","P","1P5",45,"Mayer's Peak",454,"300-10","OCTO","Total Octocoral",229,22.9
+2012,2012-06-03,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",461,"300-10","OCTO","Total Octocoral",7,0.7
+2012,2012-06-03,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",462,"300-10","OCTO","Total Octocoral",5,0.5
+2012,2012-08-16,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",501,"300-10","OCTO","Total Octocoral",35,3.5
+2012,2012-08-16,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",502,"300-10","OCTO","Total Octocoral",21,2.1
+2012,2012-08-16,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",503,"300-10","OCTO","Total Octocoral",516,51.6
+2012,2012-08-16,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",504,"300-10","OCTO","Total Octocoral",381,38.1
+2012,2012-08-13,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",541,"300-10","OCTO","Total Octocoral",263,26.3
+2012,2012-08-13,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",542,"300-10","OCTO","Total Octocoral",221,22.1
+2012,2012-08-13,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",543,"300-10","OCTO","Total Octocoral",308,30.8
+2012,2012-08-13,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",262,26.2
+2012,2012-05-14,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",551,"300-10","OCTO","Total Octocoral",194,19.4
+2012,2012-05-14,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",552,"300-10","OCTO","Total Octocoral",208,20.8
+2012,2012-05-14,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",305,30.5
+2012,2012-05-14,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",554,"300-10","OCTO","Total Octocoral",222,22.2
+2012,2012-05-10,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",561,"300-10","OCTO","Total Octocoral",76,7.6
+2012,2012-05-10,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",562,"300-10","OCTO","Total Octocoral",120,12
+2012,2012-05-10,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",563,"300-10","OCTO","Total Octocoral",135,13.5
+2012,2012-05-10,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",564,"300-10","OCTO","Total Octocoral",87,8.7
+2012,2012-07-13,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",93,9.3
+2012,2012-07-13,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",592,"300-10","OCTO","Total Octocoral",102,10.2
+2012,2012-07-12,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",593,"300-10","OCTO","Total Octocoral",50,5
+2012,2012-07-12,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",594,"300-10","OCTO","Total Octocoral",33,3.3
+2012,2012-07-10,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",611,"300-10","OCTO","Total Octocoral",86,8.6
+2012,2012-07-10,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",612,"300-10","OCTO","Total Octocoral",75,7.5
+2012,2012-07-10,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",613,"300-10","OCTO","Total Octocoral",75,7.5
+2012,2012-07-10,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",614,"300-10","OCTO","Total Octocoral",66,6.6
+2012,2012-08-16,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",701,"300-10","OCTO","Total Octocoral",193,19.3
+2012,2012-08-16,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",702,"300-10","OCTO","Total Octocoral",137,13.7
+2012,2012-08-16,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",703,"300-10","OCTO","Total Octocoral",234,23.4
+2012,2012-08-16,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",704,"300-10","OCTO","Total Octocoral",399,39.9
+2012,2012-06-18,"FKNMS","MK","OD","7D1",74,"Alligator Deep",741,"300-10","OCTO","Total Octocoral",212,21.2
+2012,2012-06-18,"FKNMS","MK","OD","7D1",74,"Alligator Deep",742,"300-10","OCTO","Total Octocoral",108,10.8
+2012,2012-06-18,"FKNMS","MK","OD","7D1",74,"Alligator Deep",743,"300-10","OCTO","Total Octocoral",176,17.6
+2012,2012-06-18,"FKNMS","MK","OD","7D1",74,"Alligator Deep",744,"300-10","OCTO","Total Octocoral",196,19.6
+2012,2012-05-14,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",751,"300-10","OCTO","Total Octocoral",116,11.6
+2012,2012-05-14,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",752,"300-10","OCTO","Total Octocoral",92,9.2
+2012,2012-05-14,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",753,"300-10","OCTO","Total Octocoral",178,17.8
+2012,2012-05-14,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",754,"300-10","OCTO","Total Octocoral",126,12.6
+2012,2012-05-16,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",761,"300-10","OCTO","Total Octocoral",131,13.1
+2012,2012-05-08,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",762,"300-10","OCTO","Total Octocoral",85,8.5
+2012,2012-05-16,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",763,"300-10","OCTO","Total Octocoral",133,13.3
+2012,2012-05-16,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",764,"300-10","OCTO","Total Octocoral",178,17.8
+2012,2012-07-18,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",791,"300-10","OCTO","Total Octocoral",119,11.9
+2012,2012-07-18,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",137,13.7
+2012,2012-07-16,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",793,"300-10","OCTO","Total Octocoral",140,14
+2012,2012-07-16,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",794,"300-10","OCTO","Total Octocoral",131,13.1
+2012,2012-08-10,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",811,"300-10","OCTO","Total Octocoral",161,16.1
+2012,2012-08-10,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",812,"300-10","OCTO","Total Octocoral",206,20.6
+2012,2012-07-19,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",813,"300-10","OCTO","Total Octocoral",231,23.1
+2012,2012-07-19,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",814,"300-10","OCTO","Total Octocoral",281,28.1
+2012,2012-06-02,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",821,"300-10","OCTO","Total Octocoral",92,9.2
+2012,2012-06-02,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",822,"300-10","OCTO","Total Octocoral",110,11
+2012,2012-06-02,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",823,"300-10","OCTO","Total Octocoral",145,14.5
+2012,2012-06-02,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",824,"300-10","OCTO","Total Octocoral",144,14.4
+2012,2012-06-05,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",831,"300-10","OCTO","Total Octocoral",130,13
+2012,2012-06-05,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",832,"300-10","OCTO","Total Octocoral",130,13
+2012,2012-06-05,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",833,"300-10","OCTO","Total Octocoral",66,6.6
+2012,2012-06-05,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",834,"300-10","OCTO","Total Octocoral",87,8.7
+2013,2013-06-04,"NPSDT","DT","P","1PA",27,"The Maze",271,"300-10","OCTO","Total Octocoral",78,7.8
+2013,2013-06-04,"NPSDT","DT","P","1PA",27,"The Maze",272,"300-10","OCTO","Total Octocoral",40,4
+2013,2013-06-04,"NPSDT","DT","P","1PA",27,"The Maze",273,"300-10","OCTO","Total Octocoral",18,1.8
+2013,2013-06-04,"NPSDT","DT","P","1PA",27,"The Maze",274,"300-10","OCTO","Total Octocoral",57,5.7
+2013,2013-05-31,"NPSDT","DT","P","1PB",28,"Davis Rock",281,"300-10","OCTO","Total Octocoral",1,0.1
+2013,2013-05-31,"NPSDT","DT","P","1PB",28,"Davis Rock",282,"300-10","OCTO","Total Octocoral",0,0
+2013,2013-05-31,"NPSDT","DT","P","1PB",28,"Davis Rock",283,"300-10","OCTO","Total Octocoral",0,0
+2013,2013-05-31,"NPSDT","DT","P","1PB",28,"Davis Rock",284,"300-10","OCTO","Total Octocoral",0,0
+2013,2013-06-02,"NPSDT","DT","P","1PC",29,"Texas Rock",291,"300-10","OCTO","Total Octocoral",4,0.4
+2013,2013-06-02,"NPSDT","DT","P","1PC",29,"Texas Rock",292,"300-10","OCTO","Total Octocoral",7,0.7
+2013,2013-06-02,"NPSDT","DT","P","1PC",29,"Texas Rock",293,"300-10","OCTO","Total Octocoral",0,0
+2013,2013-06-02,"NPSDT","DT","P","1PC",29,"Texas Rock",294,"300-10","OCTO","Total Octocoral",13,1.3
+2013,2013-06-20,"FKNMS","UK","P","9P3",32,"Porter Patch",321,"300-10","OCTO","Total Octocoral",170,17
+2013,2013-06-20,"FKNMS","UK","P","9P3",32,"Porter Patch",322,"300-10","OCTO","Total Octocoral",118,11.8
+2013,2013-06-20,"FKNMS","UK","P","9P3",32,"Porter Patch",323,"300-10","OCTO","Total Octocoral",128,12.8
+2013,2013-06-20,"FKNMS","UK","P","9P3",32,"Porter Patch",324,"300-10","OCTO","Total Octocoral",141,14.1
+2013,2013-06-22,"FKNMS","UK","P","9P4",33,"Admiral",331,"300-10","OCTO","Total Octocoral",81,8.1
+2013,2013-06-22,"FKNMS","UK","P","9P4",33,"Admiral",332,"300-10","OCTO","Total Octocoral",66,6.6
+2013,2013-06-22,"FKNMS","UK","P","9P4",33,"Admiral",333,"300-10","OCTO","Total Octocoral",93,9.3
+2013,2013-06-22,"FKNMS","UK","P","9P4",33,"Admiral",334,"300-10","OCTO","Total Octocoral",352,35.2
+2013,2013-05-14,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",341,"300-10","OCTO","Total Octocoral",98,9.8
+2013,2013-05-14,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",342,"300-10","OCTO","Total Octocoral",155,15.5
+2013,2013-05-14,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",343,"300-10","OCTO","Total Octocoral",114,11.4
+2013,2013-05-14,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",344,"300-10","OCTO","Total Octocoral",127,12.7
+2013,2013-05-07,"FKNMS","MK","P","7P2",35,"Dustan Rocks",351,"300-10","OCTO","Total Octocoral",175,17.5
+2013,2013-05-07,"FKNMS","MK","P","7P2",35,"Dustan Rocks",352,"300-10","OCTO","Total Octocoral",140,14
+2013,2013-05-07,"FKNMS","MK","P","7P2",35,"Dustan Rocks",353,"300-10","OCTO","Total Octocoral",118,11.8
+2013,2013-05-07,"FKNMS","MK","P","7P2",35,"Dustan Rocks",354,"300-10","OCTO","Total Octocoral",93,9.3
+2013,2013-07-17,"FKNMS","LK","P","5P1",36,"West Washer Women",361,"300-10","OCTO","Total Octocoral",64,6.4
+2013,2013-07-17,"FKNMS","LK","P","5P1",36,"West Washer Women",362,"300-10","OCTO","Total Octocoral",87,8.7
+2013,2013-07-17,"FKNMS","LK","P","5P1",36,"West Washer Women",363,"300-10","OCTO","Total Octocoral",38,3.8
+2013,2013-07-17,"FKNMS","LK","P","5P1",36,"West Washer Women",364,"300-10","OCTO","Total Octocoral",73,7.3
+2013,2013-07-16,"FKNMS","LK","P","5P3",38,"Cliff Green",381,"300-10","OCTO","Total Octocoral",105,10.5
+2013,2013-07-16,"FKNMS","LK","P","5P3",38,"Cliff Green",382,"300-10","OCTO","Total Octocoral",98,9.8
+2013,2013-07-16,"FKNMS","LK","P","5P3",38,"Cliff Green",383,"300-10","OCTO","Total Octocoral",143,14.3
+2013,2013-07-16,"FKNMS","LK","P","5P3",38,"Cliff Green",384,"300-10","OCTO","Total Octocoral",110,11
+2013,2013-05-31,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",411,"300-10","OCTO","Total Octocoral",107,10.7
+2013,2013-05-31,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",412,"300-10","OCTO","Total Octocoral",110,11
+2013,2013-05-31,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",413,"300-10","OCTO","Total Octocoral",65,6.5
+2013,2013-05-31,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",414,"300-10","OCTO","Total Octocoral",135,13.5
+2013,2013-06-01,"NPSDT","DT","P","1P2",42,"Palmata Patch",421,"300-10","OCTO","Total Octocoral",65,6.5
+2013,2013-06-01,"NPSDT","DT","P","1P2",42,"Palmata Patch",422,"300-10","OCTO","Total Octocoral",13,1.3
+2013,2013-06-01,"NPSDT","DT","P","1P3",43,"Prolifera Patch",431,"300-10","OCTO","Total Octocoral",10,1
+2013,2013-06-01,"NPSDT","DT","P","1P3",43,"Prolifera Patch",432,"300-10","OCTO","Total Octocoral",16,1.6
+2013,2013-06-01,"NPSDT","DT","P","1P3",43,"Prolifera Patch",433,"300-10","OCTO","Total Octocoral",33,3.3
+2013,2013-06-02,"NPSDT","DT","P","1P4",44,"Temptation Rock",441,"300-10","OCTO","Total Octocoral",61,6.1
+2013,2013-06-02,"NPSDT","DT","P","1P4",44,"Temptation Rock",442,"300-10","OCTO","Total Octocoral",34,3.4
+2013,2013-06-02,"NPSDT","DT","P","1P4",44,"Temptation Rock",443,"300-10","OCTO","Total Octocoral",60,6
+2013,2013-06-02,"NPSDT","DT","P","1P4",44,"Temptation Rock",444,"300-10","OCTO","Total Octocoral",38,3.8
+2013,2013-06-04,"NPSDT","DT","P","1P5",45,"Mayer's Peak",451,"300-10","OCTO","Total Octocoral",201,20.1
+2013,2013-06-04,"NPSDT","DT","P","1P5",45,"Mayer's Peak",452,"300-10","OCTO","Total Octocoral",303,30.3
+2013,2013-06-04,"NPSDT","DT","P","1P5",45,"Mayer's Peak",453,"300-10","OCTO","Total Octocoral",199,19.9
+2013,2013-06-04,"NPSDT","DT","P","1P5",45,"Mayer's Peak",454,"300-10","OCTO","Total Octocoral",183,18.3
+2013,2013-06-01,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",461,"300-10","OCTO","Total Octocoral",6,0.6
+2013,2013-06-01,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",462,"300-10","OCTO","Total Octocoral",5,0.5
+2013,2013-09-22,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",501,"300-10","OCTO","Total Octocoral",47,4.7
+2013,2013-09-22,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",502,"300-10","OCTO","Total Octocoral",19,1.9
+2013,2013-09-22,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",503,"300-10","OCTO","Total Octocoral",345,34.5
+2013,2013-09-22,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",504,"300-10","OCTO","Total Octocoral",278,27.8
+2013,2013-06-21,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",541,"300-10","OCTO","Total Octocoral",230,23
+2013,2013-06-21,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",542,"300-10","OCTO","Total Octocoral",197,19.7
+2013,2013-06-21,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",543,"300-10","OCTO","Total Octocoral",254,25.4
+2013,2013-06-21,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",227,22.7
+2013,2013-05-16,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",551,"300-10","OCTO","Total Octocoral",136,13.6
+2013,2013-05-16,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",552,"300-10","OCTO","Total Octocoral",249,24.9
+2013,2013-05-16,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",263,26.3
+2013,2013-05-16,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",554,"300-10","OCTO","Total Octocoral",474,47.4
+2013,2013-05-08,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",561,"300-10","OCTO","Total Octocoral",90,9
+2013,2013-05-08,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",562,"300-10","OCTO","Total Octocoral",118,11.8
+2013,2013-05-08,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",563,"300-10","OCTO","Total Octocoral",101,10.1
+2013,2013-05-08,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",564,"300-10","OCTO","Total Octocoral",105,10.5
+2013,2013-07-14,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",113,11.3
+2013,2013-07-14,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",592,"300-10","OCTO","Total Octocoral",58,5.8
+2013,2013-07-15,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",593,"300-10","OCTO","Total Octocoral",55,5.5
+2013,2013-07-14,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",594,"300-10","OCTO","Total Octocoral",38,3.8
+2013,2013-07-11,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",611,"300-10","OCTO","Total Octocoral",65,6.5
+2013,2013-07-11,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",612,"300-10","OCTO","Total Octocoral",49,4.9
+2013,2013-07-11,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",613,"300-10","OCTO","Total Octocoral",75,7.5
+2013,2013-07-11,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",614,"300-10","OCTO","Total Octocoral",51,5.1
+2013,2013-07-19,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",701,"300-10","OCTO","Total Octocoral",144,14.4
+2013,2013-07-19,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",702,"300-10","OCTO","Total Octocoral",126,12.6
+2013,2013-07-19,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",703,"300-10","OCTO","Total Octocoral",193,19.3
+2013,2013-07-19,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",704,"300-10","OCTO","Total Octocoral",203,20.3
+2013,2013-06-21,"FKNMS","MK","OD","7D1",74,"Alligator Deep",741,"300-10","OCTO","Total Octocoral",186,18.6
+2013,2013-06-21,"FKNMS","MK","OD","7D1",74,"Alligator Deep",742,"300-10","OCTO","Total Octocoral",93,9.3
+2013,2013-06-21,"FKNMS","MK","OD","7D1",74,"Alligator Deep",743,"300-10","OCTO","Total Octocoral",121,12.1
+2013,2013-06-21,"FKNMS","MK","OD","7D1",74,"Alligator Deep",744,"300-10","OCTO","Total Octocoral",157,15.7
+2013,2013-05-13,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",751,"300-10","OCTO","Total Octocoral",138,13.8
+2013,2013-05-13,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",752,"300-10","OCTO","Total Octocoral",118,11.8
+2013,2013-05-13,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",753,"300-10","OCTO","Total Octocoral",137,13.7
+2013,2013-05-13,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",754,"300-10","OCTO","Total Octocoral",98,9.8
+2013,2013-05-08,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",761,"300-10","OCTO","Total Octocoral",113,11.3
+2013,2013-05-15,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",762,"300-10","OCTO","Total Octocoral",79,7.9
+2013,2013-05-08,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",763,"300-10","OCTO","Total Octocoral",82,8.2
+2013,2013-05-15,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",764,"300-10","OCTO","Total Octocoral",178,17.8
+2013,2013-07-15,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",791,"300-10","OCTO","Total Octocoral",129,12.9
+2013,2013-07-14,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",113,11.3
+2013,2013-07-15,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",793,"300-10","OCTO","Total Octocoral",108,10.8
+2013,2013-07-14,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",794,"300-10","OCTO","Total Octocoral",110,11
+2013,2013-07-11,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",811,"300-10","OCTO","Total Octocoral",206,20.6
+2013,2013-07-11,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",812,"300-10","OCTO","Total Octocoral",164,16.4
+2013,2013-07-11,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",813,"300-10","OCTO","Total Octocoral",181,18.1
+2013,2013-07-11,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",814,"300-10","OCTO","Total Octocoral",301,30.1
+2013,2013-09-06,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",821,"300-10","OCTO","Total Octocoral",88,8.8
+2013,2013-09-06,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",822,"300-10","OCTO","Total Octocoral",100,10
+2013,2013-09-06,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",823,"300-10","OCTO","Total Octocoral",158,15.8
+2013,2013-09-06,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",824,"300-10","OCTO","Total Octocoral",194,19.4
+2013,2013-06-03,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",831,"300-10","OCTO","Total Octocoral",115,11.5
+2013,2013-06-03,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",832,"300-10","OCTO","Total Octocoral",148,14.8
+2013,2013-06-03,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",833,"300-10","OCTO","Total Octocoral",77,7.7
+2013,2013-06-03,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",834,"300-10","OCTO","Total Octocoral",92,9.2
+2014,2014-06-14,"NPSDT","DT","P","1PA",27,"The Maze",271,"300-10","OCTO","Total Octocoral",98,9.8
+2014,2014-06-14,"NPSDT","DT","P","1PA",27,"The Maze",272,"300-10","OCTO","Total Octocoral",44,4.4
+2014,2014-06-14,"NPSDT","DT","P","1PA",27,"The Maze",273,"300-10","OCTO","Total Octocoral",24,2.4
+2014,2014-06-14,"NPSDT","DT","P","1PA",27,"The Maze",274,"300-10","OCTO","Total Octocoral",46,4.6
+2014,2014-06-10,"NPSDT","DT","P","1PB",28,"Davis Rock",281,"300-10","OCTO","Total Octocoral",0,0
+2014,2014-06-10,"NPSDT","DT","P","1PB",28,"Davis Rock",282,"300-10","OCTO","Total Octocoral",0,0
+2014,2014-06-10,"NPSDT","DT","P","1PB",28,"Davis Rock",283,"300-10","OCTO","Total Octocoral",0,0
+2014,2014-06-10,"NPSDT","DT","P","1PB",28,"Davis Rock",284,"300-10","OCTO","Total Octocoral",0,0
+2014,2014-06-11,"NPSDT","DT","P","1PC",29,"Texas Rock",291,"300-10","OCTO","Total Octocoral",4,0.4
+2014,2014-06-11,"NPSDT","DT","P","1PC",29,"Texas Rock",292,"300-10","OCTO","Total Octocoral",12,1.2
+2014,2014-06-11,"NPSDT","DT","P","1PC",29,"Texas Rock",293,"300-10","OCTO","Total Octocoral",0,0
+2014,2014-06-11,"NPSDT","DT","P","1PC",29,"Texas Rock",294,"300-10","OCTO","Total Octocoral",11,1.1
+2014,2014-07-09,"FKNMS","UK","P","9P3",32,"Porter Patch",321,"300-10","OCTO","Total Octocoral",159,15.9
+2014,2014-07-09,"FKNMS","UK","P","9P3",32,"Porter Patch",322,"300-10","OCTO","Total Octocoral",133,13.3
+2014,2014-07-09,"FKNMS","UK","P","9P3",32,"Porter Patch",323,"300-10","OCTO","Total Octocoral",171,17.1
+2014,2014-07-09,"FKNMS","UK","P","9P3",32,"Porter Patch",324,"300-10","OCTO","Total Octocoral",172,17.2
+2014,2014-07-15,"FKNMS","UK","P","9P4",33,"Admiral",331,"300-10","OCTO","Total Octocoral",237,23.7
+2014,2014-07-15,"FKNMS","UK","P","9P4",33,"Admiral",332,"300-10","OCTO","Total Octocoral",121,12.1
+2014,2014-07-15,"FKNMS","UK","P","9P4",33,"Admiral",333,"300-10","OCTO","Total Octocoral",238,23.8
+2014,2014-07-15,"FKNMS","UK","P","9P4",33,"Admiral",334,"300-10","OCTO","Total Octocoral",412,41.2
+2014,2014-08-18,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",341,"300-10","OCTO","Total Octocoral",92,9.2
+2014,2014-08-18,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",342,"300-10","OCTO","Total Octocoral",201,20.1
+2014,2014-08-18,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",343,"300-10","OCTO","Total Octocoral",160,16
+2014,2014-08-18,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",344,"300-10","OCTO","Total Octocoral",173,17.3
+2014,2014-08-16,"FKNMS","MK","P","7P2",35,"Dustan Rocks",351,"300-10","OCTO","Total Octocoral",152,15.2
+2014,2014-08-16,"FKNMS","MK","P","7P2",35,"Dustan Rocks",352,"300-10","OCTO","Total Octocoral",155,15.5
+2014,2014-08-16,"FKNMS","MK","P","7P2",35,"Dustan Rocks",353,"300-10","OCTO","Total Octocoral",173,17.3
+2014,2014-08-16,"FKNMS","MK","P","7P2",35,"Dustan Rocks",354,"300-10","OCTO","Total Octocoral",200,20
+2014,2014-08-11,"FKNMS","LK","P","5P1",36,"West Washer Women",361,"300-10","OCTO","Total Octocoral",61,6.1
+2014,2014-08-11,"FKNMS","LK","P","5P1",36,"West Washer Women",362,"300-10","OCTO","Total Octocoral",79,7.9
+2014,2014-08-11,"FKNMS","LK","P","5P1",36,"West Washer Women",363,"300-10","OCTO","Total Octocoral",48,4.8
+2014,2014-08-11,"FKNMS","LK","P","5P1",36,"West Washer Women",364,"300-10","OCTO","Total Octocoral",64,6.4
+2014,2014-08-08,"FKNMS","LK","P","5P3",38,"Cliff Green",381,"300-10","OCTO","Total Octocoral",108,10.8
+2014,2014-08-08,"FKNMS","LK","P","5P3",38,"Cliff Green",382,"300-10","OCTO","Total Octocoral",92,9.2
+2014,2014-08-08,"FKNMS","LK","P","5P3",38,"Cliff Green",383,"300-10","OCTO","Total Octocoral",116,11.6
+2014,2014-08-08,"FKNMS","LK","P","5P3",38,"Cliff Green",384,"300-10","OCTO","Total Octocoral",73,7.3
+2014,2014-06-10,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",411,"300-10","OCTO","Total Octocoral",117,11.7
+2014,2014-06-10,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",412,"300-10","OCTO","Total Octocoral",97,9.7
+2014,2014-06-10,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",413,"300-10","OCTO","Total Octocoral",107,10.7
+2014,2014-06-10,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",414,"300-10","OCTO","Total Octocoral",110,11
+2014,2014-06-12,"NPSDT","DT","P","1P2",42,"Palmata Patch",421,"300-10","OCTO","Total Octocoral",48,4.8
+2014,2014-06-12,"NPSDT","DT","P","1P2",42,"Palmata Patch",422,"300-10","OCTO","Total Octocoral",10,1
+2014,2014-06-12,"NPSDT","DT","P","1P3",43,"Prolifera Patch",431,"300-10","OCTO","Total Octocoral",12,1.2
+2014,2014-06-12,"NPSDT","DT","P","1P3",43,"Prolifera Patch",432,"300-10","OCTO","Total Octocoral",26,2.6
+2014,2014-06-12,"NPSDT","DT","P","1P3",43,"Prolifera Patch",433,"300-10","OCTO","Total Octocoral",23,2.3
+2014,2014-06-15,"NPSDT","DT","P","1P4",44,"Temptation Rock",441,"300-10","OCTO","Total Octocoral",51,5.1
+2014,2014-06-15,"NPSDT","DT","P","1P4",44,"Temptation Rock",442,"300-10","OCTO","Total Octocoral",25,2.5
+2014,2014-06-15,"NPSDT","DT","P","1P4",44,"Temptation Rock",443,"300-10","OCTO","Total Octocoral",47,4.7
+2014,2014-06-15,"NPSDT","DT","P","1P4",44,"Temptation Rock",444,"300-10","OCTO","Total Octocoral",23,2.3
+2014,2014-06-14,"NPSDT","DT","P","1P5",45,"Mayer's Peak",451,"300-10","OCTO","Total Octocoral",163,16.3
+2014,2014-06-14,"NPSDT","DT","P","1P5",45,"Mayer's Peak",452,"300-10","OCTO","Total Octocoral",319,31.9
+2014,2014-06-14,"NPSDT","DT","P","1P5",45,"Mayer's Peak",453,"300-10","OCTO","Total Octocoral",182,18.2
+2014,2014-06-14,"NPSDT","DT","P","1P5",45,"Mayer's Peak",454,"300-10","OCTO","Total Octocoral",228,22.8
+2014,2014-06-10,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",461,"300-10","OCTO","Total Octocoral",9,0.9
+2014,2014-06-10,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",462,"300-10","OCTO","Total Octocoral",9,0.9
+2014,2014-07-08,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",501,"300-10","OCTO","Total Octocoral",33,3.3
+2014,2014-07-08,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",502,"300-10","OCTO","Total Octocoral",18,1.8
+2014,2014-07-17,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",503,"300-10","OCTO","Total Octocoral",331,33.1
+2014,2014-07-17,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",504,"300-10","OCTO","Total Octocoral",314,31.4
+2014,2014-07-11,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",521,"300-10","OCTO","Total Octocoral",127,12.7
+2014,2014-07-11,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",522,"300-10","OCTO","Total Octocoral",203,20.3
+2014,2014-07-11,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",523,"300-10","OCTO","Total Octocoral",205,20.5
+2014,2014-07-08,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",524,"300-10","OCTO","Total Octocoral",143,14.3
+2014,2014-07-16,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",541,"300-10","OCTO","Total Octocoral",239,23.9
+2014,2014-07-16,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",542,"300-10","OCTO","Total Octocoral",219,21.9
+2014,2014-07-16,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",543,"300-10","OCTO","Total Octocoral",269,26.9
+2014,2014-07-16,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",232,23.2
+2014,2014-08-15,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",551,"300-10","OCTO","Total Octocoral",210,21
+2014,2014-08-15,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",552,"300-10","OCTO","Total Octocoral",270,27
+2014,2014-08-15,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",282,28.2
+2014,2014-08-15,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",554,"300-10","OCTO","Total Octocoral",393,39.3
+2014,2014-05-28,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",561,"300-10","OCTO","Total Octocoral",83,8.3
+2014,2014-05-28,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",562,"300-10","OCTO","Total Octocoral",141,14.1
+2014,2014-07-07,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",563,"300-10","OCTO","Total Octocoral",84,8.4
+2014,2014-07-07,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",564,"300-10","OCTO","Total Octocoral",100,10
+2014,2014-08-07,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",84,8.4
+2014,2014-08-07,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",592,"300-10","OCTO","Total Octocoral",64,6.4
+2014,2014-08-07,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",593,"300-10","OCTO","Total Octocoral",38,3.8
+2014,2014-08-07,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",594,"300-10","OCTO","Total Octocoral",32,3.2
+2014,2014-08-05,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",611,"300-10","OCTO","Total Octocoral",50,5
+2014,2014-08-05,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",612,"300-10","OCTO","Total Octocoral",49,4.9
+2014,2014-08-05,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",613,"300-10","OCTO","Total Octocoral",63,6.3
+2014,2014-08-05,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",614,"300-10","OCTO","Total Octocoral",53,5.3
+2014,2014-07-08,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",701,"300-10","OCTO","Total Octocoral",130,13
+2014,2014-07-08,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",702,"300-10","OCTO","Total Octocoral",94,9.4
+2014,2014-07-14,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",703,"300-10","OCTO","Total Octocoral",124,12.4
+2014,2014-07-14,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",704,"300-10","OCTO","Total Octocoral",184,18.4
+2014,2014-10-19,"FKNMS","UK","OD","9D3",72,"Molasses Deep",721,"300-10","OCTO","Total Octocoral",186,18.6
+2014,2014-10-16,"FKNMS","UK","OD","9D3",72,"Molasses Deep",722,"300-10","OCTO","Total Octocoral",154,15.4
+2014,2014-07-19,"FKNMS","UK","OD","9D3",72,"Molasses Deep",723,"300-10","OCTO","Total Octocoral",219,21.9
+2014,2014-07-19,"FKNMS","UK","OD","9D3",72,"Molasses Deep",724,"300-10","OCTO","Total Octocoral",184,18.4
+2014,2014-07-16,"FKNMS","MK","OD","7D1",74,"Alligator Deep",741,"300-10","OCTO","Total Octocoral",141,14.1
+2014,2014-07-16,"FKNMS","MK","OD","7D1",74,"Alligator Deep",742,"300-10","OCTO","Total Octocoral",123,12.3
+2014,2014-07-16,"FKNMS","MK","OD","7D1",74,"Alligator Deep",743,"300-10","OCTO","Total Octocoral",151,15.1
+2014,2014-07-16,"FKNMS","MK","OD","7D1",74,"Alligator Deep",744,"300-10","OCTO","Total Octocoral",102,10.2
+2014,2014-08-15,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",751,"300-10","OCTO","Total Octocoral",152,15.2
+2014,2014-08-15,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",752,"300-10","OCTO","Total Octocoral",129,12.9
+2014,2014-08-15,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",753,"300-10","OCTO","Total Octocoral",171,17.1
+2014,2014-08-15,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",754,"300-10","OCTO","Total Octocoral",126,12.6
+2014,2014-05-27,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",761,"300-10","OCTO","Total Octocoral",117,11.7
+2014,2014-05-28,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",762,"300-10","OCTO","Total Octocoral",109,10.9
+2014,2014-05-29,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",763,"300-10","OCTO","Total Octocoral",156,15.6
+2014,2014-05-29,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",764,"300-10","OCTO","Total Octocoral",161,16.1
+2014,2014-08-07,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",791,"300-10","OCTO","Total Octocoral",145,14.5
+2014,2014-08-07,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",199,19.9
+2014,2014-08-07,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",793,"300-10","OCTO","Total Octocoral",142,14.2
+2014,2014-08-07,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",794,"300-10","OCTO","Total Octocoral",120,12
+2014,2014-08-04,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",811,"300-10","OCTO","Total Octocoral",152,15.2
+2014,2014-08-04,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",812,"300-10","OCTO","Total Octocoral",221,22.1
+2014,2014-08-04,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",813,"300-10","OCTO","Total Octocoral",267,26.7
+2014,2014-08-04,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",814,"300-10","OCTO","Total Octocoral",255,25.5
+2014,2014-06-11,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",821,"300-10","OCTO","Total Octocoral",88,8.8
+2014,2014-06-11,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",822,"300-10","OCTO","Total Octocoral",101,10.1
+2014,2014-06-11,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",823,"300-10","OCTO","Total Octocoral",222,22.2
+2014,2014-06-11,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",824,"300-10","OCTO","Total Octocoral",270,27
+2014,2014-06-13,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",831,"300-10","OCTO","Total Octocoral",85,8.5
+2014,2014-06-13,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",832,"300-10","OCTO","Total Octocoral",80,8
+2014,2014-06-13,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",833,"300-10","OCTO","Total Octocoral",72,7.2
+2014,2014-06-13,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",834,"300-10","OCTO","Total Octocoral",86,8.6
+2015,2015-08-11,"FKNMS","LK","P","5P6",26,"Red Dun Reef",261,"300-10","OCTO","Total Octocoral",157,15.7
+2015,2015-08-11,"FKNMS","LK","P","5P6",26,"Red Dun Reef",262,"300-10","OCTO","Total Octocoral",154,15.4
+2015,2015-08-11,"FKNMS","LK","P","5P6",26,"Red Dun Reef",263,"300-10","OCTO","Total Octocoral",169,16.9
+2015,2015-08-11,"FKNMS","LK","P","5P6",26,"Red Dun Reef",264,"300-10","OCTO","Total Octocoral",101,10.1
+2015,2015-06-13,"NPSDT","DT","P","1PA",27,"The Maze",271,"300-10","OCTO","Total Octocoral",107,10.7
+2015,2015-06-13,"NPSDT","DT","P","1PA",27,"The Maze",272,"300-10","OCTO","Total Octocoral",48,4.8
+2015,2015-06-13,"NPSDT","DT","P","1PA",27,"The Maze",273,"300-10","OCTO","Total Octocoral",23,2.3
+2015,2015-06-13,"NPSDT","DT","P","1PA",27,"The Maze",274,"300-10","OCTO","Total Octocoral",48,4.8
+2015,2015-06-09,"NPSDT","DT","P","1PB",28,"Davis Rock",281,"300-10","OCTO","Total Octocoral",0,0
+2015,2015-06-09,"NPSDT","DT","P","1PB",28,"Davis Rock",282,"300-10","OCTO","Total Octocoral",0,0
+2015,2015-06-09,"NPSDT","DT","P","1PB",28,"Davis Rock",283,"300-10","OCTO","Total Octocoral",0,0
+2015,2015-06-09,"NPSDT","DT","P","1PB",28,"Davis Rock",284,"300-10","OCTO","Total Octocoral",0,0
+2015,2015-06-12,"NPSDT","DT","P","1PC",29,"Texas Rock",291,"300-10","OCTO","Total Octocoral",2,0.2
+2015,2015-06-12,"NPSDT","DT","P","1PC",29,"Texas Rock",292,"300-10","OCTO","Total Octocoral",4,0.4
+2015,2015-06-12,"NPSDT","DT","P","1PC",29,"Texas Rock",293,"300-10","OCTO","Total Octocoral",2,0.2
+2015,2015-06-12,"NPSDT","DT","P","1PC",29,"Texas Rock",294,"300-10","OCTO","Total Octocoral",9,0.9
+2015,2015-07-07,"FKNMS","UK","P","9P3",32,"Porter Patch",321,"300-10","OCTO","Total Octocoral",184,18.4
+2015,2015-07-07,"FKNMS","UK","P","9P3",32,"Porter Patch",322,"300-10","OCTO","Total Octocoral",153,15.3
+2015,2015-07-07,"FKNMS","UK","P","9P3",32,"Porter Patch",323,"300-10","OCTO","Total Octocoral",169,16.9
+2015,2015-07-07,"FKNMS","UK","P","9P3",32,"Porter Patch",324,"300-10","OCTO","Total Octocoral",143,14.3
+2015,2015-07-15,"FKNMS","UK","P","9P4",33,"Admiral",331,"300-10","OCTO","Total Octocoral",193,19.3
+2015,2015-07-15,"FKNMS","UK","P","9P4",33,"Admiral",332,"300-10","OCTO","Total Octocoral",113,11.3
+2015,2015-07-15,"FKNMS","UK","P","9P4",33,"Admiral",333,"300-10","OCTO","Total Octocoral",345,34.5
+2015,2015-07-15,"FKNMS","UK","P","9P4",33,"Admiral",334,"300-10","OCTO","Total Octocoral",323,32.3
+2015,2015-05-07,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",341,"300-10","OCTO","Total Octocoral",77,7.7
+2015,2015-05-07,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",342,"300-10","OCTO","Total Octocoral",166,16.6
+2015,2015-05-07,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",343,"300-10","OCTO","Total Octocoral",147,14.7
+2015,2015-05-07,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",344,"300-10","OCTO","Total Octocoral",209,20.9
+2015,2015-05-11,"FKNMS","MK","P","7P2",35,"Dustan Rocks",351,"300-10","OCTO","Total Octocoral",172,17.2
+2015,2015-05-11,"FKNMS","MK","P","7P2",35,"Dustan Rocks",352,"300-10","OCTO","Total Octocoral",149,14.9
+2015,2015-05-11,"FKNMS","MK","P","7P2",35,"Dustan Rocks",353,"300-10","OCTO","Total Octocoral",166,16.6
+2015,2015-05-11,"FKNMS","MK","P","7P2",35,"Dustan Rocks",354,"300-10","OCTO","Total Octocoral",227,22.7
+2015,2015-08-10,"FKNMS","LK","P","5P1",36,"West Washer Women",361,"300-10","OCTO","Total Octocoral",55,5.5
+2015,2015-08-10,"FKNMS","LK","P","5P1",36,"West Washer Women",362,"300-10","OCTO","Total Octocoral",115,11.5
+2015,2015-08-10,"FKNMS","LK","P","5P1",36,"West Washer Women",363,"300-10","OCTO","Total Octocoral",46,4.6
+2015,2015-08-11,"FKNMS","LK","P","5P1",36,"West Washer Women",364,"300-10","OCTO","Total Octocoral",66,6.6
+2015,2015-08-06,"FKNMS","LK","P","5P3",38,"Cliff Green",381,"300-10","OCTO","Total Octocoral",105,10.5
+2015,2015-08-06,"FKNMS","LK","P","5P3",38,"Cliff Green",382,"300-10","OCTO","Total Octocoral",91,9.1
+2015,2015-08-06,"FKNMS","LK","P","5P3",38,"Cliff Green",383,"300-10","OCTO","Total Octocoral",98,9.8
+2015,2015-08-06,"FKNMS","LK","P","5P3",38,"Cliff Green",384,"300-10","OCTO","Total Octocoral",80,8
+2015,2015-06-09,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",411,"300-10","OCTO","Total Octocoral",94,9.4
+2015,2015-06-09,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",412,"300-10","OCTO","Total Octocoral",127,12.7
+2015,2015-06-09,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",413,"300-10","OCTO","Total Octocoral",87,8.7
+2015,2015-06-09,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",414,"300-10","OCTO","Total Octocoral",92,9.2
+2015,2015-06-11,"NPSDT","DT","P","1P2",42,"Palmata Patch",421,"300-10","OCTO","Total Octocoral",45,4.5
+2015,2015-06-11,"NPSDT","DT","P","1P2",42,"Palmata Patch",422,"300-10","OCTO","Total Octocoral",10,1
+2015,2015-06-11,"NPSDT","DT","P","1P3",43,"Prolifera Patch",431,"300-10","OCTO","Total Octocoral",15,1.5
+2015,2015-06-11,"NPSDT","DT","P","1P3",43,"Prolifera Patch",432,"300-10","OCTO","Total Octocoral",23,2.3
+2015,2015-06-11,"NPSDT","DT","P","1P3",43,"Prolifera Patch",433,"300-10","OCTO","Total Octocoral",38,3.8
+2015,2015-06-12,"NPSDT","DT","P","1P4",44,"Temptation Rock",441,"300-10","OCTO","Total Octocoral",45,4.5
+2015,2015-06-12,"NPSDT","DT","P","1P4",44,"Temptation Rock",442,"300-10","OCTO","Total Octocoral",28,2.8
+2015,2015-06-12,"NPSDT","DT","P","1P4",44,"Temptation Rock",443,"300-10","OCTO","Total Octocoral",46,4.6
+2015,2015-06-12,"NPSDT","DT","P","1P4",44,"Temptation Rock",444,"300-10","OCTO","Total Octocoral",33,3.3
+2015,2015-06-14,"NPSDT","DT","P","1P5",45,"Mayer's Peak",451,"300-10","OCTO","Total Octocoral",156,15.6
+2015,2015-06-14,"NPSDT","DT","P","1P5",45,"Mayer's Peak",452,"300-10","OCTO","Total Octocoral",295,29.5
+2015,2015-06-14,"NPSDT","DT","P","1P5",45,"Mayer's Peak",453,"300-10","OCTO","Total Octocoral",240,24
+2015,2015-06-14,"NPSDT","DT","P","1P5",45,"Mayer's Peak",454,"300-10","OCTO","Total Octocoral",291,29.1
+2015,2015-06-10,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",461,"300-10","OCTO","Total Octocoral",8,0.8
+2015,2015-06-10,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",462,"300-10","OCTO","Total Octocoral",7,0.7
+2015,2015-07-13,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",501,"300-10","OCTO","Total Octocoral",49,4.9
+2015,2015-07-13,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",502,"300-10","OCTO","Total Octocoral",20,2
+2015,2015-07-13,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",503,"300-10","OCTO","Total Octocoral",379,37.9
+2015,2015-07-13,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",504,"300-10","OCTO","Total Octocoral",314,31.4
+2015,2015-07-08,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",521,"300-10","OCTO","Total Octocoral",138,13.8
+2015,2015-07-08,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",522,"300-10","OCTO","Total Octocoral",208,20.8
+2015,2015-07-08,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",523,"300-10","OCTO","Total Octocoral",205,20.5
+2015,2015-07-08,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",524,"300-10","OCTO","Total Octocoral",183,18.3
+2015,2015-07-14,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",541,"300-10","OCTO","Total Octocoral",227,22.7
+2015,2015-07-14,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",542,"300-10","OCTO","Total Octocoral",231,23.1
+2015,2015-07-14,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",543,"300-10","OCTO","Total Octocoral",278,27.8
+2015,2015-07-14,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",223,22.3
+2015,2015-05-12,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",551,"300-10","OCTO","Total Octocoral",230,23
+2015,2015-05-12,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",552,"300-10","OCTO","Total Octocoral",281,28.1
+2015,2015-05-12,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",205,20.5
+2015,2015-05-12,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",554,"300-10","OCTO","Total Octocoral",361,36.1
+2015,2015-05-08,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",561,"300-10","OCTO","Total Octocoral",66,6.6
+2015,2015-05-08,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",562,"300-10","OCTO","Total Octocoral",95,9.5
+2015,2015-05-08,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",563,"300-10","OCTO","Total Octocoral",71,7.1
+2015,2015-05-08,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",564,"300-10","OCTO","Total Octocoral",87,8.7
+2015,2015-08-04,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",81,8.1
+2015,2015-08-04,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",592,"300-10","OCTO","Total Octocoral",66,6.6
+2015,2015-08-04,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",593,"300-10","OCTO","Total Octocoral",41,4.1
+2015,2015-08-04,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",594,"300-10","OCTO","Total Octocoral",37,3.7
+2015,2015-08-03,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",611,"300-10","OCTO","Total Octocoral",53,5.3
+2015,2015-08-03,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",612,"300-10","OCTO","Total Octocoral",50,5
+2015,2015-08-03,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",613,"300-10","OCTO","Total Octocoral",79,7.9
+2015,2015-08-03,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",614,"300-10","OCTO","Total Octocoral",64,6.4
+2015,2015-07-13,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",701,"300-10","OCTO","Total Octocoral",134,13.4
+2015,2015-07-13,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",702,"300-10","OCTO","Total Octocoral",117,11.7
+2015,2015-07-13,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",703,"300-10","OCTO","Total Octocoral",178,17.8
+2015,2015-07-13,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",704,"300-10","OCTO","Total Octocoral",216,21.6
+2015,2015-07-08,"FKNMS","UK","OD","9D3",72,"Molasses Deep",721,"300-10","OCTO","Total Octocoral",234,23.4
+2015,2015-07-08,"FKNMS","UK","OD","9D3",72,"Molasses Deep",722,"300-10","OCTO","Total Octocoral",187,18.7
+2015,2015-07-08,"FKNMS","UK","OD","9D3",72,"Molasses Deep",723,"300-10","OCTO","Total Octocoral",171,17.1
+2015,2015-07-08,"FKNMS","UK","OD","9D3",72,"Molasses Deep",724,"300-10","OCTO","Total Octocoral",289,28.9
+2015,2015-07-14,"FKNMS","MK","OD","7D1",74,"Alligator Deep",741,"300-10","OCTO","Total Octocoral",183,18.3
+2015,2015-07-14,"FKNMS","MK","OD","7D1",74,"Alligator Deep",742,"300-10","OCTO","Total Octocoral",129,12.9
+2015,2015-07-14,"FKNMS","MK","OD","7D1",74,"Alligator Deep",743,"300-10","OCTO","Total Octocoral",175,17.5
+2015,2015-07-14,"FKNMS","MK","OD","7D1",74,"Alligator Deep",744,"300-10","OCTO","Total Octocoral",191,19.1
+2015,2015-05-12,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",751,"300-10","OCTO","Total Octocoral",128,12.8
+2015,2015-05-12,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",752,"300-10","OCTO","Total Octocoral",92,9.2
+2015,2015-05-12,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",753,"300-10","OCTO","Total Octocoral",185,18.5
+2015,2015-05-12,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",754,"300-10","OCTO","Total Octocoral",86,8.6
+2015,2015-05-08,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",761,"300-10","OCTO","Total Octocoral",121,12.1
+2015,2015-05-08,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",762,"300-10","OCTO","Total Octocoral",99,9.9
+2015,2015-05-08,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",763,"300-10","OCTO","Total Octocoral",180,18
+2015,2015-05-08,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",764,"300-10","OCTO","Total Octocoral",143,14.3
+2015,2015-08-07,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",791,"300-10","OCTO","Total Octocoral",178,17.8
+2015,2015-08-07,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",167,16.7
+2015,2015-08-07,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",793,"300-10","OCTO","Total Octocoral",116,11.6
+2015,2015-08-07,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",794,"300-10","OCTO","Total Octocoral",144,14.4
+2015,2015-08-03,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",811,"300-10","OCTO","Total Octocoral",152,15.2
+2015,2015-08-03,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",812,"300-10","OCTO","Total Octocoral",198,19.8
+2015,2015-08-03,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",813,"300-10","OCTO","Total Octocoral",273,27.3
+2015,2015-08-03,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",814,"300-10","OCTO","Total Octocoral",247,24.7
+2015,2015-06-09,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",821,"300-10","OCTO","Total Octocoral",112,11.2
+2015,2015-06-09,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",822,"300-10","OCTO","Total Octocoral",101,10.1
+2015,2015-06-09,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",823,"300-10","OCTO","Total Octocoral",167,16.7
+2015,2015-06-09,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",824,"300-10","OCTO","Total Octocoral",247,24.7
+2015,2015-06-10,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",831,"300-10","OCTO","Total Octocoral",69,6.9
+2015,2015-06-10,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",832,"300-10","OCTO","Total Octocoral",62,6.2
+2015,2015-06-10,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",833,"300-10","OCTO","Total Octocoral",80,8
+2015,2015-06-09,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",834,"300-10","OCTO","Total Octocoral",70,7
+2016,2016-08-11,"FKNMS","LK","P","5P6",26,"Red Dun Reef",261,"300-10","OCTO","Total Octocoral",144,14.4
+2016,2016-08-11,"FKNMS","LK","P","5P6",26,"Red Dun Reef",262,"300-10","OCTO","Total Octocoral",96,9.6
+2016,2016-08-11,"FKNMS","LK","P","5P6",26,"Red Dun Reef",263,"300-10","OCTO","Total Octocoral",174,17.4
+2016,2016-08-11,"FKNMS","LK","P","5P6",26,"Red Dun Reef",264,"300-10","OCTO","Total Octocoral",97,9.7
+2016,2016-06-10,"NPSDT","DT","P","1PA",27,"The Maze",271,"300-10","OCTO","Total Octocoral",105,10.5
+2016,2016-06-10,"NPSDT","DT","P","1PA",27,"The Maze",272,"300-10","OCTO","Total Octocoral",51,5.1
+2016,2016-06-10,"NPSDT","DT","P","1PA",27,"The Maze",273,"300-10","OCTO","Total Octocoral",22,2.2
+2016,2016-06-10,"NPSDT","DT","P","1PA",27,"The Maze",274,"300-10","OCTO","Total Octocoral",45,4.5
+2016,2016-06-09,"NPSDT","DT","P","1PB",28,"Davis Rock",281,"300-10","OCTO","Total Octocoral",0,0
+2016,2016-06-09,"NPSDT","DT","P","1PB",28,"Davis Rock",282,"300-10","OCTO","Total Octocoral",0,0
+2016,2016-06-09,"NPSDT","DT","P","1PB",28,"Davis Rock",283,"300-10","OCTO","Total Octocoral",0,0
+2016,2016-06-09,"NPSDT","DT","P","1PB",28,"Davis Rock",284,"300-10","OCTO","Total Octocoral",0,0
+2016,2016-06-09,"NPSDT","DT","P","1PC",29,"Texas Rock",291,"300-10","OCTO","Total Octocoral",2,0.2
+2016,2016-06-09,"NPSDT","DT","P","1PC",29,"Texas Rock",292,"300-10","OCTO","Total Octocoral",6,0.6
+2016,2016-06-09,"NPSDT","DT","P","1PC",29,"Texas Rock",293,"300-10","OCTO","Total Octocoral",0,0
+2016,2016-06-09,"NPSDT","DT","P","1PC",29,"Texas Rock",294,"300-10","OCTO","Total Octocoral",7,0.7
+2016,2016-07-12,"FKNMS","UK","P","9P3",32,"Porter Patch",321,"300-10","OCTO","Total Octocoral",254,25.4
+2016,2016-07-12,"FKNMS","UK","P","9P3",32,"Porter Patch",322,"300-10","OCTO","Total Octocoral",133,13.3
+2016,2016-07-12,"FKNMS","UK","P","9P3",32,"Porter Patch",323,"300-10","OCTO","Total Octocoral",197,19.7
+2016,2016-07-12,"FKNMS","UK","P","9P3",32,"Porter Patch",324,"300-10","OCTO","Total Octocoral",182,18.2
+2016,2016-07-23,"FKNMS","UK","P","9P4",33,"Admiral",331,"300-10","OCTO","Total Octocoral",245,24.5
+2016,2016-07-23,"FKNMS","UK","P","9P4",33,"Admiral",332,"300-10","OCTO","Total Octocoral",155,15.5
+2016,2016-07-23,"FKNMS","UK","P","9P4",33,"Admiral",333,"300-10","OCTO","Total Octocoral",301,30.1
+2016,2016-07-23,"FKNMS","UK","P","9P4",33,"Admiral",334,"300-10","OCTO","Total Octocoral",419,41.9
+2016,2016-05-06,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",341,"300-10","OCTO","Total Octocoral",66,6.6
+2016,2016-05-06,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",342,"300-10","OCTO","Total Octocoral",160,16
+2016,2016-05-06,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",343,"300-10","OCTO","Total Octocoral",117,11.7
+2016,2016-05-06,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",344,"300-10","OCTO","Total Octocoral",180,18
+2016,2016-05-04,"FKNMS","MK","P","7P2",35,"Dustan Rocks",351,"300-10","OCTO","Total Octocoral",148,14.8
+2016,2016-05-03,"FKNMS","MK","P","7P2",35,"Dustan Rocks",352,"300-10","OCTO","Total Octocoral",154,15.4
+2016,2016-05-04,"FKNMS","MK","P","7P2",35,"Dustan Rocks",353,"300-10","OCTO","Total Octocoral",164,16.4
+2016,2016-05-04,"FKNMS","MK","P","7P2",35,"Dustan Rocks",354,"300-10","OCTO","Total Octocoral",153,15.3
+2016,2016-08-11,"FKNMS","LK","P","5P1",36,"West Washer Women",361,"300-10","OCTO","Total Octocoral",61,6.1
+2016,2016-08-11,"FKNMS","LK","P","5P1",36,"West Washer Women",362,"300-10","OCTO","Total Octocoral",85,8.5
+2016,2016-08-11,"FKNMS","LK","P","5P1",36,"West Washer Women",363,"300-10","OCTO","Total Octocoral",47,4.7
+2016,2016-08-11,"FKNMS","LK","P","5P1",36,"West Washer Women",364,"300-10","OCTO","Total Octocoral",52,5.2
+2016,2016-09-17,"FKNMS","LK","P","5P3",38,"Cliff Green",381,"300-10","OCTO","Total Octocoral",95,9.5
+2016,2016-09-17,"FKNMS","LK","P","5P3",38,"Cliff Green",382,"300-10","OCTO","Total Octocoral",87,8.7
+2016,2016-09-17,"FKNMS","LK","P","5P3",38,"Cliff Green",383,"300-10","OCTO","Total Octocoral",98,9.8
+2016,2016-09-17,"FKNMS","LK","P","5P3",38,"Cliff Green",384,"300-10","OCTO","Total Octocoral",74,7.4
+2016,2016-06-12,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",411,"300-10","OCTO","Total Octocoral",100,10
+2016,2016-06-12,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",412,"300-10","OCTO","Total Octocoral",134,13.4
+2016,2016-06-12,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",413,"300-10","OCTO","Total Octocoral",87,8.7
+2016,2016-06-12,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",414,"300-10","OCTO","Total Octocoral",117,11.7
+2016,2016-06-13,"NPSDT","DT","P","1P2",42,"Palmata Patch",421,"300-10","OCTO","Total Octocoral",48,4.8
+2016,2016-06-13,"NPSDT","DT","P","1P2",42,"Palmata Patch",422,"300-10","OCTO","Total Octocoral",11,1.1
+2016,2016-06-13,"NPSDT","DT","P","1P3",43,"Prolifera Patch",431,"300-10","OCTO","Total Octocoral",10,1
+2016,2016-06-13,"NPSDT","DT","P","1P3",43,"Prolifera Patch",432,"300-10","OCTO","Total Octocoral",21,2.1
+2016,2016-06-13,"NPSDT","DT","P","1P3",43,"Prolifera Patch",433,"300-10","OCTO","Total Octocoral",25,2.5
+2016,2016-06-09,"NPSDT","DT","P","1P4",44,"Temptation Rock",441,"300-10","OCTO","Total Octocoral",46,4.6
+2016,2016-06-09,"NPSDT","DT","P","1P4",44,"Temptation Rock",442,"300-10","OCTO","Total Octocoral",27,2.7
+2016,2016-10-09,"NPSDT","DT","P","1P4",44,"Temptation Rock",443,"300-10","OCTO","Total Octocoral",37,3.7
+2016,2016-06-09,"NPSDT","DT","P","1P4",44,"Temptation Rock",444,"300-10","OCTO","Total Octocoral",27,2.7
+2016,2016-06-10,"NPSDT","DT","P","1P5",45,"Mayer's Peak",451,"300-10","OCTO","Total Octocoral",166,16.6
+2016,2016-06-10,"NPSDT","DT","P","1P5",45,"Mayer's Peak",452,"300-10","OCTO","Total Octocoral",329,32.9
+2016,2016-06-10,"NPSDT","DT","P","1P5",45,"Mayer's Peak",453,"300-10","OCTO","Total Octocoral",219,21.9
+2016,2016-06-10,"NPSDT","DT","P","1P5",45,"Mayer's Peak",454,"300-10","OCTO","Total Octocoral",276,27.6
+2016,2016-06-12,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",461,"300-10","OCTO","Total Octocoral",13,1.3
+2016,2016-06-12,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",462,"300-10","OCTO","Total Octocoral",12,1.2
+2016,2016-07-22,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",501,"300-10","OCTO","Total Octocoral",44,4.4
+2016,2016-07-22,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",502,"300-10","OCTO","Total Octocoral",24,2.4
+2016,2016-07-22,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",503,"300-10","OCTO","Total Octocoral",310,31
+2016,2016-07-22,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",504,"300-10","OCTO","Total Octocoral",295,29.5
+2016,2016-07-12,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",521,"300-10","OCTO","Total Octocoral",175,17.5
+2016,2016-07-12,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",522,"300-10","OCTO","Total Octocoral",171,17.1
+2016,2016-07-12,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",523,"300-10","OCTO","Total Octocoral",237,23.7
+2016,2016-07-12,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",524,"300-10","OCTO","Total Octocoral",177,17.7
+2016,2016-07-13,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",541,"300-10","OCTO","Total Octocoral",181,18.1
+2016,2016-07-13,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",542,"300-10","OCTO","Total Octocoral",173,17.3
+2016,2016-07-13,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",543,"300-10","OCTO","Total Octocoral",283,28.3
+2016,2016-07-13,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",223,22.3
+2016,2016-05-08,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",551,"300-10","OCTO","Total Octocoral",231,23.1
+2016,2016-05-08,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",552,"300-10","OCTO","Total Octocoral",250,25
+2016,2016-05-08,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",220,22
+2016,2016-05-08,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",554,"300-10","OCTO","Total Octocoral",363,36.3
+2016,2016-05-07,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",561,"300-10","OCTO","Total Octocoral",67,6.7
+2016,2016-05-07,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",562,"300-10","OCTO","Total Octocoral",92,9.2
+2016,2016-05-07,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",563,"300-10","OCTO","Total Octocoral",83,8.3
+2016,2016-05-07,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",564,"300-10","OCTO","Total Octocoral",79,7.9
+2016,2016-08-10,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",79,7.9
+2016,2016-08-10,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",592,"300-10","OCTO","Total Octocoral",58,5.8
+2016,2016-08-10,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",593,"300-10","OCTO","Total Octocoral",38,3.8
+2016,2016-08-10,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",594,"300-10","OCTO","Total Octocoral",36,3.6
+2016,2016-08-09,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",611,"300-10","OCTO","Total Octocoral",40,4
+2016,2016-08-09,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",612,"300-10","OCTO","Total Octocoral",46,4.6
+2016,2016-08-09,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",613,"300-10","OCTO","Total Octocoral",78,7.8
+2016,2016-08-09,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",614,"300-10","OCTO","Total Octocoral",43,4.3
+2016,2016-07-22,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",701,"300-10","OCTO","Total Octocoral",164,16.4
+2016,2016-07-22,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",702,"300-10","OCTO","Total Octocoral",93,9.3
+2016,2016-07-22,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",703,"300-10","OCTO","Total Octocoral",144,14.4
+2016,2016-07-22,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",704,"300-10","OCTO","Total Octocoral",163,16.3
+2016,2016-07-21,"FKNMS","UK","OD","9D3",72,"Molasses Deep",721,"300-10","OCTO","Total Octocoral",225,22.5
+2016,2016-07-21,"FKNMS","UK","OD","9D3",72,"Molasses Deep",722,"300-10","OCTO","Total Octocoral",172,17.2
+2016,2016-07-21,"FKNMS","UK","OD","9D3",72,"Molasses Deep",723,"300-10","OCTO","Total Octocoral",184,18.4
+2016,2016-07-21,"FKNMS","UK","OD","9D3",72,"Molasses Deep",724,"300-10","OCTO","Total Octocoral",173,17.3
+2016,2016-07-13,"FKNMS","MK","OD","7D1",74,"Alligator Deep",741,"300-10","OCTO","Total Octocoral",172,17.2
+2016,2016-07-13,"FKNMS","MK","OD","7D1",74,"Alligator Deep",742,"300-10","OCTO","Total Octocoral",121,12.1
+2016,2016-07-13,"FKNMS","MK","OD","7D1",74,"Alligator Deep",743,"300-10","OCTO","Total Octocoral",142,14.2
+2016,2016-07-13,"FKNMS","MK","OD","7D1",74,"Alligator Deep",744,"300-10","OCTO","Total Octocoral",194,19.4
+2016,2016-05-08,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",751,"300-10","OCTO","Total Octocoral",124,12.4
+2016,2016-05-08,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",752,"300-10","OCTO","Total Octocoral",151,15.1
+2016,2016-05-08,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",753,"300-10","OCTO","Total Octocoral",181,18.1
+2016,2016-05-08,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",754,"300-10","OCTO","Total Octocoral",91,9.1
+2016,2016-05-07,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",761,"300-10","OCTO","Total Octocoral",95,9.5
+2016,2016-05-07,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",762,"300-10","OCTO","Total Octocoral",81,8.1
+2016,2016-05-07,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",763,"300-10","OCTO","Total Octocoral",168,16.8
+2016,2016-05-07,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",764,"300-10","OCTO","Total Octocoral",154,15.4
+2016,2016-08-12,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",791,"300-10","OCTO","Total Octocoral",167,16.7
+2016,2016-08-12,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",138,13.8
+2016,2016-08-12,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",793,"300-10","OCTO","Total Octocoral",102,10.2
+2016,2016-08-12,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",794,"300-10","OCTO","Total Octocoral",124,12.4
+2016,2016-08-09,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",811,"300-10","OCTO","Total Octocoral",143,14.3
+2016,2016-08-09,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",812,"300-10","OCTO","Total Octocoral",129,12.9
+2016,2016-08-09,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",813,"300-10","OCTO","Total Octocoral",194,19.4
+2016,2016-08-09,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",814,"300-10","OCTO","Total Octocoral",251,25.1
+2016,2016-06-12,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",821,"300-10","OCTO","Total Octocoral",117,11.7
+2016,2016-06-12,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",822,"300-10","OCTO","Total Octocoral",118,11.8
+2016,2016-06-12,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",823,"300-10","OCTO","Total Octocoral",260,26
+2016,2016-06-12,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",824,"300-10","OCTO","Total Octocoral",338,33.8
+2016,2016-06-11,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",831,"300-10","OCTO","Total Octocoral",72,7.2
+2016,2016-06-11,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",832,"300-10","OCTO","Total Octocoral",65,6.5
+2016,2016-06-11,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",833,"300-10","OCTO","Total Octocoral",64,6.4
+2016,2016-06-11,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",834,"300-10","OCTO","Total Octocoral",72,7.2
+2017,2017-08-18,"FKNMS","LK","P","5P6",26,"Red Dun Reef",261,"300-10","OCTO","Total Octocoral",146,14.6
+2017,2017-08-18,"FKNMS","LK","P","5P6",26,"Red Dun Reef",262,"300-10","OCTO","Total Octocoral",127,12.7
+2017,2017-08-18,"FKNMS","LK","P","5P6",26,"Red Dun Reef",263,"300-10","OCTO","Total Octocoral",169,16.9
+2017,2017-08-18,"FKNMS","LK","P","5P6",26,"Red Dun Reef",264,"300-10","OCTO","Total Octocoral",105,10.5
+2017,2017-06-14,"NPSDT","DT","P","1PA",27,"The Maze",271,"300-10","OCTO","Total Octocoral",102,10.2
+2017,2017-06-14,"NPSDT","DT","P","1PA",27,"The Maze",272,"300-10","OCTO","Total Octocoral",68,6.8
+2017,2017-06-14,"NPSDT","DT","P","1PA",27,"The Maze",273,"300-10","OCTO","Total Octocoral",29,2.9
+2017,2017-06-14,"NPSDT","DT","P","1PA",27,"The Maze",274,"300-10","OCTO","Total Octocoral",57,5.7
+2017,2017-06-13,"NPSDT","DT","P","1PB",28,"Davis Rock",281,"300-10","OCTO","Total Octocoral",0,0
+2017,2017-06-13,"NPSDT","DT","P","1PB",28,"Davis Rock",282,"300-10","OCTO","Total Octocoral",0,0
+2017,2017-06-13,"NPSDT","DT","P","1PB",28,"Davis Rock",283,"300-10","OCTO","Total Octocoral",0,0
+2017,2017-06-13,"NPSDT","DT","P","1PB",28,"Davis Rock",284,"300-10","OCTO","Total Octocoral",0,0
+2017,2017-06-13,"NPSDT","DT","P","1PC",29,"Texas Rock",291,"300-10","OCTO","Total Octocoral",2,0.2
+2017,2017-06-13,"NPSDT","DT","P","1PC",29,"Texas Rock",292,"300-10","OCTO","Total Octocoral",9,0.9
+2017,2017-06-13,"NPSDT","DT","P","1PC",29,"Texas Rock",293,"300-10","OCTO","Total Octocoral",0,0
+2017,2017-06-13,"NPSDT","DT","P","1PC",29,"Texas Rock",294,"300-10","OCTO","Total Octocoral",3,0.3
+2017,2017-07-11,"FKNMS","UK","P","9P3",32,"Porter Patch",321,"300-10","OCTO","Total Octocoral",189,18.9
+2017,2017-07-11,"FKNMS","UK","P","9P3",32,"Porter Patch",322,"300-10","OCTO","Total Octocoral",162,16.2
+2017,2017-07-11,"FKNMS","UK","P","9P3",32,"Porter Patch",323,"300-10","OCTO","Total Octocoral",196,19.6
+2017,2017-07-11,"FKNMS","UK","P","9P3",32,"Porter Patch",324,"300-10","OCTO","Total Octocoral",156,15.6
+2017,2017-07-20,"FKNMS","UK","P","9P4",33,"Admiral",331,"300-10","OCTO","Total Octocoral",237,23.7
+2017,2017-08-29,"FKNMS","UK","P","9P4",33,"Admiral",332,"300-10","OCTO","Total Octocoral",196,19.6
+2017,2017-07-20,"FKNMS","UK","P","9P4",33,"Admiral",333,"300-10","OCTO","Total Octocoral",361,36.1
+2017,2017-07-20,"FKNMS","UK","P","9P4",33,"Admiral",334,"300-10","OCTO","Total Octocoral",489,48.9
+2017,2017-05-10,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",341,"300-10","OCTO","Total Octocoral",76,7.6
+2017,2017-05-10,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",342,"300-10","OCTO","Total Octocoral",143,14.3
+2017,2017-05-10,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",343,"300-10","OCTO","Total Octocoral",158,15.8
+2017,2017-05-10,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",344,"300-10","OCTO","Total Octocoral",174,17.4
+2017,2017-05-16,"FKNMS","MK","P","7P2",35,"Dustan Rocks",351,"300-10","OCTO","Total Octocoral",136,13.6
+2017,2017-05-16,"FKNMS","MK","P","7P2",35,"Dustan Rocks",352,"300-10","OCTO","Total Octocoral",158,15.8
+2017,2017-05-16,"FKNMS","MK","P","7P2",35,"Dustan Rocks",353,"300-10","OCTO","Total Octocoral",146,14.6
+2017,2017-05-16,"FKNMS","MK","P","7P2",35,"Dustan Rocks",354,"300-10","OCTO","Total Octocoral",161,16.1
+2017,2017-08-17,"FKNMS","LK","P","5P1",36,"West Washer Women",361,"300-10","OCTO","Total Octocoral",51,5.1
+2017,2017-08-17,"FKNMS","LK","P","5P1",36,"West Washer Women",362,"300-10","OCTO","Total Octocoral",75,7.5
+2017,2017-08-17,"FKNMS","LK","P","5P1",36,"West Washer Women",363,"300-10","OCTO","Total Octocoral",47,4.7
+2017,2017-08-17,"FKNMS","LK","P","5P1",36,"West Washer Women",364,"300-10","OCTO","Total Octocoral",63,6.3
+2017,2017-08-20,"FKNMS","LK","P","5P3",38,"Cliff Green",381,"300-10","OCTO","Total Octocoral",101,10.1
+2017,2017-08-20,"FKNMS","LK","P","5P3",38,"Cliff Green",382,"300-10","OCTO","Total Octocoral",84,8.4
+2017,2017-08-20,"FKNMS","LK","P","5P3",38,"Cliff Green",383,"300-10","OCTO","Total Octocoral",118,11.8
+2017,2017-08-20,"FKNMS","LK","P","5P3",38,"Cliff Green",384,"300-10","OCTO","Total Octocoral",68,6.8
+2017,2017-06-15,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",411,"300-10","OCTO","Total Octocoral",132,13.2
+2017,2017-06-15,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",412,"300-10","OCTO","Total Octocoral",164,16.4
+2017,2017-06-15,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",413,"300-10","OCTO","Total Octocoral",93,9.3
+2017,2017-06-15,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",414,"300-10","OCTO","Total Octocoral",91,9.1
+2017,2017-06-16,"NPSDT","DT","P","1P2",42,"Palmata Patch",421,"300-10","OCTO","Total Octocoral",62,6.2
+2017,2017-06-16,"NPSDT","DT","P","1P2",42,"Palmata Patch",422,"300-10","OCTO","Total Octocoral",8,0.8
+2017,2017-06-16,"NPSDT","DT","P","1P3",43,"Prolifera Patch",431,"300-10","OCTO","Total Octocoral",7,0.7
+2017,2017-06-16,"NPSDT","DT","P","1P3",43,"Prolifera Patch",432,"300-10","OCTO","Total Octocoral",16,1.6
+2017,2017-06-16,"NPSDT","DT","P","1P3",43,"Prolifera Patch",433,"300-10","OCTO","Total Octocoral",25,2.5
+2017,2017-06-14,"NPSDT","DT","P","1P4",44,"Temptation Rock",441,"300-10","OCTO","Total Octocoral",51,5.1
+2017,2017-06-14,"NPSDT","DT","P","1P4",44,"Temptation Rock",442,"300-10","OCTO","Total Octocoral",26,2.6
+2017,2017-06-14,"NPSDT","DT","P","1P4",44,"Temptation Rock",443,"300-10","OCTO","Total Octocoral",43,4.3
+2017,2017-06-14,"NPSDT","DT","P","1P4",44,"Temptation Rock",444,"300-10","OCTO","Total Octocoral",28,2.8
+2017,2017-06-14,"NPSDT","DT","P","1P5",45,"Mayer's Peak",451,"300-10","OCTO","Total Octocoral",188,18.8
+2017,2017-06-14,"NPSDT","DT","P","1P5",45,"Mayer's Peak",452,"300-10","OCTO","Total Octocoral",362,36.2
+2017,2017-06-14,"NPSDT","DT","P","1P5",45,"Mayer's Peak",453,"300-10","OCTO","Total Octocoral",198,19.8
+2017,2017-06-14,"NPSDT","DT","P","1P5",45,"Mayer's Peak",454,"300-10","OCTO","Total Octocoral",304,30.4
+2017,2017-06-16,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",461,"300-10","OCTO","Total Octocoral",10,1
+2017,2017-06-16,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",462,"300-10","OCTO","Total Octocoral",20,2
+2017,2017-07-16,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",501,"300-10","OCTO","Total Octocoral",61,6.1
+2017,2017-07-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",502,"300-10","OCTO","Total Octocoral",29,2.9
+2017,2017-07-16,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",503,"300-10","OCTO","Total Octocoral",319,31.9
+2017,2017-07-16,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",504,"300-10","OCTO","Total Octocoral",387,38.7
+2017,2017-07-12,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",521,"300-10","OCTO","Total Octocoral",159,15.9
+2017,2017-07-12,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",522,"300-10","OCTO","Total Octocoral",147,14.7
+2017,2017-07-12,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",523,"300-10","OCTO","Total Octocoral",300,30
+2017,2017-07-12,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",524,"300-10","OCTO","Total Octocoral",163,16.3
+2017,2017-07-18,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",543,"300-10","OCTO","Total Octocoral",274,27.4
+2017,2017-07-18,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",195,19.5
+2017,2017-05-11,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",551,"300-10","OCTO","Total Octocoral",173,17.3
+2017,2017-05-11,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",552,"300-10","OCTO","Total Octocoral",267,26.7
+2017,2017-05-11,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",301,30.1
+2017,2017-05-11,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",554,"300-10","OCTO","Total Octocoral",365,36.5
+2017,2017-05-12,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",561,"300-10","OCTO","Total Octocoral",78,7.8
+2017,2017-05-12,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",562,"300-10","OCTO","Total Octocoral",89,8.9
+2017,2017-05-12,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",563,"300-10","OCTO","Total Octocoral",71,7.1
+2017,2017-05-12,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",564,"300-10","OCTO","Total Octocoral",84,8.4
+2017,2017-08-16,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",80,8
+2017,2017-08-16,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",592,"300-10","OCTO","Total Octocoral",54,5.4
+2017,2017-08-16,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",593,"300-10","OCTO","Total Octocoral",30,3
+2017,2017-08-16,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",594,"300-10","OCTO","Total Octocoral",32,3.2
+2017,2017-08-15,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",611,"300-10","OCTO","Total Octocoral",83,8.3
+2017,2017-08-15,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",612,"300-10","OCTO","Total Octocoral",63,6.3
+2017,2017-08-15,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",613,"300-10","OCTO","Total Octocoral",92,9.2
+2017,2017-08-15,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",614,"300-10","OCTO","Total Octocoral",55,5.5
+2017,2017-07-16,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",701,"300-10","OCTO","Total Octocoral",136,13.6
+2017,2017-07-16,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",702,"300-10","OCTO","Total Octocoral",113,11.3
+2017,2017-07-16,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",703,"300-10","OCTO","Total Octocoral",164,16.4
+2017,2017-07-16,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",704,"300-10","OCTO","Total Octocoral",141,14.1
+2017,2017-07-12,"FKNMS","UK","OD","9D3",72,"Molasses Deep",721,"300-10","OCTO","Total Octocoral",188,18.8
+2017,2017-07-12,"FKNMS","UK","OD","9D3",72,"Molasses Deep",722,"300-10","OCTO","Total Octocoral",153,15.3
+2017,2017-07-12,"FKNMS","UK","OD","9D3",72,"Molasses Deep",723,"300-10","OCTO","Total Octocoral",228,22.8
+2017,2017-07-12,"FKNMS","UK","OD","9D3",72,"Molasses Deep",724,"300-10","OCTO","Total Octocoral",210,21
+2017,2017-07-18,"FKNMS","MK","OD","7D1",74,"Alligator Deep",743,"300-10","OCTO","Total Octocoral",151,15.1
+2017,2017-05-11,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",751,"300-10","OCTO","Total Octocoral",118,11.8
+2017,2017-05-11,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",752,"300-10","OCTO","Total Octocoral",140,14
+2017,2017-05-11,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",753,"300-10","OCTO","Total Octocoral",201,20.1
+2017,2017-05-11,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",754,"300-10","OCTO","Total Octocoral",93,9.3
+2017,2017-05-12,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",761,"300-10","OCTO","Total Octocoral",88,8.8
+2017,2017-05-12,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",762,"300-10","OCTO","Total Octocoral",80,8
+2017,2017-05-12,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",763,"300-10","OCTO","Total Octocoral",170,17
+2017,2017-05-12,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",764,"300-10","OCTO","Total Octocoral",148,14.8
+2017,2017-08-16,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",791,"300-10","OCTO","Total Octocoral",131,13.1
+2017,2017-08-16,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",159,15.9
+2017,2017-08-16,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",793,"300-10","OCTO","Total Octocoral",156,15.6
+2017,2017-08-16,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",794,"300-10","OCTO","Total Octocoral",95,9.5
+2017,2017-08-15,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",811,"300-10","OCTO","Total Octocoral",179,17.9
+2017,2017-08-15,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",812,"300-10","OCTO","Total Octocoral",166,16.6
+2017,2017-08-15,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",813,"300-10","OCTO","Total Octocoral",288,28.8
+2017,2017-08-15,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",814,"300-10","OCTO","Total Octocoral",601,60.1
+2017,2017-06-17,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",821,"300-10","OCTO","Total Octocoral",145,14.5
+2017,2017-06-17,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",822,"300-10","OCTO","Total Octocoral",107,10.7
+2017,2017-06-17,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",823,"300-10","OCTO","Total Octocoral",318,31.8
+2017,2017-06-17,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",824,"300-10","OCTO","Total Octocoral",386,38.6
+2017,2017-06-15,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",831,"300-10","OCTO","Total Octocoral",61,6.1
+2017,2017-06-15,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",832,"300-10","OCTO","Total Octocoral",45,4.5
+2017,2017-06-15,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",833,"300-10","OCTO","Total Octocoral",49,4.9
+2017,2017-06-15,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",834,"300-10","OCTO","Total Octocoral",113,11.3
+2018,2018-09-12,"NPSDT","DT","P","1PA",27,"The Maze",271,"300-10","OCTO","Total Octocoral",111,11.1
+2018,2018-09-12,"NPSDT","DT","P","1PA",27,"The Maze",272,"300-10","OCTO","Total Octocoral",54,5.4
+2018,2018-09-12,"NPSDT","DT","P","1PA",27,"The Maze",273,"300-10","OCTO","Total Octocoral",33,3.3
+2018,2018-09-12,"NPSDT","DT","P","1PA",27,"The Maze",274,"300-10","OCTO","Total Octocoral",46,4.6
+2018,2018-09-11,"NPSDT","DT","P","1PB",28,"Davis Rock",281,"300-10","OCTO","Total Octocoral",3,0.3
+2018,2018-09-11,"NPSDT","DT","P","1PB",28,"Davis Rock",282,"300-10","OCTO","Total Octocoral",0,0
+2018,2018-09-11,"NPSDT","DT","P","1PB",28,"Davis Rock",283,"300-10","OCTO","Total Octocoral",0,0
+2018,2018-09-11,"NPSDT","DT","P","1PB",28,"Davis Rock",284,"300-10","OCTO","Total Octocoral",0,0
+2018,2018-09-11,"NPSDT","DT","P","1PC",29,"Texas Rock",291,"300-10","OCTO","Total Octocoral",2,0.2
+2018,2018-09-11,"NPSDT","DT","P","1PC",29,"Texas Rock",292,"300-10","OCTO","Total Octocoral",9,0.9
+2018,2018-09-11,"NPSDT","DT","P","1PC",29,"Texas Rock",293,"300-10","OCTO","Total Octocoral",1,0.1
+2018,2018-09-11,"NPSDT","DT","P","1PC",29,"Texas Rock",294,"300-10","OCTO","Total Octocoral",16,1.6
+2018,2018-07-10,"FKNMS","UK","P","9P3",32,"Porter Patch",321,"300-10","OCTO","Total Octocoral",161,16.1
+2018,2018-07-10,"FKNMS","UK","P","9P3",32,"Porter Patch",322,"300-10","OCTO","Total Octocoral",117,11.7
+2018,2018-07-10,"FKNMS","UK","P","9P3",32,"Porter Patch",323,"300-10","OCTO","Total Octocoral",152,15.2
+2018,2018-07-10,"FKNMS","UK","P","9P3",32,"Porter Patch",324,"300-10","OCTO","Total Octocoral",142,14.2
+2018,2018-07-12,"FKNMS","UK","P","9P4",33,"Admiral",331,"300-10","OCTO","Total Octocoral",294,29.4
+2018,2018-07-12,"FKNMS","UK","P","9P4",33,"Admiral",332,"300-10","OCTO","Total Octocoral",238,23.8
+2018,2018-07-12,"FKNMS","UK","P","9P4",33,"Admiral",333,"300-10","OCTO","Total Octocoral",395,39.5
+2018,2018-07-12,"FKNMS","UK","P","9P4",33,"Admiral",334,"300-10","OCTO","Total Octocoral",367,36.7
+2018,2018-05-17,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",341,"300-10","OCTO","Total Octocoral",68,6.8
+2018,2018-05-17,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",342,"300-10","OCTO","Total Octocoral",165,16.5
+2018,2018-05-17,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",343,"300-10","OCTO","Total Octocoral",143,14.3
+2018,2018-05-17,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",344,"300-10","OCTO","Total Octocoral",80,8
+2018,2018-05-19,"FKNMS","MK","P","7P2",35,"Dustan Rocks",351,"300-10","OCTO","Total Octocoral",150,15
+2018,2018-05-19,"FKNMS","MK","P","7P2",35,"Dustan Rocks",352,"300-10","OCTO","Total Octocoral",164,16.4
+2018,2018-05-18,"FKNMS","MK","P","7P2",35,"Dustan Rocks",353,"300-10","OCTO","Total Octocoral",143,14.3
+2018,2018-05-19,"FKNMS","MK","P","7P2",35,"Dustan Rocks",354,"300-10","OCTO","Total Octocoral",136,13.6
+2018,2018-08-10,"FKNMS","LK","P","5P1",36,"West Washer Women",361,"300-10","OCTO","Total Octocoral",37,3.7
+2018,2018-08-10,"FKNMS","LK","P","5P1",36,"West Washer Women",362,"300-10","OCTO","Total Octocoral",65,6.5
+2018,2018-08-10,"FKNMS","LK","P","5P1",36,"West Washer Women",363,"300-10","OCTO","Total Octocoral",47,4.7
+2018,2018-08-10,"FKNMS","LK","P","5P1",36,"West Washer Women",364,"300-10","OCTO","Total Octocoral",34,3.4
+2018,2018-08-09,"FKNMS","LK","P","5P3",38,"Cliff Green",381,"300-10","OCTO","Total Octocoral",87,8.7
+2018,2018-08-09,"FKNMS","LK","P","5P3",38,"Cliff Green",382,"300-10","OCTO","Total Octocoral",80,8
+2018,2018-08-09,"FKNMS","LK","P","5P3",38,"Cliff Green",383,"300-10","OCTO","Total Octocoral",87,8.7
+2018,2018-08-09,"FKNMS","LK","P","5P3",38,"Cliff Green",384,"300-10","OCTO","Total Octocoral",47,4.7
+2018,2018-09-13,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",411,"300-10","OCTO","Total Octocoral",100,10
+2018,2018-09-13,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",412,"300-10","OCTO","Total Octocoral",93,9.3
+2018,2018-09-13,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",413,"300-10","OCTO","Total Octocoral",111,11.1
+2018,2018-09-13,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",414,"300-10","OCTO","Total Octocoral",164,16.4
+2018,2018-09-15,"NPSDT","DT","P","1P2",42,"Palmata Patch",421,"300-10","OCTO","Total Octocoral",72,7.2
+2018,2018-09-15,"NPSDT","DT","P","1P2",42,"Palmata Patch",422,"300-10","OCTO","Total Octocoral",20,2
+2018,2018-09-16,"NPSDT","DT","P","1P3",43,"Prolifera Patch",431,"300-10","OCTO","Total Octocoral",11,1.1
+2018,2018-09-16,"NPSDT","DT","P","1P3",43,"Prolifera Patch",432,"300-10","OCTO","Total Octocoral",23,2.3
+2018,2018-09-16,"NPSDT","DT","P","1P3",43,"Prolifera Patch",433,"300-10","OCTO","Total Octocoral",31,3.1
+2018,2018-09-12,"NPSDT","DT","P","1P4",44,"Temptation Rock",441,"300-10","OCTO","Total Octocoral",71,7.1
+2018,2018-09-12,"NPSDT","DT","P","1P4",44,"Temptation Rock",442,"300-10","OCTO","Total Octocoral",16,1.6
+2018,2018-09-12,"NPSDT","DT","P","1P4",44,"Temptation Rock",443,"300-10","OCTO","Total Octocoral",38,3.8
+2018,2018-09-12,"NPSDT","DT","P","1P4",44,"Temptation Rock",444,"300-10","OCTO","Total Octocoral",28,2.8
+2018,2018-09-12,"NPSDT","DT","P","1P5",45,"Mayer's Peak",451,"300-10","OCTO","Total Octocoral",237,23.7
+2018,2018-09-12,"NPSDT","DT","P","1P5",45,"Mayer's Peak",452,"300-10","OCTO","Total Octocoral",289,28.9
+2018,2018-09-12,"NPSDT","DT","P","1P5",45,"Mayer's Peak",453,"300-10","OCTO","Total Octocoral",243,24.3
+2018,2018-09-12,"NPSDT","DT","P","1P5",45,"Mayer's Peak",454,"300-10","OCTO","Total Octocoral",355,35.5
+2018,2018-09-13,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",461,"300-10","OCTO","Total Octocoral",11,1.1
+2018,2018-09-13,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",462,"300-10","OCTO","Total Octocoral",11,1.1
+2018,2018-07-13,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",501,"300-10","OCTO","Total Octocoral",46,4.6
+2018,2018-07-13,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",502,"300-10","OCTO","Total Octocoral",33,3.3
+2018,2018-07-13,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",503,"300-10","OCTO","Total Octocoral",418,41.8
+2018,2018-07-13,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",504,"300-10","OCTO","Total Octocoral",385,38.5
+2018,2018-07-10,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",521,"300-10","OCTO","Total Octocoral",157,15.7
+2018,2018-07-10,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",522,"300-10","OCTO","Total Octocoral",130,13
+2018,2018-07-11,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",523,"300-10","OCTO","Total Octocoral",181,18.1
+2018,2018-07-11,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",524,"300-10","OCTO","Total Octocoral",154,15.4
+2018,2018-07-16,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",541,"300-10","OCTO","Total Octocoral",61,6.1
+2018,2018-07-16,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",542,"300-10","OCTO","Total Octocoral",86,8.6
+2018,2018-07-16,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",543,"300-10","OCTO","Total Octocoral",175,17.5
+2018,2018-07-16,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",122,12.2
+2018,2018-05-18,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",551,"300-10","OCTO","Total Octocoral",89,8.9
+2018,2018-05-18,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",552,"300-10","OCTO","Total Octocoral",86,8.6
+2018,2018-05-18,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",95,9.5
+2018,2018-05-18,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",554,"300-10","OCTO","Total Octocoral",164,16.4
+2018,2018-05-23,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",561,"300-10","OCTO","Total Octocoral",56,5.6
+2018,2018-05-23,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",562,"300-10","OCTO","Total Octocoral",86,8.6
+2018,2018-05-23,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",563,"300-10","OCTO","Total Octocoral",56,5.6
+2018,2018-05-23,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",564,"300-10","OCTO","Total Octocoral",71,7.1
+2018,2018-08-08,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",88,8.8
+2018,2018-08-08,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",592,"300-10","OCTO","Total Octocoral",47,4.7
+2018,2018-08-08,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",593,"300-10","OCTO","Total Octocoral",31,3.1
+2018,2018-08-08,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",594,"300-10","OCTO","Total Octocoral",30,3
+2018,2018-08-07,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",611,"300-10","OCTO","Total Octocoral",102,10.2
+2018,2018-08-07,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",612,"300-10","OCTO","Total Octocoral",48,4.8
+2018,2018-08-07,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",613,"300-10","OCTO","Total Octocoral",93,9.3
+2018,2018-08-07,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",614,"300-10","OCTO","Total Octocoral",41,4.1
+2018,2018-07-13,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",701,"300-10","OCTO","Total Octocoral",123,12.3
+2018,2018-07-13,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",702,"300-10","OCTO","Total Octocoral",151,15.1
+2018,2018-07-13,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",703,"300-10","OCTO","Total Octocoral",133,13.3
+2018,2018-07-13,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",704,"300-10","OCTO","Total Octocoral",137,13.7
+2018,2018-07-14,"FKNMS","UK","OD","9D3",72,"Molasses Deep",721,"300-10","OCTO","Total Octocoral",180,18
+2018,2018-07-14,"FKNMS","UK","OD","9D3",72,"Molasses Deep",722,"300-10","OCTO","Total Octocoral",129,12.9
+2018,2018-07-13,"FKNMS","UK","OD","9D3",72,"Molasses Deep",723,"300-10","OCTO","Total Octocoral",206,20.6
+2018,2018-07-14,"FKNMS","UK","OD","9D3",72,"Molasses Deep",724,"300-10","OCTO","Total Octocoral",216,21.6
+2018,2018-07-16,"FKNMS","MK","OD","7D1",74,"Alligator Deep",741,"300-10","OCTO","Total Octocoral",105,10.5
+2018,2018-07-16,"FKNMS","MK","OD","7D1",74,"Alligator Deep",742,"300-10","OCTO","Total Octocoral",88,8.8
+2018,2018-07-16,"FKNMS","MK","OD","7D1",74,"Alligator Deep",743,"300-10","OCTO","Total Octocoral",97,9.7
+2018,2018-07-16,"FKNMS","MK","OD","7D1",74,"Alligator Deep",744,"300-10","OCTO","Total Octocoral",177,17.7
+2018,2018-05-18,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",751,"300-10","OCTO","Total Octocoral",59,5.9
+2018,2018-05-18,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",752,"300-10","OCTO","Total Octocoral",65,6.5
+2018,2018-05-18,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",753,"300-10","OCTO","Total Octocoral",94,9.4
+2018,2018-05-18,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",754,"300-10","OCTO","Total Octocoral",49,4.9
+2018,2018-05-19,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",761,"300-10","OCTO","Total Octocoral",60,6
+2018,2018-05-19,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",762,"300-10","OCTO","Total Octocoral",37,3.7
+2018,2018-05-19,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",763,"300-10","OCTO","Total Octocoral",67,6.7
+2018,2018-05-19,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",764,"300-10","OCTO","Total Octocoral",91,9.1
+2018,2018-08-08,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",791,"300-10","OCTO","Total Octocoral",139,13.9
+2018,2018-08-08,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",131,13.1
+2018,2018-08-08,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",793,"300-10","OCTO","Total Octocoral",110,11
+2018,2018-08-08,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",794,"300-10","OCTO","Total Octocoral",79,7.9
+2018,2018-08-07,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",811,"300-10","OCTO","Total Octocoral",231,23.1
+2018,2018-08-07,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",812,"300-10","OCTO","Total Octocoral",180,18
+2018,2018-08-07,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",813,"300-10","OCTO","Total Octocoral",276,27.6
+2018,2018-08-07,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",814,"300-10","OCTO","Total Octocoral",377,37.7
+2018,2018-09-15,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",821,"300-10","OCTO","Total Octocoral",156,15.6
+2018,2018-09-15,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",822,"300-10","OCTO","Total Octocoral",121,12.1
+2018,2018-09-15,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",823,"300-10","OCTO","Total Octocoral",253,25.3
+2018,2018-09-15,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",824,"300-10","OCTO","Total Octocoral",290,29
+2018,2018-09-14,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",831,"300-10","OCTO","Total Octocoral",81,8.1
+2018,2018-09-14,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",832,"300-10","OCTO","Total Octocoral",67,6.7
+2018,2018-09-14,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",833,"300-10","OCTO","Total Octocoral",65,6.5
+2018,2018-09-14,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",834,"300-10","OCTO","Total Octocoral",85,8.5
+2019,2019-08-14,"NPSDT","DT","P","1PA",27,"The Maze",271,"300-10","OCTO","Total Octocoral",117,11.7
+2019,2019-08-14,"NPSDT","DT","P","1PA",27,"The Maze",272,"300-10","OCTO","Total Octocoral",88,8.8
+2019,2019-08-14,"NPSDT","DT","P","1PA",27,"The Maze",273,"300-10","OCTO","Total Octocoral",33,3.3
+2019,2019-08-14,"NPSDT","DT","P","1PA",27,"The Maze",274,"300-10","OCTO","Total Octocoral",42,4.2
+2019,2019-08-13,"NPSDT","DT","P","1PB",28,"Davis Rock",281,"300-10","OCTO","Total Octocoral",3,0.3
+2019,2019-08-13,"NPSDT","DT","P","1PB",28,"Davis Rock",282,"300-10","OCTO","Total Octocoral",0,0
+2019,2019-08-13,"NPSDT","DT","P","1PB",28,"Davis Rock",283,"300-10","OCTO","Total Octocoral",1,0.1
+2019,2019-08-13,"NPSDT","DT","P","1PB",28,"Davis Rock",284,"300-10","OCTO","Total Octocoral",0,0
+2019,2019-08-13,"NPSDT","DT","P","1PC",29,"Texas Rock",291,"300-10","OCTO","Total Octocoral",6,0.6
+2019,2019-08-13,"NPSDT","DT","P","1PC",29,"Texas Rock",292,"300-10","OCTO","Total Octocoral",10,1
+2019,2019-08-13,"NPSDT","DT","P","1PC",29,"Texas Rock",293,"300-10","OCTO","Total Octocoral",9,0.9
+2019,2019-08-13,"NPSDT","DT","P","1PC",29,"Texas Rock",294,"300-10","OCTO","Total Octocoral",10,1
+2019,2019-06-18,"FKNMS","UK","P","9P3",32,"Porter Patch",321,"300-10","OCTO","Total Octocoral",161,16.1
+2019,2019-06-18,"FKNMS","UK","P","9P3",32,"Porter Patch",322,"300-10","OCTO","Total Octocoral",142,14.2
+2019,2019-06-18,"FKNMS","UK","P","9P3",32,"Porter Patch",323,"300-10","OCTO","Total Octocoral",122,12.2
+2019,2019-06-18,"FKNMS","UK","P","9P3",32,"Porter Patch",324,"300-10","OCTO","Total Octocoral",126,12.6
+2019,2019-06-19,"FKNMS","UK","P","9P4",33,"Admiral",331,"300-10","OCTO","Total Octocoral",303,30.3
+2019,2019-06-19,"FKNMS","UK","P","9P4",33,"Admiral",332,"300-10","OCTO","Total Octocoral",247,24.7
+2019,2019-06-19,"FKNMS","UK","P","9P4",33,"Admiral",333,"300-10","OCTO","Total Octocoral",361,36.1
+2019,2019-06-19,"FKNMS","UK","P","9P4",33,"Admiral",334,"300-10","OCTO","Total Octocoral",444,44.4
+2019,2019-05-17,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",341,"300-10","OCTO","Total Octocoral",67,6.7
+2019,2019-05-17,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",342,"300-10","OCTO","Total Octocoral",151,15.1
+2019,2019-05-17,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",343,"300-10","OCTO","Total Octocoral",215,21.5
+2019,2019-05-17,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",344,"300-10","OCTO","Total Octocoral",124,12.4
+2019,2019-05-14,"FKNMS","MK","P","7P2",35,"Dustan Rocks",351,"300-10","OCTO","Total Octocoral",137,13.7
+2019,2019-05-16,"FKNMS","MK","P","7P2",35,"Dustan Rocks",352,"300-10","OCTO","Total Octocoral",200,20
+2019,2019-05-16,"FKNMS","MK","P","7P2",35,"Dustan Rocks",353,"300-10","OCTO","Total Octocoral",155,15.5
+2019,2019-05-16,"FKNMS","MK","P","7P2",35,"Dustan Rocks",354,"300-10","OCTO","Total Octocoral",151,15.1
+2019,2019-07-12,"FKNMS","LK","P","5P1",36,"West Washer Women",361,"300-10","OCTO","Total Octocoral",50,5
+2019,2019-07-12,"FKNMS","LK","P","5P1",36,"West Washer Women",362,"300-10","OCTO","Total Octocoral",64,6.4
+2019,2019-07-12,"FKNMS","LK","P","5P1",36,"West Washer Women",363,"300-10","OCTO","Total Octocoral",44,4.4
+2019,2019-07-12,"FKNMS","LK","P","5P1",36,"West Washer Women",364,"300-10","OCTO","Total Octocoral",63,6.3
+2019,2019-07-16,"FKNMS","LK","P","5P3",38,"Cliff Green",381,"300-10","OCTO","Total Octocoral",97,9.7
+2019,2019-07-16,"FKNMS","LK","P","5P3",38,"Cliff Green",382,"300-10","OCTO","Total Octocoral",77,7.7
+2019,2019-07-16,"FKNMS","LK","P","5P3",38,"Cliff Green",383,"300-10","OCTO","Total Octocoral",110,11
+2019,2019-07-16,"FKNMS","LK","P","5P3",38,"Cliff Green",384,"300-10","OCTO","Total Octocoral",44,4.4
+2019,2019-08-16,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",411,"300-10","OCTO","Total Octocoral",151,15.1
+2019,2019-08-16,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",412,"300-10","OCTO","Total Octocoral",118,11.8
+2019,2019-08-16,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",413,"300-10","OCTO","Total Octocoral",97,9.7
+2019,2019-08-16,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",414,"300-10","OCTO","Total Octocoral",205,20.5
+2019,2019-08-16,"NPSDT","DT","P","1P2",42,"Palmata Patch",421,"300-10","OCTO","Total Octocoral",69,6.9
+2019,2019-08-18,"NPSDT","DT","P","1P2",42,"Palmata Patch",422,"300-10","OCTO","Total Octocoral",20,2
+2019,2019-08-18,"NPSDT","DT","P","1P3",43,"Prolifera Patch",431,"300-10","OCTO","Total Octocoral",13,1.3
+2019,2019-08-18,"NPSDT","DT","P","1P3",43,"Prolifera Patch",432,"300-10","OCTO","Total Octocoral",19,1.9
+2019,2019-08-18,"NPSDT","DT","P","1P3",43,"Prolifera Patch",433,"300-10","OCTO","Total Octocoral",40,4
+2019,2019-08-14,"NPSDT","DT","P","1P4",44,"Temptation Rock",441,"300-10","OCTO","Total Octocoral",71,7.1
+2019,2019-08-14,"NPSDT","DT","P","1P4",44,"Temptation Rock",442,"300-10","OCTO","Total Octocoral",30,3
+2019,2019-08-14,"NPSDT","DT","P","1P4",44,"Temptation Rock",443,"300-10","OCTO","Total Octocoral",49,4.9
+2019,2019-08-14,"NPSDT","DT","P","1P4",44,"Temptation Rock",444,"300-10","OCTO","Total Octocoral",23,2.3
+2019,2019-08-14,"NPSDT","DT","P","1P5",45,"Mayer's Peak",451,"300-10","OCTO","Total Octocoral",247,24.7
+2019,2019-08-14,"NPSDT","DT","P","1P5",45,"Mayer's Peak",452,"300-10","OCTO","Total Octocoral",372,37.2
+2019,2019-08-14,"NPSDT","DT","P","1P5",45,"Mayer's Peak",453,"300-10","OCTO","Total Octocoral",276,27.6
+2019,2019-08-14,"NPSDT","DT","P","1P5",45,"Mayer's Peak",454,"300-10","OCTO","Total Octocoral",319,31.9
+2019,2019-08-16,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",461,"300-10","OCTO","Total Octocoral",40,4
+2019,2019-08-16,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",462,"300-10","OCTO","Total Octocoral",40,4
+2019,2019-06-12,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",501,"300-10","OCTO","Total Octocoral",64,6.4
+2019,2019-06-12,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",502,"300-10","OCTO","Total Octocoral",43,4.3
+2019,2019-06-12,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",503,"300-10","OCTO","Total Octocoral",412,41.2
+2019,2019-06-12,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",504,"300-10","OCTO","Total Octocoral",304,30.4
+2019,2019-06-11,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",521,"300-10","OCTO","Total Octocoral",177,17.7
+2019,2019-06-11,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",522,"300-10","OCTO","Total Octocoral",214,21.4
+2019,2019-06-11,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",523,"300-10","OCTO","Total Octocoral",241,24.1
+2019,2019-06-11,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",524,"300-10","OCTO","Total Octocoral",232,23.2
+2019,2019-06-14,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",541,"300-10","OCTO","Total Octocoral",268,26.8
+2019,2019-06-14,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",542,"300-10","OCTO","Total Octocoral",257,25.7
+2019,2019-06-14,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",543,"300-10","OCTO","Total Octocoral",409,40.9
+2019,2019-06-14,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",175,17.5
+2019,2019-05-15,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",551,"300-10","OCTO","Total Octocoral",248,24.8
+2019,2019-05-15,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",552,"300-10","OCTO","Total Octocoral",342,34.2
+2019,2019-05-15,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",196,19.6
+2019,2019-05-15,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",554,"300-10","OCTO","Total Octocoral",260,26
+2019,2019-05-20,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",561,"300-10","OCTO","Total Octocoral",125,12.5
+2019,2019-05-18,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",562,"300-10","OCTO","Total Octocoral",125,12.5
+2019,2019-05-20,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",563,"300-10","OCTO","Total Octocoral",122,12.2
+2019,2019-05-20,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",564,"300-10","OCTO","Total Octocoral",87,8.7
+2019,2019-07-09,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",103,10.3
+2019,2019-07-09,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",592,"300-10","OCTO","Total Octocoral",59,5.9
+2019,2019-07-09,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",593,"300-10","OCTO","Total Octocoral",30,3
+2019,2019-07-09,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",594,"300-10","OCTO","Total Octocoral",27,2.7
+2019,2019-07-10,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",611,"300-10","OCTO","Total Octocoral",146,14.6
+2019,2019-07-10,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",612,"300-10","OCTO","Total Octocoral",67,6.7
+2019,2019-07-10,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",613,"300-10","OCTO","Total Octocoral",114,11.4
+2019,2019-07-10,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",614,"300-10","OCTO","Total Octocoral",72,7.2
+2019,2019-06-12,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",701,"300-10","OCTO","Total Octocoral",136,13.6
+2019,2019-06-12,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",702,"300-10","OCTO","Total Octocoral",172,17.2
+2019,2019-06-12,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",703,"300-10","OCTO","Total Octocoral",198,19.8
+2019,2019-06-12,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",704,"300-10","OCTO","Total Octocoral",129,12.9
+2019,2019-06-11,"FKNMS","UK","OD","9D3",72,"Molasses Deep",721,"300-10","OCTO","Total Octocoral",264,26.4
+2019,2019-06-11,"FKNMS","UK","OD","9D3",72,"Molasses Deep",722,"300-10","OCTO","Total Octocoral",210,21
+2019,2019-06-11,"FKNMS","UK","OD","9D3",72,"Molasses Deep",723,"300-10","OCTO","Total Octocoral",230,23
+2019,2019-06-11,"FKNMS","UK","OD","9D3",72,"Molasses Deep",724,"300-10","OCTO","Total Octocoral",236,23.6
+2019,2019-06-14,"FKNMS","MK","OD","7D1",74,"Alligator Deep",741,"300-10","OCTO","Total Octocoral",184,18.4
+2019,2019-06-14,"FKNMS","MK","OD","7D1",74,"Alligator Deep",742,"300-10","OCTO","Total Octocoral",61,6.1
+2019,2019-06-14,"FKNMS","MK","OD","7D1",74,"Alligator Deep",743,"300-10","OCTO","Total Octocoral",185,18.5
+2019,2019-06-14,"FKNMS","MK","OD","7D1",74,"Alligator Deep",744,"300-10","OCTO","Total Octocoral",274,27.4
+2019,2019-05-15,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",751,"300-10","OCTO","Total Octocoral",64,6.4
+2019,2019-05-15,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",752,"300-10","OCTO","Total Octocoral",78,7.8
+2019,2019-05-15,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",753,"300-10","OCTO","Total Octocoral",96,9.6
+2019,2019-05-15,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",754,"300-10","OCTO","Total Octocoral",53,5.3
+2019,2019-05-20,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",761,"300-10","OCTO","Total Octocoral",144,14.4
+2019,2019-05-20,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",762,"300-10","OCTO","Total Octocoral",92,9.2
+2019,2019-05-20,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",763,"300-10","OCTO","Total Octocoral",136,13.6
+2019,2019-05-20,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",764,"300-10","OCTO","Total Octocoral",122,12.2
+2019,2019-07-17,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",791,"300-10","OCTO","Total Octocoral",124,12.4
+2019,2019-07-17,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",162,16.2
+2019,2019-07-19,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",793,"300-10","OCTO","Total Octocoral",225,22.5
+2019,2019-07-19,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",794,"300-10","OCTO","Total Octocoral",207,20.7
+2019,2019-07-10,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",811,"300-10","OCTO","Total Octocoral",254,25.4
+2019,2019-07-10,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",812,"300-10","OCTO","Total Octocoral",298,29.8
+2019,2019-07-17,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",813,"300-10","OCTO","Total Octocoral",588,58.8
+2019,2019-07-17,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",814,"300-10","OCTO","Total Octocoral",465,46.5
+2019,2019-08-18,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",821,"300-10","OCTO","Total Octocoral",128,12.8
+2019,2019-08-18,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",822,"300-10","OCTO","Total Octocoral",203,20.3
+2019,2019-08-18,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",823,"300-10","OCTO","Total Octocoral",253,25.3
+2019,2019-08-18,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",824,"300-10","OCTO","Total Octocoral",419,41.9
+2019,2019-08-15,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",831,"300-10","OCTO","Total Octocoral",81,8.1
+2019,2019-08-15,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",832,"300-10","OCTO","Total Octocoral",63,6.3
+2019,2019-08-15,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",833,"300-10","OCTO","Total Octocoral",61,6.1
+2019,2019-08-15,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",834,"300-10","OCTO","Total Octocoral",78,7.8
+2020,2020-08-13,"NPSDT","DT","P","1PA",27,"The Maze",271,"300-10","OCTO","Total Octocoral",106,10.6
+2020,2020-08-13,"NPSDT","DT","P","1PA",27,"The Maze",272,"300-10","OCTO","Total Octocoral",77,7.7
+2020,2020-08-13,"NPSDT","DT","P","1PA",27,"The Maze",273,"300-10","OCTO","Total Octocoral",53,5.3
+2020,2020-08-13,"NPSDT","DT","P","1PA",27,"The Maze",274,"300-10","OCTO","Total Octocoral",53,5.3
+2020,2020-08-11,"NPSDT","DT","P","1PB",28,"Davis Rock",281,"300-10","OCTO","Total Octocoral",0,0
+2020,2020-08-11,"NPSDT","DT","P","1PB",28,"Davis Rock",282,"300-10","OCTO","Total Octocoral",0,0
+2020,2020-08-11,"NPSDT","DT","P","1PB",28,"Davis Rock",283,"300-10","OCTO","Total Octocoral",0,0
+2020,2020-08-11,"NPSDT","DT","P","1PB",28,"Davis Rock",284,"300-10","OCTO","Total Octocoral",0,0
+2020,2020-08-11,"NPSDT","DT","P","1PC",29,"Texas Rock",291,"300-10","OCTO","Total Octocoral",5,0.5
+2020,2020-08-11,"NPSDT","DT","P","1PC",29,"Texas Rock",292,"300-10","OCTO","Total Octocoral",11,1.1
+2020,2020-08-11,"NPSDT","DT","P","1PC",29,"Texas Rock",293,"300-10","OCTO","Total Octocoral",3,0.3
+2020,2020-08-11,"NPSDT","DT","P","1PC",29,"Texas Rock",294,"300-10","OCTO","Total Octocoral",9,0.9
+2020,2020-06-11,"FKNMS","UK","P","9P3",32,"Porter Patch",321,"300-10","OCTO","Total Octocoral",165,16.5
+2020,2020-06-11,"FKNMS","UK","P","9P3",32,"Porter Patch",322,"300-10","OCTO","Total Octocoral",161,16.1
+2020,2020-06-11,"FKNMS","UK","P","9P3",32,"Porter Patch",323,"300-10","OCTO","Total Octocoral",163,16.3
+2020,2020-06-11,"FKNMS","UK","P","9P3",32,"Porter Patch",324,"300-10","OCTO","Total Octocoral",141,14.1
+2020,2020-06-11,"FKNMS","UK","P","9P4",33,"Admiral",331,"300-10","OCTO","Total Octocoral",240,24
+2020,2020-06-11,"FKNMS","UK","P","9P4",33,"Admiral",332,"300-10","OCTO","Total Octocoral",229,22.9
+2020,2020-06-11,"FKNMS","UK","P","9P4",33,"Admiral",333,"300-10","OCTO","Total Octocoral",354,35.4
+2020,2020-06-11,"FKNMS","UK","P","9P4",33,"Admiral",334,"300-10","OCTO","Total Octocoral",531,53.1
+2020,2020-10-01,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",341,"300-10","OCTO","Total Octocoral",72,7.2
+2020,2020-10-01,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",342,"300-10","OCTO","Total Octocoral",156,15.6
+2020,2020-10-31,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",343,"300-10","OCTO","Total Octocoral",227,22.7
+2020,2020-10-11,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",344,"300-10","OCTO","Total Octocoral",118,11.8
+2020,2020-09-29,"FKNMS","MK","P","7P2",35,"Dustan Rocks",351,"300-10","OCTO","Total Octocoral",142,14.2
+2020,2020-09-29,"FKNMS","MK","P","7P2",35,"Dustan Rocks",352,"300-10","OCTO","Total Octocoral",150,15
+2020,2020-09-29,"FKNMS","MK","P","7P2",35,"Dustan Rocks",353,"300-10","OCTO","Total Octocoral",177,17.7
+2020,2020-09-29,"FKNMS","MK","P","7P2",35,"Dustan Rocks",354,"300-10","OCTO","Total Octocoral",133,13.3
+2020,2020-09-17,"FKNMS","LK","P","5P1",36,"West Washer Women",361,"300-10","OCTO","Total Octocoral",59,5.9
+2020,2020-09-17,"FKNMS","LK","P","5P1",36,"West Washer Women",362,"300-10","OCTO","Total Octocoral",76,7.6
+2020,2020-09-17,"FKNMS","LK","P","5P1",36,"West Washer Women",363,"300-10","OCTO","Total Octocoral",31,3.1
+2020,2020-09-17,"FKNMS","LK","P","5P1",36,"West Washer Women",364,"300-10","OCTO","Total Octocoral",60,6
+2020,2020-09-16,"FKNMS","LK","P","5P3",38,"Cliff Green",381,"300-10","OCTO","Total Octocoral",83,8.3
+2020,2020-09-16,"FKNMS","LK","P","5P3",38,"Cliff Green",382,"300-10","OCTO","Total Octocoral",82,8.2
+2020,2020-09-15,"FKNMS","LK","P","5P3",38,"Cliff Green",383,"300-10","OCTO","Total Octocoral",84,8.4
+2020,2020-09-15,"FKNMS","LK","P","5P3",38,"Cliff Green",384,"300-10","OCTO","Total Octocoral",61,6.1
+2020,2020-08-15,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",411,"300-10","OCTO","Total Octocoral",152,15.2
+2020,2020-08-15,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",412,"300-10","OCTO","Total Octocoral",117,11.7
+2020,2020-08-15,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",413,"300-10","OCTO","Total Octocoral",172,17.2
+2020,2020-08-15,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",414,"300-10","OCTO","Total Octocoral",157,15.7
+2020,2020-08-12,"NPSDT","DT","P","1P2",42,"Palmata Patch",421,"300-10","OCTO","Total Octocoral",72,7.2
+2020,2020-08-12,"NPSDT","DT","P","1P2",42,"Palmata Patch",422,"300-10","OCTO","Total Octocoral",16,1.6
+2020,2020-08-12,"NPSDT","DT","P","1P3",43,"Prolifera Patch",431,"300-10","OCTO","Total Octocoral",14,1.4
+2020,2020-08-12,"NPSDT","DT","P","1P3",43,"Prolifera Patch",432,"300-10","OCTO","Total Octocoral",23,2.3
+2020,2020-08-12,"NPSDT","DT","P","1P3",43,"Prolifera Patch",433,"300-10","OCTO","Total Octocoral",37,3.7
+2020,2020-08-13,"NPSDT","DT","P","1P4",44,"Temptation Rock",441,"300-10","OCTO","Total Octocoral",65,6.5
+2020,2020-08-13,"NPSDT","DT","P","1P4",44,"Temptation Rock",442,"300-10","OCTO","Total Octocoral",31,3.1
+2020,2020-08-13,"NPSDT","DT","P","1P4",44,"Temptation Rock",443,"300-10","OCTO","Total Octocoral",56,5.6
+2020,2020-08-13,"NPSDT","DT","P","1P4",44,"Temptation Rock",444,"300-10","OCTO","Total Octocoral",29,2.9
+2020,2020-08-13,"NPSDT","DT","P","1P5",45,"Mayer's Peak",451,"300-10","OCTO","Total Octocoral",201,20.1
+2020,2020-08-13,"NPSDT","DT","P","1P5",45,"Mayer's Peak",452,"300-10","OCTO","Total Octocoral",264,26.4
+2020,2020-08-13,"NPSDT","DT","P","1P5",45,"Mayer's Peak",453,"300-10","OCTO","Total Octocoral",231,23.1
+2020,2020-08-13,"NPSDT","DT","P","1P5",45,"Mayer's Peak",454,"300-10","OCTO","Total Octocoral",277,27.7
+2020,2020-08-15,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",461,"300-10","OCTO","Total Octocoral",12,1.2
+2020,2020-08-15,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",462,"300-10","OCTO","Total Octocoral",7,0.7
+2020,2020-06-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",501,"300-10","OCTO","Total Octocoral",108,10.8
+2020,2020-06-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",502,"300-10","OCTO","Total Octocoral",71,7.1
+2020,2020-06-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",503,"300-10","OCTO","Total Octocoral",419,41.9
+2020,2020-06-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",504,"300-10","OCTO","Total Octocoral",306,30.6
+2020,2020-06-10,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",521,"300-10","OCTO","Total Octocoral",315,31.5
+2020,2020-06-16,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",522,"300-10","OCTO","Total Octocoral",351,35.1
+2020,2020-06-16,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",523,"300-10","OCTO","Total Octocoral",436,43.6
+2020,2020-06-16,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",524,"300-10","OCTO","Total Octocoral",361,36.1
+2020,2020-06-13,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",541,"300-10","OCTO","Total Octocoral",377,37.7
+2020,2020-06-13,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",542,"300-10","OCTO","Total Octocoral",324,32.4
+2020,2020-06-13,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",543,"300-10","OCTO","Total Octocoral",485,48.5
+2020,2020-06-13,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",394,39.4
+2020,2020-09-20,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",551,"300-10","OCTO","Total Octocoral",276,27.6
+2020,2020-09-20,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",552,"300-10","OCTO","Total Octocoral",362,36.2
+2020,2020-09-20,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",338,33.8
+2020,2020-09-20,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",554,"300-10","OCTO","Total Octocoral",443,44.3
+2020,2020-09-19,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",561,"300-10","OCTO","Total Octocoral",81,8.1
+2020,2020-09-19,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",562,"300-10","OCTO","Total Octocoral",94,9.4
+2020,2020-09-19,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",563,"300-10","OCTO","Total Octocoral",110,11
+2020,2020-09-19,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",564,"300-10","OCTO","Total Octocoral",82,8.2
+2020,2020-07-14,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",199,19.9
+2020,2020-07-14,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",592,"300-10","OCTO","Total Octocoral",56,5.6
+2020,2020-07-14,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",593,"300-10","OCTO","Total Octocoral",34,3.4
+2020,2020-07-14,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",594,"300-10","OCTO","Total Octocoral",31,3.1
+2020,2020-07-16,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",611,"300-10","OCTO","Total Octocoral",177,17.7
+2020,2020-07-16,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",612,"300-10","OCTO","Total Octocoral",77,7.7
+2020,2020-07-16,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",613,"300-10","OCTO","Total Octocoral",138,13.8
+2020,2020-07-16,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",614,"300-10","OCTO","Total Octocoral",88,8.8
+2020,2020-06-15,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",701,"300-10","OCTO","Total Octocoral",124,12.4
+2020,2020-06-15,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",702,"300-10","OCTO","Total Octocoral",173,17.3
+2020,2020-06-15,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",703,"300-10","OCTO","Total Octocoral",150,15
+2020,2020-06-15,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",704,"300-10","OCTO","Total Octocoral",114,11.4
+2020,2020-06-16,"FKNMS","UK","OD","9D3",72,"Molasses Deep",721,"300-10","OCTO","Total Octocoral",288,28.8
+2020,2020-06-16,"FKNMS","UK","OD","9D3",72,"Molasses Deep",722,"300-10","OCTO","Total Octocoral",263,26.3
+2020,2020-06-16,"FKNMS","UK","OD","9D3",72,"Molasses Deep",723,"300-10","OCTO","Total Octocoral",233,23.3
+2020,2020-06-16,"FKNMS","UK","OD","9D3",72,"Molasses Deep",724,"300-10","OCTO","Total Octocoral",408,40.8
+2020,2020-06-13,"FKNMS","MK","OD","7D1",74,"Alligator Deep",741,"300-10","OCTO","Total Octocoral",270,27
+2020,2020-06-13,"FKNMS","MK","OD","7D1",74,"Alligator Deep",742,"300-10","OCTO","Total Octocoral",157,15.7
+2020,2020-06-13,"FKNMS","MK","OD","7D1",74,"Alligator Deep",743,"300-10","OCTO","Total Octocoral",444,44.4
+2020,2020-06-13,"FKNMS","MK","OD","7D1",74,"Alligator Deep",744,"300-10","OCTO","Total Octocoral",264,26.4
+2020,2020-09-20,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",751,"300-10","OCTO","Total Octocoral",62,6.2
+2020,2020-09-20,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",752,"300-10","OCTO","Total Octocoral",59,5.9
+2020,2020-09-20,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",753,"300-10","OCTO","Total Octocoral",153,15.3
+2020,2020-09-20,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",754,"300-10","OCTO","Total Octocoral",44,4.4
+2020,2020-10-12,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",761,"300-10","OCTO","Total Octocoral",103,10.3
+2020,2020-10-12,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",762,"300-10","OCTO","Total Octocoral",59,5.9
+2020,2020-10-12,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",763,"300-10","OCTO","Total Octocoral",96,9.6
+2020,2020-10-12,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",764,"300-10","OCTO","Total Octocoral",84,8.4
+2020,2020-07-14,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",791,"300-10","OCTO","Total Octocoral",130,13
+2020,2020-07-14,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",177,17.7
+2020,2020-07-14,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",793,"300-10","OCTO","Total Octocoral",209,20.9
+2020,2020-07-14,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",794,"300-10","OCTO","Total Octocoral",178,17.8
+2020,2020-07-16,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",811,"300-10","OCTO","Total Octocoral",323,32.3
+2020,2020-07-16,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",812,"300-10","OCTO","Total Octocoral",298,29.8
+2020,2020-07-16,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",813,"300-10","OCTO","Total Octocoral",475,47.5
+2020,2020-07-16,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",814,"300-10","OCTO","Total Octocoral",426,42.6
+2020,2020-08-12,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",821,"300-10","OCTO","Total Octocoral",129,12.9
+2020,2020-08-12,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",822,"300-10","OCTO","Total Octocoral",145,14.5
+2020,2020-08-12,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",823,"300-10","OCTO","Total Octocoral",312,31.2
+2020,2020-08-12,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",824,"300-10","OCTO","Total Octocoral",322,32.2
+2020,2020-08-14,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",831,"300-10","OCTO","Total Octocoral",71,7.1
+2020,2020-08-14,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",832,"300-10","OCTO","Total Octocoral",53,5.3
+2020,2020-08-14,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",833,"300-10","OCTO","Total Octocoral",95,9.5
+2020,2020-08-14,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",834,"300-10","OCTO","Total Octocoral",123,12.3
+2021,2021-10-08,"NPSDT","DT","P","1PA",27,"The Maze",271,"300-10","OCTO","Total Octocoral",103,10.3
+2021,2021-10-08,"NPSDT","DT","P","1PA",27,"The Maze",272,"300-10","OCTO","Total Octocoral",77,7.7
+2021,2021-10-08,"NPSDT","DT","P","1PA",27,"The Maze",273,"300-10","OCTO","Total Octocoral",33,3.3
+2021,2021-10-08,"NPSDT","DT","P","1PA",27,"The Maze",274,"300-10","OCTO","Total Octocoral",45,4.5
+2021,2021-10-06,"NPSDT","DT","P","1PB",28,"Davis Rock",281,"300-10","OCTO","Total Octocoral",0,0
+2021,2021-10-06,"NPSDT","DT","P","1PB",28,"Davis Rock",282,"300-10","OCTO","Total Octocoral",0,0
+2021,2021-10-06,"NPSDT","DT","P","1PB",28,"Davis Rock",283,"300-10","OCTO","Total Octocoral",0,0
+2021,2021-10-06,"NPSDT","DT","P","1PB",28,"Davis Rock",284,"300-10","OCTO","Total Octocoral",0,0
+2021,2021-10-06,"NPSDT","DT","P","1PC",29,"Texas Rock",291,"300-10","OCTO","Total Octocoral",3,0.3
+2021,2021-10-06,"NPSDT","DT","P","1PC",29,"Texas Rock",292,"300-10","OCTO","Total Octocoral",11,1.1
+2021,2021-10-06,"NPSDT","DT","P","1PC",29,"Texas Rock",293,"300-10","OCTO","Total Octocoral",2,0.2
+2021,2021-10-06,"NPSDT","DT","P","1PC",29,"Texas Rock",294,"300-10","OCTO","Total Octocoral",15,1.5
+2021,2021-06-10,"FKNMS","UK","P","9P3",32,"Porter Patch",321,"300-10","OCTO","Total Octocoral",152,15.2
+2021,2021-06-10,"FKNMS","UK","P","9P3",32,"Porter Patch",322,"300-10","OCTO","Total Octocoral",139,13.9
+2021,2021-06-10,"FKNMS","UK","P","9P3",32,"Porter Patch",323,"300-10","OCTO","Total Octocoral",123,12.3
+2021,2021-06-10,"FKNMS","UK","P","9P3",32,"Porter Patch",324,"300-10","OCTO","Total Octocoral",114,11.4
+2021,2021-06-13,"FKNMS","UK","P","9P4",33,"Admiral",331,"300-10","OCTO","Total Octocoral",222,22.2
+2021,2021-06-13,"FKNMS","UK","P","9P4",33,"Admiral",332,"300-10","OCTO","Total Octocoral",269,26.9
+2021,2021-06-13,"FKNMS","UK","P","9P4",33,"Admiral",333,"300-10","OCTO","Total Octocoral",403,40.3
+2021,2021-06-13,"FKNMS","UK","P","9P4",33,"Admiral",334,"300-10","OCTO","Total Octocoral",511,51.1
+2021,2021-05-06,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",341,"300-10","OCTO","Total Octocoral",68,6.8
+2021,2021-05-06,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",342,"300-10","OCTO","Total Octocoral",124,12.4
+2021,2021-05-06,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",343,"300-10","OCTO","Total Octocoral",144,14.4
+2021,2021-05-06,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",344,"300-10","OCTO","Total Octocoral",114,11.4
+2021,2021-05-05,"FKNMS","MK","P","7P2",35,"Dustan Rocks",351,"300-10","OCTO","Total Octocoral",166,16.6
+2021,2021-05-05,"FKNMS","MK","P","7P2",35,"Dustan Rocks",352,"300-10","OCTO","Total Octocoral",142,14.2
+2021,2021-05-05,"FKNMS","MK","P","7P2",35,"Dustan Rocks",353,"300-10","OCTO","Total Octocoral",188,18.8
+2021,2021-05-05,"FKNMS","MK","P","7P2",35,"Dustan Rocks",354,"300-10","OCTO","Total Octocoral",136,13.6
+2021,2021-07-14,"FKNMS","LK","P","5P1",36,"West Washer Women",361,"300-10","OCTO","Total Octocoral",42,4.2
+2021,2021-07-14,"FKNMS","LK","P","5P1",36,"West Washer Women",362,"300-10","OCTO","Total Octocoral",55,5.5
+2021,2021-07-14,"FKNMS","LK","P","5P1",36,"West Washer Women",363,"300-10","OCTO","Total Octocoral",37,3.7
+2021,2021-07-14,"FKNMS","LK","P","5P1",36,"West Washer Women",364,"300-10","OCTO","Total Octocoral",49,4.9
+2021,2021-07-17,"FKNMS","LK","P","5P3",38,"Cliff Green",381,"300-10","OCTO","Total Octocoral",102,10.2
+2021,2021-07-17,"FKNMS","LK","P","5P3",38,"Cliff Green",382,"300-10","OCTO","Total Octocoral",75,7.5
+2021,2021-07-17,"FKNMS","LK","P","5P3",38,"Cliff Green",383,"300-10","OCTO","Total Octocoral",67,6.7
+2021,2021-07-17,"FKNMS","LK","P","5P3",38,"Cliff Green",384,"300-10","OCTO","Total Octocoral",47,4.7
+2021,2021-10-10,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",411,"300-10","OCTO","Total Octocoral",158,15.8
+2021,2021-10-10,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",412,"300-10","OCTO","Total Octocoral",99,9.9
+2021,2021-10-10,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",413,"300-10","OCTO","Total Octocoral",115,11.5
+2021,2021-10-10,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",414,"300-10","OCTO","Total Octocoral",175,17.5
+2021,2021-10-09,"NPSDT","DT","P","1P2",42,"Palmata Patch",421,"300-10","OCTO","Total Octocoral",61,6.1
+2021,2021-10-09,"NPSDT","DT","P","1P2",42,"Palmata Patch",422,"300-10","OCTO","Total Octocoral",23,2.3
+2021,2021-10-09,"NPSDT","DT","P","1P3",43,"Prolifera Patch",431,"300-10","OCTO","Total Octocoral",20,2
+2021,2021-10-09,"NPSDT","DT","P","1P3",43,"Prolifera Patch",432,"300-10","OCTO","Total Octocoral",30,3
+2021,2021-10-09,"NPSDT","DT","P","1P3",43,"Prolifera Patch",433,"300-10","OCTO","Total Octocoral",41,4.1
+2021,2021-10-08,"NPSDT","DT","P","1P4",44,"Temptation Rock",441,"300-10","OCTO","Total Octocoral",51,5.1
+2021,2021-10-08,"NPSDT","DT","P","1P4",44,"Temptation Rock",442,"300-10","OCTO","Total Octocoral",28,2.8
+2021,2021-10-08,"NPSDT","DT","P","1P4",44,"Temptation Rock",443,"300-10","OCTO","Total Octocoral",45,4.5
+2021,2021-10-08,"NPSDT","DT","P","1P4",44,"Temptation Rock",444,"300-10","OCTO","Total Octocoral",28,2.8
+2021,2021-10-08,"NPSDT","DT","P","1P5",45,"Mayer's Peak",451,"300-10","OCTO","Total Octocoral",211,21.1
+2021,2021-10-08,"NPSDT","DT","P","1P5",45,"Mayer's Peak",452,"300-10","OCTO","Total Octocoral",289,28.9
+2021,2021-10-08,"NPSDT","DT","P","1P5",45,"Mayer's Peak",453,"300-10","OCTO","Total Octocoral",239,23.9
+2021,2021-10-08,"NPSDT","DT","P","1P5",45,"Mayer's Peak",454,"300-10","OCTO","Total Octocoral",305,30.5
+2021,2021-10-10,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",461,"300-10","OCTO","Total Octocoral",13,1.3
+2021,2021-10-10,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",462,"300-10","OCTO","Total Octocoral",33,3.3
+2021,2021-06-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",501,"300-10","OCTO","Total Octocoral",75,7.5
+2021,2021-06-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",502,"300-10","OCTO","Total Octocoral",72,7.2
+2021,2021-06-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",503,"300-10","OCTO","Total Octocoral",418,41.8
+2021,2021-06-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",504,"300-10","OCTO","Total Octocoral",280,28
+2021,2021-06-14,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",521,"300-10","OCTO","Total Octocoral",349,34.9
+2021,2021-06-14,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",522,"300-10","OCTO","Total Octocoral",438,43.8
+2021,2021-06-14,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",523,"300-10","OCTO","Total Octocoral",346,34.6
+2021,2021-06-14,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",524,"300-10","OCTO","Total Octocoral",315,31.5
+2021,2021-06-16,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",541,"300-10","OCTO","Total Octocoral",353,35.3
+2021,2021-06-16,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",542,"300-10","OCTO","Total Octocoral",346,34.6
+2021,2021-06-16,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",543,"300-10","OCTO","Total Octocoral",634,63.4
+2021,2021-06-16,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",370,37
+2021,2021-05-07,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",551,"300-10","OCTO","Total Octocoral",288,28.8
+2021,2021-05-07,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",552,"300-10","OCTO","Total Octocoral",328,32.8
+2021,2021-05-07,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",242,24.2
+2021,2021-05-07,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",554,"300-10","OCTO","Total Octocoral",386,38.6
+2021,2021-05-06,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",561,"300-10","OCTO","Total Octocoral",100,10
+2021,2021-05-06,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",562,"300-10","OCTO","Total Octocoral",145,14.5
+2021,2021-05-06,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",563,"300-10","OCTO","Total Octocoral",173,17.3
+2021,2021-05-06,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",564,"300-10","OCTO","Total Octocoral",84,8.4
+2021,2021-07-15,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",184,18.4
+2021,2021-07-16,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",592,"300-10","OCTO","Total Octocoral",68,6.8
+2021,2021-07-21,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",593,"300-10","OCTO","Total Octocoral",33,3.3
+2021,2021-07-21,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",594,"300-10","OCTO","Total Octocoral",26,2.6
+2021,2021-07-15,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",611,"300-10","OCTO","Total Octocoral",187,18.7
+2021,2021-07-15,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",612,"300-10","OCTO","Total Octocoral",79,7.9
+2021,2021-07-15,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",613,"300-10","OCTO","Total Octocoral",142,14.2
+2021,2021-07-15,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",614,"300-10","OCTO","Total Octocoral",82,8.2
+2021,2021-06-15,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",701,"300-10","OCTO","Total Octocoral",135,13.5
+2021,2021-06-15,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",702,"300-10","OCTO","Total Octocoral",181,18.1
+2021,2021-06-15,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",703,"300-10","OCTO","Total Octocoral",107,10.7
+2021,2021-06-15,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",704,"300-10","OCTO","Total Octocoral",120,12
+2021,2021-06-11,"FKNMS","UK","OD","9D3",72,"Molasses Deep",721,"300-10","OCTO","Total Octocoral",356,35.6
+2021,2021-06-11,"FKNMS","UK","OD","9D3",72,"Molasses Deep",722,"300-10","OCTO","Total Octocoral",254,25.4
+2021,2021-06-11,"FKNMS","UK","OD","9D3",72,"Molasses Deep",723,"300-10","OCTO","Total Octocoral",354,35.4
+2021,2021-06-11,"FKNMS","UK","OD","9D3",72,"Molasses Deep",724,"300-10","OCTO","Total Octocoral",430,43
+2021,2021-06-16,"FKNMS","MK","OD","7D1",74,"Alligator Deep",741,"300-10","OCTO","Total Octocoral",277,27.7
+2021,2021-06-16,"FKNMS","MK","OD","7D1",74,"Alligator Deep",742,"300-10","OCTO","Total Octocoral",188,18.8
+2021,2021-06-16,"FKNMS","MK","OD","7D1",74,"Alligator Deep",743,"300-10","OCTO","Total Octocoral",286,28.6
+2021,2021-06-16,"FKNMS","MK","OD","7D1",74,"Alligator Deep",744,"300-10","OCTO","Total Octocoral",285,28.5
+2021,2021-05-07,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",751,"300-10","OCTO","Total Octocoral",58,5.8
+2021,2021-05-07,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",752,"300-10","OCTO","Total Octocoral",54,5.4
+2021,2021-05-07,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",753,"300-10","OCTO","Total Octocoral",147,14.7
+2021,2021-05-07,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",754,"300-10","OCTO","Total Octocoral",49,4.9
+2021,2021-05-06,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",761,"300-10","OCTO","Total Octocoral",109,10.9
+2021,2021-05-06,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",762,"300-10","OCTO","Total Octocoral",93,9.3
+2021,2021-05-06,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",763,"300-10","OCTO","Total Octocoral",90,9
+2021,2021-05-06,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",764,"300-10","OCTO","Total Octocoral",101,10.1
+2021,2021-07-16,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",791,"300-10","OCTO","Total Octocoral",121,12.1
+2021,2021-07-16,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",212,21.2
+2021,2021-07-16,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",793,"300-10","OCTO","Total Octocoral",249,24.9
+2021,2021-07-16,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",794,"300-10","OCTO","Total Octocoral",201,20.1
+2021,2021-07-15,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",811,"300-10","OCTO","Total Octocoral",345,34.5
+2021,2021-07-15,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",812,"300-10","OCTO","Total Octocoral",338,33.8
+2021,2021-07-15,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",813,"300-10","OCTO","Total Octocoral",404,40.4
+2021,2021-07-15,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",814,"300-10","OCTO","Total Octocoral",470,47
+2021,2021-10-09,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",821,"300-10","OCTO","Total Octocoral",111,11.1
+2021,2021-10-09,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",822,"300-10","OCTO","Total Octocoral",181,18.1
+2021,2021-10-09,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",823,"300-10","OCTO","Total Octocoral",220,22
+2021,2021-10-09,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",824,"300-10","OCTO","Total Octocoral",347,34.7
+2021,2021-10-07,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",831,"300-10","OCTO","Total Octocoral",58,5.8
+2021,2021-10-07,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",832,"300-10","OCTO","Total Octocoral",63,6.3
+2021,2021-10-07,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",833,"300-10","OCTO","Total Octocoral",86,8.6
+2021,2021-10-07,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",834,"300-10","OCTO","Total Octocoral",140,14
+2022,2022-08-11,"NPSDT","DT","P","1PA",27,"The Maze",271,"300-10","OCTO","Total Octocoral",103,10.3
+2022,2022-08-11,"NPSDT","DT","P","1PA",27,"The Maze",272,"300-10","OCTO","Total Octocoral",63,6.3
+2022,2022-08-11,"NPSDT","DT","P","1PA",27,"The Maze",273,"300-10","OCTO","Total Octocoral",36,3.6
+2022,2022-08-11,"NPSDT","DT","P","1PA",27,"The Maze",274,"300-10","OCTO","Total Octocoral",55,5.5
+2022,2022-08-12,"NPSDT","DT","P","1PB",28,"Davis Rock",281,"300-10","OCTO","Total Octocoral",0,0
+2022,2022-08-12,"NPSDT","DT","P","1PB",28,"Davis Rock",282,"300-10","OCTO","Total Octocoral",0,0
+2022,2022-08-12,"NPSDT","DT","P","1PB",28,"Davis Rock",283,"300-10","OCTO","Total Octocoral",0,0
+2022,2022-08-12,"NPSDT","DT","P","1PB",28,"Davis Rock",284,"300-10","OCTO","Total Octocoral",0,0
+2022,2022-08-12,"NPSDT","DT","P","1PC",29,"Texas Rock",291,"300-10","OCTO","Total Octocoral",4,0.4
+2022,2022-08-12,"NPSDT","DT","P","1PC",29,"Texas Rock",292,"300-10","OCTO","Total Octocoral",6,0.6
+2022,2022-08-12,"NPSDT","DT","P","1PC",29,"Texas Rock",293,"300-10","OCTO","Total Octocoral",3,0.3
+2022,2022-08-12,"NPSDT","DT","P","1PC",29,"Texas Rock",294,"300-10","OCTO","Total Octocoral",10,1
+2022,2022-07-14,"FKNMS","UK","P","9P3",32,"Porter Patch",321,"300-10","OCTO","Total Octocoral",137,13.7
+2022,2022-07-14,"FKNMS","UK","P","9P3",32,"Porter Patch",322,"300-10","OCTO","Total Octocoral",112,11.2
+2022,2022-07-14,"FKNMS","UK","P","9P3",32,"Porter Patch",323,"300-10","OCTO","Total Octocoral",110,11
+2022,2022-07-14,"FKNMS","UK","P","9P3",32,"Porter Patch",324,"300-10","OCTO","Total Octocoral",97,9.7
+2022,2022-09-14,"FKNMS","UK","P","9P4",33,"Admiral",331,"300-10","OCTO","Total Octocoral",196,19.6
+2022,2022-09-14,"FKNMS","UK","P","9P4",33,"Admiral",332,"300-10","OCTO","Total Octocoral",261,26.1
+2022,2022-09-14,"FKNMS","UK","P","9P4",33,"Admiral",333,"300-10","OCTO","Total Octocoral",346,34.6
+2022,2022-09-14,"FKNMS","UK","P","9P4",33,"Admiral",334,"300-10","OCTO","Total Octocoral",391,39.1
+2022,2022-05-14,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",341,"300-10","OCTO","Total Octocoral",80,8
+2022,2022-05-14,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",342,"300-10","OCTO","Total Octocoral",144,14.4
+2022,2022-05-14,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",343,"300-10","OCTO","Total Octocoral",147,14.7
+2022,2022-05-14,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",344,"300-10","OCTO","Total Octocoral",136,13.6
+2022,2022-05-11,"FKNMS","MK","P","7P2",35,"Dustan Rocks",351,"300-10","OCTO","Total Octocoral",140,14
+2022,2022-05-12,"FKNMS","MK","P","7P2",35,"Dustan Rocks",352,"300-10","OCTO","Total Octocoral",182,18.2
+2022,2022-05-12,"FKNMS","MK","P","7P2",35,"Dustan Rocks",353,"300-10","OCTO","Total Octocoral",168,16.8
+2022,2022-05-12,"FKNMS","MK","P","7P2",35,"Dustan Rocks",354,"300-10","OCTO","Total Octocoral",116,11.6
+2022,2022-06-11,"FKNMS","LK","P","5P1",36,"West Washer Women",361,"300-10","OCTO","Total Octocoral",47,4.7
+2022,2022-06-11,"FKNMS","LK","P","5P1",36,"West Washer Women",362,"300-10","OCTO","Total Octocoral",78,7.8
+2022,2022-06-11,"FKNMS","LK","P","5P1",36,"West Washer Women",363,"300-10","OCTO","Total Octocoral",41,4.1
+2022,2022-06-11,"FKNMS","LK","P","5P1",36,"West Washer Women",364,"300-10","OCTO","Total Octocoral",45,4.5
+2022,2022-06-07,"FKNMS","LK","P","5P3",38,"Cliff Green",381,"300-10","OCTO","Total Octocoral",108,10.8
+2022,2022-06-07,"FKNMS","LK","P","5P3",38,"Cliff Green",382,"300-10","OCTO","Total Octocoral",82,8.2
+2022,2022-06-07,"FKNMS","LK","P","5P3",38,"Cliff Green",383,"300-10","OCTO","Total Octocoral",80,8
+2022,2022-06-07,"FKNMS","LK","P","5P3",38,"Cliff Green",384,"300-10","OCTO","Total Octocoral",54,5.4
+2022,2022-08-12,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",411,"300-10","OCTO","Total Octocoral",187,18.7
+2022,2022-08-12,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",412,"300-10","OCTO","Total Octocoral",91,9.1
+2022,2022-08-12,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",413,"300-10","OCTO","Total Octocoral",111,11.1
+2022,2022-08-12,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",414,"300-10","OCTO","Total Octocoral",145,14.5
+2022,2022-08-15,"NPSDT","DT","P","1P2",42,"Palmata Patch",421,"300-10","OCTO","Total Octocoral",51,5.1
+2022,2022-08-15,"NPSDT","DT","P","1P2",42,"Palmata Patch",422,"300-10","OCTO","Total Octocoral",12,1.2
+2022,2022-08-15,"NPSDT","DT","P","1P3",43,"Prolifera Patch",431,"300-10","OCTO","Total Octocoral",13,1.3
+2022,2022-08-15,"NPSDT","DT","P","1P3",43,"Prolifera Patch",432,"300-10","OCTO","Total Octocoral",29,2.9
+2022,2022-08-15,"NPSDT","DT","P","1P3",43,"Prolifera Patch",433,"300-10","OCTO","Total Octocoral",48,4.8
+2022,2022-08-11,"NPSDT","DT","P","1P4",44,"Temptation Rock",441,"300-10","OCTO","Total Octocoral",57,5.7
+2022,2022-08-11,"NPSDT","DT","P","1P4",44,"Temptation Rock",442,"300-10","OCTO","Total Octocoral",23,2.3
+2022,2022-08-11,"NPSDT","DT","P","1P4",44,"Temptation Rock",443,"300-10","OCTO","Total Octocoral",45,4.5
+2022,2022-08-11,"NPSDT","DT","P","1P4",44,"Temptation Rock",444,"300-10","OCTO","Total Octocoral",27,2.7
+2022,2022-08-11,"NPSDT","DT","P","1P5",45,"Mayer's Peak",451,"300-10","OCTO","Total Octocoral",245,24.5
+2022,2022-08-11,"NPSDT","DT","P","1P5",45,"Mayer's Peak",452,"300-10","OCTO","Total Octocoral",281,28.1
+2022,2022-08-11,"NPSDT","DT","P","1P5",45,"Mayer's Peak",453,"300-10","OCTO","Total Octocoral",216,21.6
+2022,2022-08-11,"NPSDT","DT","P","1P5",45,"Mayer's Peak",454,"300-10","OCTO","Total Octocoral",279,27.9
+2022,2022-08-14,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",461,"300-10","OCTO","Total Octocoral",13,1.3
+2022,2022-08-14,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",462,"300-10","OCTO","Total Octocoral",28,2.8
+2022,2022-07-13,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",501,"300-10","OCTO","Total Octocoral",72,7.2
+2022,2022-07-13,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",502,"300-10","OCTO","Total Octocoral",62,6.2
+2022,2022-07-13,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",503,"300-10","OCTO","Total Octocoral",622,62.2
+2022,2022-07-13,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",504,"300-10","OCTO","Total Octocoral",353,35.3
+2022,2022-07-16,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",521,"300-10","OCTO","Total Octocoral",325,32.5
+2022,2022-07-16,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",522,"300-10","OCTO","Total Octocoral",515,51.5
+2022,2022-07-16,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",523,"300-10","OCTO","Total Octocoral",326,32.6
+2022,2022-07-16,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",524,"300-10","OCTO","Total Octocoral",405,40.5
+2022,2022-09-13,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",541,"300-10","OCTO","Total Octocoral",384,38.4
+2022,2022-09-13,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",542,"300-10","OCTO","Total Octocoral",432,43.2
+2022,2022-09-13,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",543,"300-10","OCTO","Total Octocoral",600,60
+2022,2022-09-13,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",644,64.4
+2022,2022-05-17,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",551,"300-10","OCTO","Total Octocoral",298,29.8
+2022,2022-05-17,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",552,"300-10","OCTO","Total Octocoral",302,30.2
+2022,2022-05-17,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",368,36.8
+2022,2022-05-17,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",554,"300-10","OCTO","Total Octocoral",505,50.5
+2022,2022-05-13,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",561,"300-10","OCTO","Total Octocoral",78,7.8
+2022,2022-05-13,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",562,"300-10","OCTO","Total Octocoral",119,11.9
+2022,2022-05-13,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",563,"300-10","OCTO","Total Octocoral",146,14.6
+2022,2022-05-13,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",564,"300-10","OCTO","Total Octocoral",83,8.3
+2022,2022-06-09,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",170,17
+2022,2022-06-09,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",592,"300-10","OCTO","Total Octocoral",70,7
+2022,2022-06-09,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",593,"300-10","OCTO","Total Octocoral",31,3.1
+2022,2022-06-09,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",594,"300-10","OCTO","Total Octocoral",34,3.4
+2022,2022-06-09,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",611,"300-10","OCTO","Total Octocoral",161,16.1
+2022,2022-06-09,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",612,"300-10","OCTO","Total Octocoral",60,6
+2022,2022-06-09,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",613,"300-10","OCTO","Total Octocoral",119,11.9
+2022,2022-06-09,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",614,"300-10","OCTO","Total Octocoral",82,8.2
+2022,2022-07-13,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",701,"300-10","OCTO","Total Octocoral",152,15.2
+2022,2022-07-13,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",702,"300-10","OCTO","Total Octocoral",169,16.9
+2022,2022-07-13,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",703,"300-10","OCTO","Total Octocoral",152,15.2
+2022,2022-07-13,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",704,"300-10","OCTO","Total Octocoral",129,12.9
+2022,2022-07-12,"FKNMS","UK","OD","9D3",72,"Molasses Deep",721,"300-10","OCTO","Total Octocoral",384,38.4
+2022,2022-07-12,"FKNMS","UK","OD","9D3",72,"Molasses Deep",722,"300-10","OCTO","Total Octocoral",359,35.9
+2022,2022-07-12,"FKNMS","UK","OD","9D3",72,"Molasses Deep",723,"300-10","OCTO","Total Octocoral",326,32.6
+2022,2022-07-12,"FKNMS","UK","OD","9D3",72,"Molasses Deep",724,"300-10","OCTO","Total Octocoral",488,48.8
+2022,2022-09-13,"FKNMS","MK","OD","7D1",74,"Alligator Deep",741,"300-10","OCTO","Total Octocoral",254,25.4
+2022,2022-09-13,"FKNMS","MK","OD","7D1",74,"Alligator Deep",742,"300-10","OCTO","Total Octocoral",196,19.6
+2022,2022-09-13,"FKNMS","MK","OD","7D1",74,"Alligator Deep",743,"300-10","OCTO","Total Octocoral",225,22.5
+2022,2022-09-13,"FKNMS","MK","OD","7D1",74,"Alligator Deep",744,"300-10","OCTO","Total Octocoral",205,20.5
+2022,2022-05-17,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",751,"300-10","OCTO","Total Octocoral",62,6.2
+2022,2022-05-17,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",752,"300-10","OCTO","Total Octocoral",58,5.8
+2022,2022-05-17,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",753,"300-10","OCTO","Total Octocoral",155,15.5
+2022,2022-05-17,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",754,"300-10","OCTO","Total Octocoral",43,4.3
+2022,2022-05-13,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",761,"300-10","OCTO","Total Octocoral",102,10.2
+2022,2022-05-13,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",762,"300-10","OCTO","Total Octocoral",76,7.6
+2022,2022-05-13,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",763,"300-10","OCTO","Total Octocoral",97,9.7
+2022,2022-05-13,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",764,"300-10","OCTO","Total Octocoral",98,9.8
+2022,2022-06-11,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",791,"300-10","OCTO","Total Octocoral",143,14.3
+2022,2022-06-11,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",164,16.4
+2022,2022-06-11,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",793,"300-10","OCTO","Total Octocoral",204,20.4
+2022,2022-06-11,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",794,"300-10","OCTO","Total Octocoral",173,17.3
+2022,2022-06-08,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",811,"300-10","OCTO","Total Octocoral",326,32.6
+2022,2022-06-08,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",812,"300-10","OCTO","Total Octocoral",349,34.9
+2022,2022-06-08,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",813,"300-10","OCTO","Total Octocoral",483,48.3
+2022,2022-06-08,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",814,"300-10","OCTO","Total Octocoral",415,41.5
+2022,2022-08-14,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",821,"300-10","OCTO","Total Octocoral",109,10.9
+2022,2022-08-14,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",822,"300-10","OCTO","Total Octocoral",150,15
+2022,2022-08-14,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",823,"300-10","OCTO","Total Octocoral",223,22.3
+2022,2022-08-14,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",824,"300-10","OCTO","Total Octocoral",334,33.4
+2022,2022-08-13,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",831,"300-10","OCTO","Total Octocoral",64,6.4
+2022,2022-08-13,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",832,"300-10","OCTO","Total Octocoral",51,5.1
+2022,2022-08-13,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",833,"300-10","OCTO","Total Octocoral",100,10
+2022,2022-08-13,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",834,"300-10","OCTO","Total Octocoral",93,9.3
+2023,2023-08-10,"NPSDT","DT","P","1PA",27,"The Maze",271,"300-10","OCTO","Total Octocoral",106,10.6
+2023,2023-08-10,"NPSDT","DT","P","1PA",27,"The Maze",272,"300-10","OCTO","Total Octocoral",71,7.1
+2023,2023-08-10,"NPSDT","DT","P","1PA",27,"The Maze",273,"300-10","OCTO","Total Octocoral",27,2.7
+2023,2023-08-10,"NPSDT","DT","P","1PA",27,"The Maze",274,"300-10","OCTO","Total Octocoral",47,4.7
+2023,2023-08-12,"NPSDT","DT","P","1PB",28,"Davis Rock",281,"300-10","OCTO","Total Octocoral",0,0
+2023,2023-08-12,"NPSDT","DT","P","1PB",28,"Davis Rock",282,"300-10","OCTO","Total Octocoral",0,0
+2023,2023-08-12,"NPSDT","DT","P","1PB",28,"Davis Rock",283,"300-10","OCTO","Total Octocoral",0,0
+2023,2023-08-12,"NPSDT","DT","P","1PB",28,"Davis Rock",284,"300-10","OCTO","Total Octocoral",1,0.1
+2023,2023-08-08,"NPSDT","DT","P","1PC",29,"Texas Rock",291,"300-10","OCTO","Total Octocoral",10,1
+2023,2023-08-08,"NPSDT","DT","P","1PC",29,"Texas Rock",292,"300-10","OCTO","Total Octocoral",7,0.7
+2023,2023-08-08,"NPSDT","DT","P","1PC",29,"Texas Rock",293,"300-10","OCTO","Total Octocoral",2,0.2
+2023,2023-08-08,"NPSDT","DT","P","1PC",29,"Texas Rock",294,"300-10","OCTO","Total Octocoral",19,1.9
+2023,2023-07-11,"FKNMS","UK","P","9P3",32,"Porter Patch",321,"300-10","OCTO","Total Octocoral",119,11.9
+2023,2023-07-11,"FKNMS","UK","P","9P3",32,"Porter Patch",322,"300-10","OCTO","Total Octocoral",113,11.3
+2023,2023-07-11,"FKNMS","UK","P","9P3",32,"Porter Patch",323,"300-10","OCTO","Total Octocoral",107,10.7
+2023,2023-07-11,"FKNMS","UK","P","9P3",32,"Porter Patch",324,"300-10","OCTO","Total Octocoral",83,8.3
+2023,2023-07-18,"FKNMS","UK","P","9P4",33,"Admiral",331,"300-10","OCTO","Total Octocoral",144,14.4
+2023,2023-07-18,"FKNMS","UK","P","9P4",33,"Admiral",332,"300-10","OCTO","Total Octocoral",224,22.4
+2023,2023-07-18,"FKNMS","UK","P","9P4",33,"Admiral",333,"300-10","OCTO","Total Octocoral",270,27
+2023,2023-07-18,"FKNMS","UK","P","9P4",33,"Admiral",334,"300-10","OCTO","Total Octocoral",436,43.6
+2023,2023-05-10,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",341,"300-10","OCTO","Total Octocoral",67,6.7
+2023,2023-05-10,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",342,"300-10","OCTO","Total Octocoral",141,14.1
+2023,2023-05-10,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",343,"300-10","OCTO","Total Octocoral",136,13.6
+2023,2023-05-10,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",344,"300-10","OCTO","Total Octocoral",120,12
+2023,2023-05-11,"FKNMS","MK","P","7P2",35,"Dustan Rocks",351,"300-10","OCTO","Total Octocoral",157,15.7
+2023,2023-05-11,"FKNMS","MK","P","7P2",35,"Dustan Rocks",352,"300-10","OCTO","Total Octocoral",176,17.6
+2023,2023-05-11,"FKNMS","MK","P","7P2",35,"Dustan Rocks",353,"300-10","OCTO","Total Octocoral",172,17.2
+2023,2023-05-11,"FKNMS","MK","P","7P2",35,"Dustan Rocks",354,"300-10","OCTO","Total Octocoral",109,10.9
+2023,2023-06-09,"FKNMS","LK","P","5P1",36,"West Washer Women",361,"300-10","OCTO","Total Octocoral",46,4.6
+2023,2023-06-09,"FKNMS","LK","P","5P1",36,"West Washer Women",362,"300-10","OCTO","Total Octocoral",54,5.4
+2023,2023-06-09,"FKNMS","LK","P","5P1",36,"West Washer Women",363,"300-10","OCTO","Total Octocoral",46,4.6
+2023,2023-06-09,"FKNMS","LK","P","5P1",36,"West Washer Women",364,"300-10","OCTO","Total Octocoral",42,4.2
+2023,2023-06-07,"FKNMS","LK","P","5P3",38,"Cliff Green",381,"300-10","OCTO","Total Octocoral",115,11.5
+2023,2023-06-07,"FKNMS","LK","P","5P3",38,"Cliff Green",382,"300-10","OCTO","Total Octocoral",74,7.4
+2023,2023-06-07,"FKNMS","LK","P","5P3",38,"Cliff Green",383,"300-10","OCTO","Total Octocoral",76,7.6
+2023,2023-06-07,"FKNMS","LK","P","5P3",38,"Cliff Green",384,"300-10","OCTO","Total Octocoral",48,4.8
+2023,2023-08-10,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",411,"300-10","OCTO","Total Octocoral",127,12.7
+2023,2023-08-10,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",412,"300-10","OCTO","Total Octocoral",70,7
+2023,2023-08-10,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",413,"300-10","OCTO","Total Octocoral",105,10.5
+2023,2023-08-10,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",414,"300-10","OCTO","Total Octocoral",157,15.7
+2023,2023-08-09,"NPSDT","DT","P","1P2",42,"Palmata Patch",421,"300-10","OCTO","Total Octocoral",54,5.4
+2023,2023-08-09,"NPSDT","DT","P","1P2",42,"Palmata Patch",422,"300-10","OCTO","Total Octocoral",14,1.4
+2023,2023-08-09,"NPSDT","DT","P","1P3",43,"Prolifera Patch",431,"300-10","OCTO","Total Octocoral",24,2.4
+2023,2023-08-09,"NPSDT","DT","P","1P3",43,"Prolifera Patch",432,"300-10","OCTO","Total Octocoral",29,2.9
+2023,2023-08-09,"NPSDT","DT","P","1P3",43,"Prolifera Patch",433,"300-10","OCTO","Total Octocoral",35,3.5
+2023,2023-08-11,"NPSDT","DT","P","1P4",44,"Temptation Rock",441,"300-10","OCTO","Total Octocoral",40,4
+2023,2023-08-11,"NPSDT","DT","P","1P4",44,"Temptation Rock",442,"300-10","OCTO","Total Octocoral",25,2.5
+2023,2023-08-11,"NPSDT","DT","P","1P4",44,"Temptation Rock",443,"300-10","OCTO","Total Octocoral",37,3.7
+2023,2023-08-11,"NPSDT","DT","P","1P4",44,"Temptation Rock",444,"300-10","OCTO","Total Octocoral",36,3.6
+2023,2023-08-10,"NPSDT","DT","P","1P5",45,"Mayer's Peak",451,"300-10","OCTO","Total Octocoral",213,21.3
+2023,2023-08-10,"NPSDT","DT","P","1P5",45,"Mayer's Peak",452,"300-10","OCTO","Total Octocoral",252,25.2
+2023,2023-08-10,"NPSDT","DT","P","1P5",45,"Mayer's Peak",453,"300-10","OCTO","Total Octocoral",168,16.8
+2023,2023-08-10,"NPSDT","DT","P","1P5",45,"Mayer's Peak",454,"300-10","OCTO","Total Octocoral",256,25.6
+2023,2023-08-10,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",461,"300-10","OCTO","Total Octocoral",11,1.1
+2023,2023-08-10,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",462,"300-10","OCTO","Total Octocoral",30,3
+2023,2023-07-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",501,"300-10","OCTO","Total Octocoral",91,9.1
+2023,2023-07-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",502,"300-10","OCTO","Total Octocoral",54,5.4
+2023,2023-07-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",503,"300-10","OCTO","Total Octocoral",536,53.6
+2023,2023-07-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",504,"300-10","OCTO","Total Octocoral",283,28.3
+2023,2023-07-11,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",521,"300-10","OCTO","Total Octocoral",331,33.1
+2023,2023-07-11,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",522,"300-10","OCTO","Total Octocoral",412,41.2
+2023,2023-07-11,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",523,"300-10","OCTO","Total Octocoral",264,26.4
+2023,2023-07-11,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",524,"300-10","OCTO","Total Octocoral",292,29.2
+2023,2023-07-12,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",541,"300-10","OCTO","Total Octocoral",390,39
+2023,2023-07-12,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",542,"300-10","OCTO","Total Octocoral",362,36.2
+2023,2023-07-12,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",543,"300-10","OCTO","Total Octocoral",670,67
+2023,2023-07-12,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",588,58.8
+2023,2023-05-15,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",551,"300-10","OCTO","Total Octocoral",179,17.9
+2023,2023-05-15,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",552,"300-10","OCTO","Total Octocoral",301,30.1
+2023,2023-05-15,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",252,25.2
+2023,2023-05-17,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",554,"300-10","OCTO","Total Octocoral",486,48.6
+2023,2023-05-14,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",561,"300-10","OCTO","Total Octocoral",88,8.8
+2023,2023-05-14,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",562,"300-10","OCTO","Total Octocoral",137,13.7
+2023,2023-05-14,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",563,"300-10","OCTO","Total Octocoral",125,12.5
+2023,2023-05-14,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",564,"300-10","OCTO","Total Octocoral",89,8.9
+2023,2023-06-06,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",131,13.1
+2023,2023-06-06,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",592,"300-10","OCTO","Total Octocoral",52,5.2
+2023,2023-06-06,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",593,"300-10","OCTO","Total Octocoral",25,2.5
+2023,2023-06-06,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",594,"300-10","OCTO","Total Octocoral",35,3.5
+2023,2023-06-08,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",611,"300-10","OCTO","Total Octocoral",95,9.5
+2023,2023-06-08,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",612,"300-10","OCTO","Total Octocoral",48,4.8
+2023,2023-06-08,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",613,"300-10","OCTO","Total Octocoral",92,9.2
+2023,2023-06-08,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",614,"300-10","OCTO","Total Octocoral",57,5.7
+2023,2023-07-15,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",701,"300-10","OCTO","Total Octocoral",140,14
+2023,2023-07-15,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",702,"300-10","OCTO","Total Octocoral",151,15.1
+2023,2023-07-15,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",703,"300-10","OCTO","Total Octocoral",100,10
+2023,2023-07-15,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",704,"300-10","OCTO","Total Octocoral",93,9.3
+2023,2023-09-13,"FKNMS","UK","OD","9D3",72,"Molasses Deep",721,"300-10","OCTO","Total Octocoral",207,20.7
+2023,2023-09-13,"FKNMS","UK","OD","9D3",72,"Molasses Deep",722,"300-10","OCTO","Total Octocoral",194,19.4
+2023,2023-09-12,"FKNMS","UK","OD","9D3",72,"Molasses Deep",723,"300-10","OCTO","Total Octocoral",249,24.9
+2023,2023-09-13,"FKNMS","UK","OD","9D3",72,"Molasses Deep",724,"300-10","OCTO","Total Octocoral",270,27
+2023,2023-07-12,"FKNMS","MK","OD","7D1",74,"Alligator Deep",741,"300-10","OCTO","Total Octocoral",193,19.3
+2023,2023-07-12,"FKNMS","MK","OD","7D1",74,"Alligator Deep",742,"300-10","OCTO","Total Octocoral",195,19.5
+2023,2023-07-12,"FKNMS","MK","OD","7D1",74,"Alligator Deep",743,"300-10","OCTO","Total Octocoral",303,30.3
+2023,2023-07-12,"FKNMS","MK","OD","7D1",74,"Alligator Deep",744,"300-10","OCTO","Total Octocoral",247,24.7
+2023,2023-05-15,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",751,"300-10","OCTO","Total Octocoral",59,5.9
+2023,2023-05-15,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",752,"300-10","OCTO","Total Octocoral",53,5.3
+2023,2023-05-15,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",753,"300-10","OCTO","Total Octocoral",83,8.3
+2023,2023-05-15,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",754,"300-10","OCTO","Total Octocoral",46,4.6
+2023,2023-05-16,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",761,"300-10","OCTO","Total Octocoral",92,9.2
+2023,2023-05-16,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",762,"300-10","OCTO","Total Octocoral",77,7.7
+2023,2023-05-16,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",763,"300-10","OCTO","Total Octocoral",99,9.9
+2023,2023-05-16,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",764,"300-10","OCTO","Total Octocoral",66,6.6
+2023,2023-06-07,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",791,"300-10","OCTO","Total Octocoral",81,8.1
+2023,2023-06-07,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",124,12.4
+2023,2023-06-07,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",793,"300-10","OCTO","Total Octocoral",188,18.8
+2023,2023-06-07,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",794,"300-10","OCTO","Total Octocoral",163,16.3
+2023,2023-06-08,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",811,"300-10","OCTO","Total Octocoral",191,19.1
+2023,2023-06-08,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",812,"300-10","OCTO","Total Octocoral",291,29.1
+2023,2023-06-08,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",813,"300-10","OCTO","Total Octocoral",389,38.9
+2023,2023-06-08,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",814,"300-10","OCTO","Total Octocoral",334,33.4
+2023,2023-08-09,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",821,"300-10","OCTO","Total Octocoral",111,11.1
+2023,2023-08-09,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",822,"300-10","OCTO","Total Octocoral",158,15.8
+2023,2023-08-09,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",823,"300-10","OCTO","Total Octocoral",247,24.7
+2023,2023-08-09,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",824,"300-10","OCTO","Total Octocoral",289,28.9
+2023,2023-08-11,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",831,"300-10","OCTO","Total Octocoral",70,7
+2023,2023-08-11,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",832,"300-10","OCTO","Total Octocoral",48,4.8
+2023,2023-08-11,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",833,"300-10","OCTO","Total Octocoral",77,7.7
+2023,2023-08-11,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",834,"300-10","OCTO","Total Octocoral",75,7.5
+2024,2024-08-07,"NPSDT","DT","P","1PA",27,"The Maze",271,"300-10","OCTO","Total Octocoral",67,6.7
+2024,2024-08-07,"NPSDT","DT","P","1PA",27,"The Maze",272,"300-10","OCTO","Total Octocoral",57,5.7
+2024,2024-08-07,"NPSDT","DT","P","1PA",27,"The Maze",273,"300-10","OCTO","Total Octocoral",29,2.9
+2024,2024-08-07,"NPSDT","DT","P","1PA",27,"The Maze",274,"300-10","OCTO","Total Octocoral",31,3.1
+2024,2024-08-09,"NPSDT","DT","P","1PB",28,"Davis Rock",281,"300-10","OCTO","Total Octocoral",0,0
+2024,2024-08-09,"NPSDT","DT","P","1PB",28,"Davis Rock",282,"300-10","OCTO","Total Octocoral",0,0
+2024,2024-08-09,"NPSDT","DT","P","1PB",28,"Davis Rock",283,"300-10","OCTO","Total Octocoral",0,0
+2024,2024-08-09,"NPSDT","DT","P","1PB",28,"Davis Rock",284,"300-10","OCTO","Total Octocoral",0,0
+2024,2024-08-08,"NPSDT","DT","P","1PC",29,"Texas Rock",291,"300-10","OCTO","Total Octocoral",10,1
+2024,2024-08-08,"NPSDT","DT","P","1PC",29,"Texas Rock",292,"300-10","OCTO","Total Octocoral",4,0.4
+2024,2024-08-08,"NPSDT","DT","P","1PC",29,"Texas Rock",293,"300-10","OCTO","Total Octocoral",2,0.2
+2024,2024-08-08,"NPSDT","DT","P","1PC",29,"Texas Rock",294,"300-10","OCTO","Total Octocoral",11,1.1
+2024,2024-07-13,"FKNMS","UK","P","9P3",32,"Porter Patch",321,"300-10","OCTO","Total Octocoral",61,6.1
+2024,2024-07-13,"FKNMS","UK","P","9P3",32,"Porter Patch",322,"300-10","OCTO","Total Octocoral",42,4.2
+2024,2024-07-13,"FKNMS","UK","P","9P3",32,"Porter Patch",323,"300-10","OCTO","Total Octocoral",42,4.2
+2024,2024-07-13,"FKNMS","UK","P","9P3",32,"Porter Patch",324,"300-10","OCTO","Total Octocoral",29,2.9
+2024,2024-07-11,"FKNMS","UK","P","9P4",33,"Admiral",331,"300-10","OCTO","Total Octocoral",77,7.7
+2024,2024-07-11,"FKNMS","UK","P","9P4",33,"Admiral",332,"300-10","OCTO","Total Octocoral",103,10.3
+2024,2024-07-11,"FKNMS","UK","P","9P4",33,"Admiral",333,"300-10","OCTO","Total Octocoral",127,12.7
+2024,2024-07-11,"FKNMS","UK","P","9P4",33,"Admiral",334,"300-10","OCTO","Total Octocoral",166,16.6
+2024,2024-05-16,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",341,"300-10","OCTO","Total Octocoral",10,1
+2024,2024-05-16,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",342,"300-10","OCTO","Total Octocoral",11,1.1
+2024,2024-05-15,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",343,"300-10","OCTO","Total Octocoral",11,1.1
+2024,2024-05-15,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",344,"300-10","OCTO","Total Octocoral",10,1
+2024,2024-05-20,"FKNMS","MK","P","7P2",35,"Dustan Rocks",351,"300-10","OCTO","Total Octocoral",4,0.4
+2024,2024-05-20,"FKNMS","MK","P","7P2",35,"Dustan Rocks",352,"300-10","OCTO","Total Octocoral",0,0
+2024,2024-05-20,"FKNMS","MK","P","7P2",35,"Dustan Rocks",353,"300-10","OCTO","Total Octocoral",3,0.3
+2024,2024-05-20,"FKNMS","MK","P","7P2",35,"Dustan Rocks",354,"300-10","OCTO","Total Octocoral",0,0
+2024,2024-09-09,"FKNMS","LK","P","5P1",36,"West Washer Women",361,"300-10","OCTO","Total Octocoral",6,0.6
+2024,2024-09-09,"FKNMS","LK","P","5P1",36,"West Washer Women",362,"300-10","OCTO","Total Octocoral",1,0.1
+2024,2024-09-09,"FKNMS","LK","P","5P1",36,"West Washer Women",363,"300-10","OCTO","Total Octocoral",12,1.2
+2024,2024-09-09,"FKNMS","LK","P","5P1",36,"West Washer Women",364,"300-10","OCTO","Total Octocoral",4,0.4
+2024,2024-09-08,"FKNMS","LK","P","5P3",38,"Cliff Green",381,"300-10","OCTO","Total Octocoral",58,5.8
+2024,2024-09-08,"FKNMS","LK","P","5P3",38,"Cliff Green",382,"300-10","OCTO","Total Octocoral",49,4.9
+2024,2024-09-08,"FKNMS","LK","P","5P3",38,"Cliff Green",383,"300-10","OCTO","Total Octocoral",39,3.9
+2024,2024-09-08,"FKNMS","LK","P","5P3",38,"Cliff Green",384,"300-10","OCTO","Total Octocoral",26,2.6
+2024,2024-08-07,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",411,"300-10","OCTO","Total Octocoral",143,14.3
+2024,2024-08-07,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",412,"300-10","OCTO","Total Octocoral",55,5.5
+2024,2024-08-07,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",413,"300-10","OCTO","Total Octocoral",63,6.3
+2024,2024-08-07,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",414,"300-10","OCTO","Total Octocoral",92,9.2
+2024,2024-08-09,"NPSDT","DT","P","1P2",42,"Palmata Patch",421,"300-10","OCTO","Total Octocoral",19,1.9
+2024,2024-08-09,"NPSDT","DT","P","1P2",42,"Palmata Patch",422,"300-10","OCTO","Total Octocoral",11,1.1
+2024,2024-08-09,"NPSDT","DT","P","1P3",43,"Prolifera Patch",431,"300-10","OCTO","Total Octocoral",5,0.5
+2024,2024-08-09,"NPSDT","DT","P","1P3",43,"Prolifera Patch",432,"300-10","OCTO","Total Octocoral",13,1.3
+2024,2024-08-09,"NPSDT","DT","P","1P3",43,"Prolifera Patch",433,"300-10","OCTO","Total Octocoral",26,2.6
+2024,2024-08-08,"NPSDT","DT","P","1P4",44,"Temptation Rock",441,"300-10","OCTO","Total Octocoral",47,4.7
+2024,2024-08-08,"NPSDT","DT","P","1P4",44,"Temptation Rock",442,"300-10","OCTO","Total Octocoral",16,1.6
+2024,2024-08-08,"NPSDT","DT","P","1P4",44,"Temptation Rock",443,"300-10","OCTO","Total Octocoral",33,3.3
+2024,2024-08-08,"NPSDT","DT","P","1P4",44,"Temptation Rock",444,"300-10","OCTO","Total Octocoral",21,2.1
+2024,2024-08-07,"NPSDT","DT","P","1P5",45,"Mayer's Peak",451,"300-10","OCTO","Total Octocoral",155,15.5
+2024,2024-08-07,"NPSDT","DT","P","1P5",45,"Mayer's Peak",452,"300-10","OCTO","Total Octocoral",197,19.7
+2024,2024-08-07,"NPSDT","DT","P","1P5",45,"Mayer's Peak",453,"300-10","OCTO","Total Octocoral",140,14
+2024,2024-08-07,"NPSDT","DT","P","1P5",45,"Mayer's Peak",454,"300-10","OCTO","Total Octocoral",181,18.1
+2024,2024-08-08,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",461,"300-10","OCTO","Total Octocoral",2,0.2
+2024,2024-08-08,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",462,"300-10","OCTO","Total Octocoral",10,1
+2024,2024-07-10,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",501,"300-10","OCTO","Total Octocoral",64,6.4
+2024,2024-07-10,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",502,"300-10","OCTO","Total Octocoral",47,4.7
+2024,2024-07-10,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",503,"300-10","OCTO","Total Octocoral",268,26.8
+2024,2024-07-10,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",504,"300-10","OCTO","Total Octocoral",233,23.3
+2024,2024-07-09,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",521,"300-10","OCTO","Total Octocoral",232,23.2
+2024,2024-07-09,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",522,"300-10","OCTO","Total Octocoral",182,18.2
+2024,2024-07-09,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",523,"300-10","OCTO","Total Octocoral",73,7.3
+2024,2024-07-09,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",524,"300-10","OCTO","Total Octocoral",55,5.5
+2024,2024-07-12,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",541,"300-10","OCTO","Total Octocoral",234,23.4
+2024,2024-07-12,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",542,"300-10","OCTO","Total Octocoral",311,31.1
+2024,2024-07-12,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",543,"300-10","OCTO","Total Octocoral",384,38.4
+2024,2024-07-12,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",367,36.7
+2024,2024-05-21,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",551,"300-10","OCTO","Total Octocoral",150,15
+2024,2024-05-21,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",552,"300-10","OCTO","Total Octocoral",191,19.1
+2024,2024-05-21,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",165,16.5
+2024,2024-05-21,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",554,"300-10","OCTO","Total Octocoral",305,30.5
+2024,2024-05-17,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",561,"300-10","OCTO","Total Octocoral",50,5
+2024,2024-05-17,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",562,"300-10","OCTO","Total Octocoral",79,7.9
+2024,2024-05-18,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",563,"300-10","OCTO","Total Octocoral",104,10.4
+2024,2024-05-18,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",564,"300-10","OCTO","Total Octocoral",56,5.6
+2024,2024-08-11,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",133,13.3
+2024,2024-08-11,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",592,"300-10","OCTO","Total Octocoral",32,3.2
+2024,2024-08-11,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",593,"300-10","OCTO","Total Octocoral",33,3.3
+2024,2024-08-11,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",594,"300-10","OCTO","Total Octocoral",16,1.6
+2024,2024-06-15,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",611,"300-10","OCTO","Total Octocoral",115,11.5
+2024,2024-06-15,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",612,"300-10","OCTO","Total Octocoral",39,3.9
+2024,2024-08-12,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",613,"300-10","OCTO","Total Octocoral",80,8
+2024,2024-08-12,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",614,"300-10","OCTO","Total Octocoral",71,7.1
+2024,2024-07-10,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",701,"300-10","OCTO","Total Octocoral",124,12.4
+2024,2024-07-10,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",702,"300-10","OCTO","Total Octocoral",117,11.7
+2024,2024-07-10,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",703,"300-10","OCTO","Total Octocoral",119,11.9
+2024,2024-07-10,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",704,"300-10","OCTO","Total Octocoral",90,9
+2024,2024-07-11,"FKNMS","UK","OD","9D3",72,"Molasses Deep",721,"300-10","OCTO","Total Octocoral",175,17.5
+2024,2024-07-11,"FKNMS","UK","OD","9D3",72,"Molasses Deep",722,"300-10","OCTO","Total Octocoral",134,13.4
+2024,2024-07-11,"FKNMS","UK","OD","9D3",72,"Molasses Deep",723,"300-10","OCTO","Total Octocoral",162,16.2
+2024,2024-07-11,"FKNMS","UK","OD","9D3",72,"Molasses Deep",724,"300-10","OCTO","Total Octocoral",206,20.6
+2024,2024-07-12,"FKNMS","MK","OD","7D1",74,"Alligator Deep",741,"300-10","OCTO","Total Octocoral",186,18.6
+2024,2024-07-12,"FKNMS","MK","OD","7D1",74,"Alligator Deep",742,"300-10","OCTO","Total Octocoral",140,14
+2024,2024-07-12,"FKNMS","MK","OD","7D1",74,"Alligator Deep",743,"300-10","OCTO","Total Octocoral",162,16.2
+2024,2024-07-12,"FKNMS","MK","OD","7D1",74,"Alligator Deep",744,"300-10","OCTO","Total Octocoral",181,18.1
+2024,2024-05-21,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",751,"300-10","OCTO","Total Octocoral",50,5
+2024,2024-05-21,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",752,"300-10","OCTO","Total Octocoral",39,3.9
+2024,2024-05-21,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",753,"300-10","OCTO","Total Octocoral",112,11.2
+2024,2024-05-21,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",754,"300-10","OCTO","Total Octocoral",25,2.5
+2024,2024-05-18,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",761,"300-10","OCTO","Total Octocoral",69,6.9
+2024,2024-05-18,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",762,"300-10","OCTO","Total Octocoral",45,4.5
+2024,2024-05-18,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",763,"300-10","OCTO","Total Octocoral",82,8.2
+2024,2024-05-18,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",764,"300-10","OCTO","Total Octocoral",59,5.9
+2024,2024-09-08,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",791,"300-10","OCTO","Total Octocoral",73,7.3
+2024,2024-09-08,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",113,11.3
+2024,2024-09-08,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",793,"300-10","OCTO","Total Octocoral",173,17.3
+2024,2024-09-08,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",794,"300-10","OCTO","Total Octocoral",150,15
+2024,2024-06-15,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",811,"300-10","OCTO","Total Octocoral",210,21
+2024,2024-06-15,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",812,"300-10","OCTO","Total Octocoral",232,23.2
+2024,2024-06-15,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",813,"300-10","OCTO","Total Octocoral",314,31.4
+2024,2024-06-15,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",814,"300-10","OCTO","Total Octocoral",214,21.4
+2024,2024-11-15,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",821,"300-10","OCTO","Total Octocoral",67,6.7
+2024,2024-11-15,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",822,"300-10","OCTO","Total Octocoral",73,7.3
+2024,2024-11-15,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",823,"300-10","OCTO","Total Octocoral",87,8.7
+2024,2024-11-15,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",824,"300-10","OCTO","Total Octocoral",111,11.1
+2024,2024-08-10,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",831,"300-10","OCTO","Total Octocoral",74,7.4
+2024,2024-08-10,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",832,"300-10","OCTO","Total Octocoral",42,4.2
+2024,2024-08-10,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",833,"300-10","OCTO","Total Octocoral",68,6.8
+2024,2024-08-10,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",834,"300-10","OCTO","Total Octocoral",69,6.9
+2025,2025-08-09,"NPSDT","DT","P","1PA",27,"The Maze",271,"300-10","OCTO","Total Octocoral",52,5.2
+2025,2025-08-09,"NPSDT","DT","P","1PA",27,"The Maze",272,"300-10","OCTO","Total Octocoral",39,3.9
+2025,2025-08-09,"NPSDT","DT","P","1PA",27,"The Maze",273,"300-10","OCTO","Total Octocoral",23,2.3
+2025,2025-08-09,"NPSDT","DT","P","1PA",27,"The Maze",274,"300-10","OCTO","Total Octocoral",38,3.8
+2025,2025-08-08,"NPSDT","DT","P","1PB",28,"Davis Rock",281,"300-10","OCTO","Total Octocoral",0,0
+2025,2025-08-08,"NPSDT","DT","P","1PB",28,"Davis Rock",282,"300-10","OCTO","Total Octocoral",0,0
+2025,2025-08-08,"NPSDT","DT","P","1PB",28,"Davis Rock",283,"300-10","OCTO","Total Octocoral",0,0
+2025,2025-08-08,"NPSDT","DT","P","1PB",28,"Davis Rock",284,"300-10","OCTO","Total Octocoral",0,0
+2025,2025-08-05,"NPSDT","DT","P","1PC",29,"Texas Rock",291,"300-10","OCTO","Total Octocoral",11,1.1
+2025,2025-08-05,"NPSDT","DT","P","1PC",29,"Texas Rock",292,"300-10","OCTO","Total Octocoral",6,0.6
+2025,2025-08-05,"NPSDT","DT","P","1PC",29,"Texas Rock",293,"300-10","OCTO","Total Octocoral",3,0.3
+2025,2025-08-05,"NPSDT","DT","P","1PC",29,"Texas Rock",294,"300-10","OCTO","Total Octocoral",11,1.1
+2025,2025-07-19,"FKNMS","UK","P","9P3",32,"Porter Patch",321,"300-10","OCTO","Total Octocoral",53,5.3
+2025,2025-07-19,"FKNMS","UK","P","9P3",32,"Porter Patch",322,"300-10","OCTO","Total Octocoral",38,3.8
+2025,2025-07-19,"FKNMS","UK","P","9P3",32,"Porter Patch",323,"300-10","OCTO","Total Octocoral",36,3.6
+2025,2025-07-19,"FKNMS","UK","P","9P3",32,"Porter Patch",324,"300-10","OCTO","Total Octocoral",25,2.5
+2025,2025-07-16,"FKNMS","UK","P","9P4",33,"Admiral",331,"300-10","OCTO","Total Octocoral",63,6.3
+2025,2025-07-16,"FKNMS","UK","P","9P4",33,"Admiral",332,"300-10","OCTO","Total Octocoral",78,7.8
+2025,2025-07-16,"FKNMS","UK","P","9P4",33,"Admiral",333,"300-10","OCTO","Total Octocoral",13,1.3
+2025,2025-07-16,"FKNMS","UK","P","9P4",33,"Admiral",333,"300-10","OCTO","Total Octocoral",120,12
+2025,2025-07-16,"FKNMS","UK","P","9P4",33,"Admiral",334,"300-10","OCTO","Total Octocoral",175,17.5
+2025,2025-05-16,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",341,"300-10","OCTO","Total Octocoral",11,1.1
+2025,2025-05-16,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",342,"300-10","OCTO","Total Octocoral",16,1.6
+2025,2025-05-16,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",343,"300-10","OCTO","Total Octocoral",12,1.2
+2025,2025-05-16,"FKNMS","MK","P","7P1",34,"West Turtle Shoal",344,"300-10","OCTO","Total Octocoral",16,1.6
+2025,2025-05-17,"FKNMS","MK","P","7P2",35,"Dustan Rocks",351,"300-10","OCTO","Total Octocoral",4,0.4
+2025,2025-05-17,"FKNMS","MK","P","7P2",35,"Dustan Rocks",352,"300-10","OCTO","Total Octocoral",2,0.2
+2025,2025-05-17,"FKNMS","MK","P","7P2",35,"Dustan Rocks",353,"300-10","OCTO","Total Octocoral",4,0.4
+2025,2025-05-17,"FKNMS","MK","P","7P2",35,"Dustan Rocks",354,"300-10","OCTO","Total Octocoral",0,0
+2025,2025-06-16,"FKNMS","LK","P","5P1",36,"West Washer Women",361,"300-10","OCTO","Total Octocoral",6,0.6
+2025,2025-06-16,"FKNMS","LK","P","5P1",36,"West Washer Women",362,"300-10","OCTO","Total Octocoral",4,0.4
+2025,2025-06-16,"FKNMS","LK","P","5P1",36,"West Washer Women",363,"300-10","OCTO","Total Octocoral",13,1.3
+2025,2025-06-16,"FKNMS","LK","P","5P1",36,"West Washer Women",364,"300-10","OCTO","Total Octocoral",8,0.8
+2025,2025-06-12,"FKNMS","LK","P","5P3",38,"Cliff Green",381,"300-10","OCTO","Total Octocoral",70,7
+2025,2025-06-12,"FKNMS","LK","P","5P3",38,"Cliff Green",382,"300-10","OCTO","Total Octocoral",47,4.7
+2025,2025-06-12,"FKNMS","LK","P","5P3",38,"Cliff Green",383,"300-10","OCTO","Total Octocoral",32,3.2
+2025,2020-06-12,"FKNMS","LK","P","5P3",38,"Cliff Green",384,"300-10","OCTO","Total Octocoral",21,2.1
+2025,2025-08-08,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",411,"300-10","OCTO","Total Octocoral",28,2.8
+2025,2025-08-08,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",411,"300-10","OCTO","Total Octocoral",83,8.3
+2025,2025-08-08,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",412,"300-10","OCTO","Total Octocoral",69,6.9
+2025,2025-08-08,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",413,"300-10","OCTO","Total Octocoral",87,8.7
+2025,2025-08-08,"NPSDT/FKNMS","DT","P","1P1",41,"White Shoal",414,"300-10","OCTO","Total Octocoral",76,7.6
+2025,2025-08-06,"NPSDT","DT","P","1P2",42,"Palmata Patch",421,"300-10","OCTO","Total Octocoral",4,0.4
+2025,2025-08-06,"NPSDT","DT","P","1P2",42,"Palmata Patch",421,"300-10","OCTO","Total Octocoral",18,1.8
+2025,2025-08-06,"NPSDT","DT","P","1P2",42,"Palmata Patch",422,"300-10","OCTO","Total Octocoral",10,1
+2025,2025-08-06,"NPSDT","DT","P","1P3",43,"Prolifera Patch",431,"300-10","OCTO","Total Octocoral",6,0.6
+2025,2025-08-06,"NPSDT","DT","P","1P3",43,"Prolifera Patch",432,"300-10","OCTO","Total Octocoral",11,1.1
+2025,2025-08-06,"NPSDT","DT","P","1P3",43,"Prolifera Patch",433,"300-10","OCTO","Total Octocoral",24,2.4
+2025,2025-08-07,"NPSDT","DT","P","1P4",44,"Temptation Rock",441,"300-10","OCTO","Total Octocoral",47,4.7
+2025,2025-08-07,"NPSDT","DT","P","1P4",44,"Temptation Rock",442,"300-10","OCTO","Total Octocoral",15,1.5
+2025,2025-08-07,"NPSDT","DT","P","1P4",44,"Temptation Rock",443,"300-10","OCTO","Total Octocoral",37,3.7
+2025,2025-08-07,"NPSDT","DT","P","1P4",44,"Temptation Rock",444,"300-10","OCTO","Total Octocoral",25,2.5
+2025,2025-08-10,"NPSDT","DT","P","1P5",45,"Mayer's Peak",451,"300-10","OCTO","Total Octocoral",169,16.9
+2025,2025-08-10,"NPSDT","DT","P","1P5",45,"Mayer's Peak",452,"300-10","OCTO","Total Octocoral",202,20.2
+2025,2025-08-10,"NPSDT","DT","P","1P5",45,"Mayer's Peak",453,"300-10","OCTO","Total Octocoral",161,16.1
+2025,2025-08-10,"NPSDT","DT","P","1P5",45,"Mayer's Peak",454,"300-10","OCTO","Total Octocoral",167,16.7
+2025,2025-08-06,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",461,"300-10","OCTO","Total Octocoral",2,0.2
+2025,2025-08-06,"NPSDT","DT","P","1P6",46,"Loggerhead Patch",462,"300-10","OCTO","Total Octocoral",11,1.1
+2025,2025-07-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",501,"300-10","OCTO","Total Octocoral",24,2.4
+2025,2025-07-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",501,"300-10","OCTO","Total Octocoral",27,2.7
+2025,2025-07-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",502,"300-10","OCTO","Total Octocoral",22,2.2
+2025,2025-07-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",502,"300-10","OCTO","Total Octocoral",18,1.8
+2025,2025-07-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",503,"300-10","OCTO","Total Octocoral",173,17.3
+2025,2025-07-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",503,"300-10","OCTO","Total Octocoral",153,15.3
+2025,2025-07-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",504,"300-10","OCTO","Total Octocoral",95,9.5
+2025,2025-07-15,"FKNMS","UK","OS","9S1",50,"Carysfort Shallow",504,"300-10","OCTO","Total Octocoral",115,11.5
+2025,2025-07-19,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",521,"300-10","OCTO","Total Octocoral",54,5.4
+2025,2025-07-19,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",521,"300-10","OCTO","Total Octocoral",71,7.1
+2025,2025-07-19,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",522,"300-10","OCTO","Total Octocoral",57,5.7
+2025,2025-07-19,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",522,"300-10","OCTO","Total Octocoral",65,6.5
+2025,2025-07-19,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",523,"300-10","OCTO","Total Octocoral",30,3
+2025,2025-07-19,"FKNMS","UK","OS","9S3",52,"Molasses Shallow",524,"300-10","OCTO","Total Octocoral",32,3.2
+2025,2025-07-22,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",541,"300-10","OCTO","Total Octocoral",192,19.2
+2025,2025-07-22,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",542,"300-10","OCTO","Total Octocoral",153,15.3
+2025,2025-07-22,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",542,"300-10","OCTO","Total Octocoral",157,15.7
+2025,2025-07-22,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",543,"300-10","OCTO","Total Octocoral",169,16.9
+2025,2025-07-22,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",543,"300-10","OCTO","Total Octocoral",193,19.3
+2025,2025-07-22,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",58,5.8
+2025,2025-07-22,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",55,5.5
+2025,2025-07-22,"FKNMS","MK","OS","7S1",54,"Alligator Shallow",544,"300-10","OCTO","Total Octocoral",230,23
+2025,2025-05-14,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",551,"300-10","OCTO","Total Octocoral",48,4.8
+2025,2025-05-14,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",551,"300-10","OCTO","Total Octocoral",63,6.3
+2025,2025-05-14,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",552,"300-10","OCTO","Total Octocoral",132,13.2
+2025,2025-05-14,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",70,7
+2025,2025-05-14,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",45,4.5
+2025,2025-05-14,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",553,"300-10","OCTO","Total Octocoral",17,1.7
+2025,2025-08-22,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",554,"300-10","OCTO","Total Octocoral",139,13.9
+2025,2025-08-22,"FKNMS","MK","OS","7S2",55,"Tennessee Shallow",554,"300-10","OCTO","Total Octocoral",110,11
+2025,2025-05-15,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",561,"300-10","OCTO","Total Octocoral",45,4.5
+2025,2025-05-15,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",562,"300-10","OCTO","Total Octocoral",25,2.5
+2025,2025-05-15,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",562,"300-10","OCTO","Total Octocoral",43,4.3
+2025,2025-05-15,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",563,"300-10","OCTO","Total Octocoral",47,4.7
+2025,2025-05-15,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",563,"300-10","OCTO","Total Octocoral",51,5.1
+2025,2025-05-15,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",564,"300-10","OCTO","Total Octocoral",27,2.7
+2025,2025-05-15,"FKNMS","MK","OS","5S1",56,"Sombrero Shallow",564,"300-10","OCTO","Total Octocoral",28,2.8
+2025,2025-06-11,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",66,6.6
+2025,2025-06-11,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",28,2.8
+2025,2025-06-11,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",591,"300-10","OCTO","Total Octocoral",16,1.6
+2025,2025-06-11,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",592,"300-10","OCTO","Total Octocoral",28,2.8
+2025,2025-06-11,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",593,"300-10","OCTO","Total Octocoral",6,0.6
+2025,2025-06-11,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",593,"300-10","OCTO","Total Octocoral",29,2.9
+2025,2025-06-11,"FKNMS","LK","OS","5S4",59,"Western Sambo Shallow",594,"300-10","OCTO","Total Octocoral",27,2.7
+2025,2025-06-10,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",611,"300-10","OCTO","Total Octocoral",49,4.9
+2025,2025-06-10,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",611,"300-10","OCTO","Total Octocoral",46,4.6
+2025,2025-06-10,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",612,"300-10","OCTO","Total Octocoral",8,0.8
+2025,2025-06-10,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",612,"300-10","OCTO","Total Octocoral",29,2.9
+2025,2025-06-10,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",613,"300-10","OCTO","Total Octocoral",31,3.1
+2025,2025-06-10,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",613,"300-10","OCTO","Total Octocoral",34,3.4
+2025,2025-06-10,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",614,"300-10","OCTO","Total Octocoral",14,1.4
+2025,2025-06-10,"FKNMS","LK","OS","2S1",61,"Sand Key Shallow",614,"300-10","OCTO","Total Octocoral",42,4.2
+2025,2025-07-15,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",701,"300-10","OCTO","Total Octocoral",104,10.4
+2025,2025-07-15,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",702,"300-10","OCTO","Total Octocoral",137,13.7
+2025,2025-07-15,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",703,"300-10","OCTO","Total Octocoral",39,3.9
+2025,2025-07-15,"FKNMS","UK","OD","9D1",70,"Carysfort Deep",704,"300-10","OCTO","Total Octocoral",79,7.9
+2025,2025-07-23,"FKNMS","UK","OD","9D3",72,"Molasses Deep",721,"300-10","OCTO","Total Octocoral",25,2.5
+2025,2025-07-23,"FKNMS","UK","OD","9D3",72,"Molasses Deep",721,"300-10","OCTO","Total Octocoral",89,8.9
+2025,2025-07-23,"FKNMS","UK","OD","9D3",72,"Molasses Deep",722,"300-10","OCTO","Total Octocoral",76,7.6
+2025,2025-07-23,"FKNMS","UK","OD","9D3",72,"Molasses Deep",722,"300-10","OCTO","Total Octocoral",50,5
+2025,2025-07-21,"FKNMS","UK","OD","9D3",72,"Molasses Deep",723,"300-10","OCTO","Total Octocoral",119,11.9
+2025,2025-07-21,"FKNMS","UK","OD","9D3",72,"Molasses Deep",724,"300-10","OCTO","Total Octocoral",86,8.6
+2025,2025-07-21,"FKNMS","UK","OD","9D3",72,"Molasses Deep",724,"300-10","OCTO","Total Octocoral",60,6
+2025,2025-07-22,"FKNMS","MK","OD","7D1",74,"Alligator Deep",741,"300-10","OCTO","Total Octocoral",121,12.1
+2025,2025-07-22,"FKNMS","MK","OD","7D1",74,"Alligator Deep",742,"300-10","OCTO","Total Octocoral",28,2.8
+2025,2025-07-22,"FKNMS","MK","OD","7D1",74,"Alligator Deep",742,"300-10","OCTO","Total Octocoral",76,7.6
+2025,2025-07-22,"FKNMS","MK","OD","7D1",74,"Alligator Deep",743,"300-10","OCTO","Total Octocoral",74,7.4
+2025,2025-07-22,"FKNMS","MK","OD","7D1",74,"Alligator Deep",743,"300-10","OCTO","Total Octocoral",89,8.9
+2025,2025-07-22,"FKNMS","MK","OD","7D1",74,"Alligator Deep",744,"300-10","OCTO","Total Octocoral",154,15.4
+2025,2025-05-16,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",751,"300-10","OCTO","Total Octocoral",47,4.7
+2025,2025-05-16,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",752,"300-10","OCTO","Total Octocoral",32,3.2
+2025,2025-05-16,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",753,"300-10","OCTO","Total Octocoral",134,13.4
+2025,2025-05-16,"FKNMS","MK","OD","7D2",75,"Tennessee Deep",754,"300-10","OCTO","Total Octocoral",31,3.1
+2025,2025-05-15,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",761,"300-10","OCTO","Total Octocoral",19,1.9
+2025,2025-05-15,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",761,"300-10","OCTO","Total Octocoral",39,3.9
+2025,2025-05-15,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",762,"300-10","OCTO","Total Octocoral",57,5.7
+2025,2025-05-15,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",763,"300-10","OCTO","Total Octocoral",61,6.1
+2025,2025-05-15,"FKNMS","MK","OD","5D1",76,"Sombrero Deep",764,"300-10","OCTO","Total Octocoral",49,4.9
+2025,2025-06-14,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",791,"300-10","OCTO","Total Octocoral",46,4.6
+2025,2025-06-14,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",36,3.6
+2025,2025-06-14,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",15,1.5
+2025,2025-06-14,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",792,"300-10","OCTO","Total Octocoral",59,5.9
+2025,2025-06-14,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",793,"300-10","OCTO","Total Octocoral",129,12.9
+2025,2025-06-14,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",793,"300-10","OCTO","Total Octocoral",30,3
+2025,2025-06-14,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",794,"300-10","OCTO","Total Octocoral",39,3.9
+2025,2025-06-14,"FKNMS","LK","OD","5D4",79,"Western Sambo Deep",794,"300-10","OCTO","Total Octocoral",106,10.6
+2025,2025-06-10,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",811,"300-10","OCTO","Total Octocoral",77,7.7
+2025,2025-06-10,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",811,"300-10","OCTO","Total Octocoral",87,8.7
+2025,2025-06-10,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",812,"300-10","OCTO","Total Octocoral",56,5.6
+2025,2025-06-10,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",812,"300-10","OCTO","Total Octocoral",115,11.5
+2025,2025-06-17,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",813,"300-10","OCTO","Total Octocoral",108,10.8
+2025,2025-06-17,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",813,"300-10","OCTO","Total Octocoral",174,17.4
+2025,2025-06-17,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",814,"300-10","OCTO","Total Octocoral",82,8.2
+2025,2025-06-17,"FKNMS","LK","OD","2D1",81,"Sand Key Deep",814,"300-10","OCTO","Total Octocoral",90,9
+2025,2025-08-06,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",821,"300-10","OCTO","Total Octocoral",56,5.6
+2025,2025-08-06,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",822,"300-10","OCTO","Total Octocoral",69,6.9
+2025,2025-08-06,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",823,"300-10","OCTO","Total Octocoral",84,8.4
+2025,2025-08-06,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",824,"300-10","OCTO","Total Octocoral",56,5.6
+2025,2025-08-06,"NPSDT/FKNMS","DT","OD","1D1",82,"Bird Key Reef",824,"300-10","OCTO","Total Octocoral",53,5.3
+2025,2025-08-07,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",831,"300-10","OCTO","Total Octocoral",59,5.9
+2025,2025-08-07,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",832,"300-10","OCTO","Total Octocoral",22,2.2
+2025,2025-08-07,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",832,"300-10","OCTO","Total Octocoral",21,2.1
+2025,2025-08-07,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",833,"300-10","OCTO","Total Octocoral",53,5.3
+2025,2025-08-07,"FKNMS","DT","OD","1D2",83,"Black Coral Rock",834,"300-10","OCTO","Total Octocoral",51,5.1
