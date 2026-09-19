@@ -1,0 +1,221 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+```
+
+## Assignment #1: Data Exploration
+
+#### Caroline Link
+
+#### Last Updated: 9/18/26
+
+## [Description]{.underline}
+
+The Coral Reef Evaluation and Monitoring Project (CREMP) was designed to document the health status of selected coral reefs along Florida's Coral Reef. The project conducts annual surveys along permanent transects at each site to collect coral and octocoral population demographics, health conditions, and benthic community assemblage cover.
+
+This project will focus specifically on the octocoral population demographics data collected between 2012-2025. These surveys collect conditions data for five target species as well as a tally of all octocoral colonies with erect morphology.
+
+- **Link to CREMP overview:** <https://myfwc.com/research/habitat/coral/cremp/>
+
+[**Database citations:**]{.underline}
+
+- FWC Coral Research Program. (2022). Florida Keys Coral Reef Evaluation Monitoring Project CSV Files Download [data files]. Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute [producer]. \<[[https://geodata.myfwc.com\\\\](https://geodata.myfwc.com){.uri}](%5Bhttps://geodata.myfwc.com%5D(https://geodata.myfwc.com)%7B.uri%7D){.uri}\>
+
+- FWC Coral Research Program. (2022). Dry Tortugas Coral Reef Evaluation Monitoring Project CSV Files Download [data files]. Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute [producer]. \<[[https://geodata.myfwc.com\\\\](https://geodata.myfwc.com){.uri}](%5Bhttps://geodata.myfwc.com%5D(https://geodata.myfwc.com)%7B.uri%7D){.uri}\>
+
+## [Data Structure]{.underline}
+
+```{r}
+# Read in dataset
+octo_tally_master <- read.csv("https://raw.githubusercontent.com/caroline-link/Biometry/refs/heads/main/CREMP_OCTO_Data/CREMP_OCTO_Tallies_Masterfile.csv")
+
+octo_conditions_master <- read.csv("https://raw.githubusercontent.com/caroline-link/Biometry/refs/heads/main/CREMP_OCTO_Data/CREMP_OCTO_Condition_Masterfile.csv")
+```
+
+```{r}
+# Determine octocoral tallies dataset class and variables of interest
+class(octo_tally_master)
+
+str(octo_tally_master)
+```
+
+- The colony tally dataset is a **data frame**, made up of 1,800 observations of 14 variables.
+
+- **Variables of interest include:** SampleYear (integer), Subregion (character), Habitat (character), SiteID (integer), Tally (integer), and Density (numeric)
+
+```{r}
+# Determine octocoral conditions dataset class and variables of interest
+class(octo_conditions_master)
+
+str(octo_conditions_master)
+```
+
+- The conditions dataset is a **data frame**, consisting of 150,118 observations of 40 variables.
+
+- **Variables of interest include**: SampleYear (integer), subRegionId (character), habitatid (character), siteid (integer), SPP_Code (character), and Height.cm (integer).
+
+## [Data Cleaning]{.underline}
+
+```{r}
+# Check first and last sample year
+range(octo_tally_master$SampleYear)
+range(octo_conditions_master$SampleYear)
+
+
+# Subset to 2012-2025
+tally <- filter(octo_tally_master, SampleYear>2011)
+conditions <- filter(octo_conditions_master, SampleYear>2011)
+
+
+# Check that both datasets have the same number of sites 
+n_distinct(tally$SiteID)
+n_distinct(conditions$siteid)
+
+
+# Check that tally dataset has an equal or greater number of sites per year
+tally |>
+  group_by(SampleYear) |>
+  summarise(n_sites_tally = n_distinct(SiteID))
+
+conditions |>
+  group_by(SampleYear) |>
+  summarise(n_sites_conditions = n_distinct(siteid)) 
+
+
+# Check for any NAs
+anyNA(tally)
+anyNA(conditions)
+
+# Pull rows with NAs to see if they're appropriate
+conditions_w_NA <- conditions[!complete.cases(conditions), ]
+
+head(conditions_w_NA)
+```
+
+```{r}
+# Check target species in conditions dataset
+unique(conditions$SPP_Code)
+
+
+# Check number of colonies IDed to Antillogorgia (genus) but not species
+## NOTE: may want to re-evaluate in the future
+conditions |>
+  filter(SPP_Code %in% c("ANTI",
+                         "ANTI/GVEN")) 
+
+
+# Limit to five current target species, recode NS-PAME as PAME
+conditions_targets <- conditions |>
+                      mutate (SPP_Code = recode(
+                                            SPP_Code,
+                                            "NS-PAME" = "PAME")) |>
+                      filter(SPP_Code %in% c("PFLE",
+                                             "PAME",
+                                             "GVEN",
+                                             "PBIP",
+                                             "PPOR"))
+
+
+# Check counts of PAME and NS-PAME vs. combined count
+conditions|>
+  filter(SPP_Code %in% c("PAME",
+                         "NS-PAME")) |>
+  nrow()
+
+conditions_targets|>
+  filter(SPP_Code == "PAME") |>
+  nrow()
+```
+
+## [Summary Statistics]{.underline}
+
+```{r}
+# Find number of sites in each region
+conditions_targets |>
+  group_by(subRegionId) |>
+  summarise(sites_per_region = n_distinct(siteid)) 
+
+
+# Find number of sites per habitat type in each region
+conditions_targets |> 
+  group_by(subRegionId, habitatid) |>
+  summarize(n_sites = n_distinct(siteid)) |>
+  pivot_wider(names_from = subRegionId,
+  values_from = n_sites)
+
+
+# Compare octocoral densities from tally dataset
+summary(tally$Density)
+
+
+# Find mean octocoral density per site
+tally |>
+  group_by(SiteID) |>
+  summarise(average_annual_tally = mean(Density))
+
+
+# Find summary of target species height
+conditions_targets |>
+  group_by(SPP_Code) |>
+  summarise(min_height = min(Height.cm.),
+            max_height = max(Height.cm.),
+            avg_height = mean(Height.cm.),
+            sd = sd(Height.cm.))
+```
+
+## [Figures]{.underline}
+
+```{r}
+# Figure 1: Boxplot comparing colony height
+conditions_targets |> 
+  group_by(SPP_Code) |>
+  ggplot(mapping = aes(x = SPP_Code,
+                       y = Height.cm., 
+                       fill = SPP_Code)) +
+  geom_violin() + 
+  labs(title = "Colony Height Distribution Among CREMP Octocoral Target Species",
+       y = "Colony Height (cm)" ) +
+  theme(axis.title.x = element_blank()) +
+  scale_fill_brewer(palette = "GnBu")
+```
+
+- **Figure 1:** Distribution of colony height (cm) measurements recorded for the five CREMP target octocoral species from 2012-2025. Height distributions vary slightly between target species, but are generally skewed right with a majority of colonies falling under 50 cm.
+
+```{r}
+# Figure 2: Scatterplot of total octocoral density across region and habitat
+tally |>
+  group_by(Subregion, SampleYear, Habitat) |>
+  ggplot(tally, mapping = aes(x = SampleYear,
+                              y = Density)) +
+  geom_point(alpha = 0.2) +
+  geom_smooth() +
+  facet_grid(Subregion ~ Habitat) +
+  labs(title = bquote("Octocoral Density" ~(m^2)~"Across Region and Habitat Type"),
+       y = bquote("Octocoral Density" ~(m^2))) +
+  theme(axis.title.x = element_blank())
+
+```
+
+- **Figure 2:** Total octocoral colony density (m^2^), including target and non-target species, recorded per site from 2012-2025. Plots are divided by region and habitat type, the OS X DT plot is empty because there are no offshore patch reefs in the Dry Tortugas. Colony densities have gradually declined across regions and habitat types, and declines were not offset by an apparent recruitment boom between 2020-2022.
+
+```{r}
+# Figure 3: barplot of number of target colonies per year
+conditions_targets |>
+  group_by(SPP_Code, SampleYear) |>
+  summarise(total_colonies = n()) |>
+  ggplot(mapping = aes(x = SampleYear,
+                       y = total_colonies,
+                       fill = SPP_Code)) +
+  geom_bar(stat = "identity") +
+  labs(title = "CREMP Target Colonies Recorded per Year",
+       y = "Colonies Recorded" ) +
+  scale_x_continuous(breaks = seq(2012, 2025, seq=1)) +
+  theme(axis.text.x = element_text(angle=45, hjust = 1)) +
+  scale_y_continuous(n.breaks = 10) +
+  scale_fill_brewer(palette = "GnBu") +
+  theme(axis.title.x = element_blank())
+  
+```
+
+- **Figure 3**: The total number of CREMP target colonies recorded across sites between 2012-2025. This plot reflects the same general trends as Figure 2, including a gradual decline in target species density between 2012-2015 with an apparent recruitment boom in 2020. The proportion of target species is fairly consistent year to year, with the exception of a noticeable decrease in PPOR starting in 2018.
