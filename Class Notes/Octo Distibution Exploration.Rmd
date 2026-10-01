@@ -1,0 +1,56 @@
+---
+title: "CREMP Octo Variable Distributions"
+output: html_document
+date: "2026-09-29"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+```
+
+# Dataset Prep
+```{r}
+# Read in dataset
+octo_tally_master <- read.csv("https://raw.githubusercontent.com/caroline-link/Biometry/refs/heads/main/CREMP_OCTO_Data/CREMP_OCTO_Tallies_Masterfile.csv")
+
+octo_conditions_master <- read.csv("https://raw.githubusercontent.com/caroline-link/Biometry/refs/heads/main/CREMP_OCTO_Data/CREMP_OCTO_Condition_Masterfile.csv")
+
+# Subset to 2012-2025
+tally <- filter(octo_tally_master, SampleYear>2011)
+conditions <- filter(octo_conditions_master, SampleYear>2011)
+
+# Limit to five current target species, recode NS-PAME as PAME
+conditions_targets <- conditions |>
+                      mutate (SPP_Code = recode(
+                                            SPP_Code,
+                                            "NS-PAME" = "PAME")) |>
+                      filter(SPP_Code %in% c("PFLE",
+                                             "PAME",
+                                             "GVEN",
+                                             "PBIP",
+                                             "PPOR"))
+```
+
+# Data Exploration
+```{r}
+# Find distribution of octocoral densities in each region
+
+tally |>
+  ggplot(mapping = aes(x = Density)) +
+  geom_histogram() +
+  facet_wrap(~Subregion)
+  
+```
+
+```{r}
+# Variance of target species heights
+conditions_targets |>
+  #slice_head(n = 10) |>
+  ggplot(mapping = aes(x = Height.cm.)) +
+  geom_histogram() +
+  facet_wrap(~SPP_Code)
+```
+
+
