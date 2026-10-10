@@ -1,0 +1,246 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+```
+
+# Assignment #2: Distributions
+
+#### Caroline Link
+
+#### Last Updated: 10/09/26
+
+## [Part 1: Hypothetical Distributions]{.underline}
+
+1.  Number of surviving individuals within a forest plot out of a known starting number:
+
+    -   This is a discrete variable because it's a count where values must be whole numbers (an individual is either alive or dead). Since values are out of a known starting number, it would be best fit to a binomal distribution.
+
+2.  Species abundance (counts of individuals in a plot):
+
+    -   This is a discrete variable because it's a count where values must be whole numbers. Assuming that we're comparing the abundance of one species across similar plots, and that the number of individuals per plot is effectively unlimited, this data could be fit to a Poisson distribution.
+
+3.  Pollinator visitation rate (visits per flower per unit time):
+
+    -   This variable turns count data into a measurement per unit time, and is therefore continuous. Assuming that some flowers attract more pollinators than others and that the data could be right-skewed, it would make sense to use a gamma distribution.
+
+4.  Ages (in years) of surviving individuals within a reserve
+
+    -   This is a discrete variable because it's a count where values are rounded to the year. Assuming that the ages are effectively unlimited and that the presence of a few older individuals doesn't significantly increase the variance as compared to the mean, this data could be fit to a Poisson distribution.
+
+5.  Body size (e.g., body mass, length):
+
+    -   This is a continuous variable that can only have positive values, so it would be best fit to a lognormal distribution.
+
+6.  Biomass per unit area
+
+    -   This is a continuous variable because the biomass per unit area could theoretically be any value between 0 and infinity, this data would likely follow a normal distribution.
+
+7.  Time to germination
+
+    -   Since is a continuous variable measuring the time until one event occurs, it would be best fit with an exponential distribution.
+
+8.  Proportion of habitat covered by vegetation
+
+    -   Since cover proportion is a continuous variable and it's reasonable to expect that vegetation cover isn't uniform across habitats, this data would be best fit to a beta distribution.
+
+9.  Larval settlement success (number settled out of larvae released)
+
+    -   This is a discrete variable because it's a count where values must be whole numbers (larvae either settled successfully or didn't). Since values are out of a known starting number, it would be best fit to a binomal distribution.
+
+10. Proportion of infected fish in a population (parasite prevalence)
+
+    -   This is a continuous variable because the proportion could theoretically be any value from 0-1. Since it's reasonable to expect that parasite prevalence would vary between populations, it would make sense to use a beta distribution.
+
+11. Daily temperature at a field site
+
+    -   Since temperature could theoretically be measured down to multiple decimal places, this is a continuous variable which would likely fit a normal distribution.
+
+12. Population growth rate, meaning next year’s population size divided by this year’s
+
+    -   Since the population growth rate is comparing counts at two distinct time points, it's a discrete variable. Assuming that there's no limit to how much a population can grow in a year but there's not a significant amount of variance in annual growth rates, this data would likely fit a Poisson distribution.
+
+## [Part 2: Focal Dataset Distributions]{.underline}
+
+```{r}
+# R script to load in and clean CREMP Octo data for use in Biometry assignments
+
+## Load packages and read in datasets--------------------------------------------
+library(tidyverse)
+
+octo_tally_master <- read.csv("https://raw.githubusercontent.com/caroline-link/Biometry/refs/heads/main/CREMP_OCTO_Data/CREMP_OCTO_Tallies_Masterfile.csv")
+
+octo_conditions_master <- read.csv("https://raw.githubusercontent.com/caroline-link/Biometry/refs/heads/main/CREMP_OCTO_Data/CREMP_OCTO_Condition_Masterfile.csv")
+
+
+
+## Clean tally dataset-----------------------------------------------------------
+
+###Subset to observations from 2012-2025 and rename "Subregion" column to "SubRegion"
+tally <- octo_tally_master |>
+         filter(SampleYear > 2011) |>
+         rename(SubRegion = Subregion) 
+
+
+
+## Clean conditions dataset------------------------------------------------------
+
+### Subset to observations from 2012-2025 and rename column names to match tally dataset
+conditions <- octo_conditions_master |>
+              filter(SampleYear > 2011) |> 
+              rename(SubRegion = subRegionId, 
+                      Habitat = habitatid,
+                      SiteCode = Site.Code,
+                      SiteID = siteid,
+                      SiteName = sitename,
+                      Height_cm = Height.cm.) 
+
+### Limit to current CREMP target species, update species codes (including combining NS-PAME and PAME)
+conditions_targets <- conditions |>
+                      filter(SPP_Code %in% c("PAME",
+                                             "NS-PAME",
+                                             "PFLE",
+                                             "GVEN",
+                                             "PBIP",
+                                             "PPOR")) |> 
+                      mutate(SPP_Code = recode(SPP_Code,
+                                               "NS-PAME" = "AAME",
+                                               "PAME" = "AAME",
+                                               "PFLE" = "EFLE",
+                                               "PBIP" = "ABIP"))
+```
+
+### [Variable #1:]{.underline} Total Octocoral Density (m^2^)
+
+```{r}
+# Total octocoral density per transect per year
+tally |>
+  ggplot(mapping = aes(x = Density)) +
+  geom_histogram(bins = 30) +
+  labs(title = bquote("Total Octocoral Density" ~(m^2)~ "per Transect per Year"),
+       x = bquote("Total Octocoral Density" ~(m^2)),
+       y = "Frequency") +
+  scale_x_continuous(n.breaks = 10) +
+  scale_y_continuous(n.breaks = 6)
+
+mean(tally$Density)
+median(tally$Density)
+sd(tally$Density)
+```
+
+```{r}
+# log10(Density) per transect per year
+tally |>
+  ggplot(mapping = aes(x = log10(Density))) +
+  geom_histogram(bins = 30) +
+  labs(title = bquote("log10 Transformed Total Octocoral Density" ~(m^2)),
+       x = bquote("log10-Total Octocoral Density" ~(m^2)),
+       y = "Frequency") +
+  scale_x_continuous(n.breaks = 10) +
+  scale_y_continuous(n.breaks = 6)
+
+## Check that number of non-finite values removed from log(Density) plot matches number of sites where Density = 0
+# tally |>
+#  filter(Density == 0) |>
+#  nrow()
+
+log10(mean(tally$Density))
+log10(median(tally$Density))
+```
+
+-   The total octocoral density is a discrete variable because it's derived from count data of the number of octocoral colonies observed within 10 m transect. The original (un-logged) data has a mean of 12.754 and median of 10.15, indicating that the distribution is right-skewed. Since there are both a large number of transects with densities of zero and a few transects with very high densities, this data would best be fit to a negative binomial distribution.
+
+### [Variable #2:]{.underline} CREMP Target Species Density (m^2^)
+
+```{r}
+# Calculate CREMP Target Species Density per transect per year
+target_density_by_transect <- conditions_targets |>
+                  group_by(SampleYear, SiteID, StationID) |>
+                  summarise(Target_Density = n()/10)
+
+# Check that calculation worked
+# target_density_by_transect |>
+#  filter(StationID %in% c("271",
+#                          "521",
+#                          "811") &
+#   SampleYear %in% c("2012",
+#                     "2016",
+#                     "2018")) 
+
+#conditions_targets |>
+#  filter(StationID %in% c("271",
+#                          "521",
+#                          "811") &
+#   SampleYear %in% c("2012",
+#                     "2016",
+#                     "2018")) |>
+#  group_by(StationID, SampleYear) |>
+#  summarise( n = n()/10)
+
+target_density_by_transect |>
+  ggplot(mapping = aes(x = Target_Density)) +
+  geom_histogram(bins = 30) +
+  labs(title = bquote("Target Octocoral Species Density" ~(m^2)~ "per Transect per Year"),
+       x = bquote("Target Octocoral Species Density" ~(m^2)~ "per Transect"),
+       y = "Frequency") +
+  scale_x_continuous(n.breaks = 10) +
+  scale_y_continuous(n.breaks = 6)
+
+mean(target_density_by_transect$Target_Density)
+median(target_density_by_transect$Target_Density)
+sd(target_density_by_transect$Target_Density)
+```
+
+```{r}
+# log10(target_density) per transect per year
+target_density_by_transect |>
+  ggplot(mapping = aes(x = log10(Target_Density))) +
+  geom_histogram(bins = 30) +
+  labs(title = bquote("log10 Transformed Target Octocoral Species Density" ~(m^2)),
+       x = bquote("log10-Target Octocoral Species Density" ~(m^2)~ "per Transect"),
+       y = "Frequency") +
+  scale_x_continuous(n.breaks = 10) +
+  scale_y_continuous(n.breaks = 6)
+
+log10(mean(target_density_by_transect$Target_Density))
+log10(median(target_density_by_transect$Target_Density))
+```
+
+-   Similarly to the total octocoral density, the target species density is a discrete variable. The original (un-logged) data has a mean of 8.85 and median of 7.5, indicating that the distribution is also right-skewed. Since this data also has many transects with zero target species and a small number of transects with noticeably high densities, I would begin with a negative binomial distribution.
+
+### [Variable #3:]{.underline} CREMP Target Species Height (cm)
+
+```{r}
+# Plot colony heights for each CREMP target species
+conditions_targets |>
+  ggplot(mapping = aes(x = Height_cm)) +
+  geom_histogram(bins = 30) + 
+  labs(title = "Distribution of CREMP Target Species Heights(cm)",
+       x = "Colony Height (cm)",
+       y = "Frequency") +
+  facet_wrap(~ SPP_Code, scales = "free")
+
+conditions_targets |>
+  group_by(SPP_Code) |>
+  summarize(Mean_Height = mean(Height_cm),
+            Median_Height = median(Height_cm),
+            SD = sd(Height_cm))
+```
+
+```{r}
+# Log10 of target species colony heights
+conditions_targets |>
+  ggplot(mapping = aes(x = log10(Height_cm))) +
+  geom_histogram(bins = 30) + 
+  labs(title = "Distribution of CREMP Target Species Heights(cm)",
+       x = "Colony Height (cm)",
+       y = "Frequency") +
+  facet_wrap(~ SPP_Code, scales = "free") 
+
+conditions_targets |>
+  group_by(SPP_Code) |>
+  summarize(log10_Mean_Height = log10(mean(Height_cm)),
+            log10_Median_Height = log10(median(Height_cm)))
+```
+
+-   This is a discrete variable because colony heights are measured to the nearest centimeter. The mean and median heights for each target species are shown in the first tibble. The mean heights are consistently higher than the median heights, again indicating a right skew that log10-transforming the data doesn't improve. Since the height data is also clumped toward the lower end of the range and variance isn't equal to the mean, I would again use a negative binomial distribution.
