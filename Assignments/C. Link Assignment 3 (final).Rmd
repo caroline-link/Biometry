@@ -1,0 +1,648 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(readr)
+library(bbmle)
+library(biometrydata)
+```
+
+# Assignment #3: Model Selection
+
+#### Caroline Link
+
+#### 11/6/26
+
+## [Part 1: Model Modification and Selection]{.underline}
+
+```{r}
+# 1a: Competition between bean beetles ----------------------------------------
+
+  # Seed beetles lay their eggs on beans, and the larvae develop inside them,
+  # so beetles sharing a dish of beans compete for food. Each row is one dish:
+  # a known number of females of two species placed on 2 g of beans, and the
+  # number of offspring of each species that emerged.
+  #
+  # Here we model the offspring of Callosobruchus maculatus (species 1, "Cmac")
+  # when it shares beans with Callosobruchus subinnotatus (species 2, "Csub").
+  #
+  #   start_females_1   C. maculatus females placed in the dish
+  #   start_females_2   C. subinnotatus females placed in the dish
+  #   progeny_1         C. maculatus offspring that emerged
+  #
+  # ?beetle_competition_interspecific describes the experiment.
+
+  beetles <- beetle_competition_interspecific
+  # or: beetles <- read.csv("https://github.com/bmaitner/biometry_course/raw/refs/heads/main/data/Beetle_competition/competition_interspecific.csv")
+
+  beetles <- beetles[beetles$pair == "Cmac_Csub" & !is.na(beetles$progeny_1), ]
+
+  # plot if you like: offspring per female against the number of competitors
+
+  plot(beetles$start_females_1 + beetles$start_females_2,
+       beetles$progeny_1 / beetles$start_females_1,
+       xlab = "females in the dish, both species",
+       ylab = "C. maculatus offspring per female")
+
+  # The starting model is a competition model in the Beverton-Holt family:
+  #
+  #   expected offspring = R * N1 / (1 + (a11 * N1 + a12 * N2)^d)
+  #
+  #   R     offspring per female with no competition at all
+  #   a11   how much each C. maculatus female reduces that (within species)
+  #   a12   how much each C. subinnotatus female reduces it (between species)
+  #   d     how sharply competition bites as the dish fills up
+  #   k     negative binomial size: how variable dishes are
+  #
+  # Bounds keep every parameter positive, so the optimizer cannot try
+  # impossible values. If you remove a parameter, remove it from start, lower
+  # and upper too.
+  
+  beetle.fit <- mle2(progeny_1 ~ dnbinom(mu = R * start_females_1 /
+                                           (1 + (a11 * start_females_1 +
+                                                 a12 * start_females_2)^d),
+                                         size = k),
+                      start = list(R = 20, a11 = 0.1, a12 = 0.1, d = 1, k = 2),
+                      lower = c(R = 0.01, a11 = 0, a12 = 0, d = 0.1, k = 0.01),
+                      upper = c(R = 1000, a11 = 10, a12 = 10, d = 10, k = 100),
+                      method = "L-BFGS-B",
+                      data = beetles)
+
+
+  coef(beetle.fit)
+  AIC(beetle.fit) 
+  # AIC = 655.922
+  
+  
+  # Questions to build models around:
+  #   - Is d needed? With d = 1 (leave it out of the formula) this is the
+  #     classic Beverton-Holt model.
+  beetle.fit2 <- mle2(progeny_1 ~ dnbinom(mu = R * start_females_1 /
+                                           (1 + (a11 * start_females_1 +
+                                                 a12 * start_females_2)),
+                                         size = k),
+                     start = list(R = 20, a11 = 0.1, a12 = 0.1, k = 2),
+                     lower = c(R = 0.01, a11 = 0, a12 = 0, k = 0.01),
+                     upper = c(R = 1000, a11 = 10, a12 = 10, k = 100),
+                     method = "L-BFGS-B",
+                     data = beetles)
+
+  coef(beetle.fit2)
+  AIC(beetle.fit2) 
+  # AIC = 654.86
+  
+  
+  #   - Does C. subinnotatus affect C. maculatus at all? 
+  #     (What value of a12 would mean "no"?) - a12 = 0, so remove?
+  beetle.fit3 <- mle2(progeny_1 ~ dnbinom(mu = R * start_females_1 /
+                                           (1 + (a11 * start_females_1 +
+                                                 start_females_2)),
+                                         size = k),
+                      start = list(R = 20, a11 = 0.1, k = 2),
+                      lower = c(R = 0.01, a11 = 0, k = 0.01),
+                      upper = c(R = 1000, a11 = 10, k = 100),
+                      method = "L-BFGS-B",
+                      data = beetles)
+
+
+  coef(beetle.fit3)
+  AIC(beetle.fit3) # AIC = 656.04
+  
+  
+  #   - Is a C. subinnotatus female as harmful as a C. maculatus female?
+  #     (Hint: use one parameter for both.)
+   beetle.fit4 <- mle2(progeny_1 ~ dnbinom(mu = R * start_females_1 /
+                                           (1 + (a12 * start_females_1 +
+                                                 a12 * start_females_2)),
+                                         size = k),
+                      start = list(R = 20, a12 = 0.1, k = 2),
+                      lower = c(R = 0.01, a12 = 0, k = 0.01),
+                      upper = c(R = 1000, a12 = 10, k = 100),
+                      method = "L-BFGS-B",
+                      data = beetles)
+
+
+  coef(beetle.fit4)
+  AIC(beetle.fit4) 
+  # AIC = 658.54 
+  
+  
+  #   - A different shape: the Ricker model,
+  #     R * N1 * exp(-a11 * N1 - a12 * N2). Is it nested in the starting model?
+  
+  beetle.fit5 <- mle2(progeny_1 ~ dnbinom(mu = R * start_females_1 *
+                                               exp(-a11 * start_females_1 - 
+                                                    a12 * start_females_2),
+                                         size = k),
+                      start = list(R = 20, a11 = 0.1, a12 = 0.1, k = 2),
+                      lower = c(R = 0.01, a11 = 0, a12 = 0, k = 0.01),
+                      upper = c(R = 1000, a11 = 10, a12 = 10, k = 100),
+                      method = "L-BFGS-B",
+                      data = beetles)
+
+
+  coef(beetle.fit5)
+  AIC(beetle.fit5)  # AIC = 653.72 
+  
+  # Compare model options
+  AICtab(beetle.fit, beetle.fit2, beetle.fit3, beetle.fit4, beetle.fit5)
+```
+
+Of the candidate models explored above, beetle.fit5 appears to be the best fit for the data. In addition to removing the d parameter for how sharply competition bites as the dish fills up, beetle.fit5 improves upon the starting model by replacing the Beverton-Holt function with a Ricker function. Looking at a plot of the number of C. maculatus offspring per female against the number of competitors in the dish, it's apparent that the data more closely align with the hump-shape of a Ricker model than a saturating Beverton-Holt model. This pattern also makes more sense for a competition model, as the number of offspring per female would be expected to decrease with competition instead of increasing and leveling off.
+
+```{r}
+# 1b: Wing length in hawks and eagles -----------------------------------------
+
+  # Long-distance migrants should benefit from longer wings, which make
+  # sustained flight cheaper. Do migratory hawks and eagles (family
+  # Accipitridae) have longer wings than residents of the same body mass?
+  #
+  #   Wing.Length   mm
+  #   Mass          g
+  #   migration     resident, partial (some populations migrate), or migrant
+  #
+  # Each row is a species, so 249 species in all. One caution worth a
+  # sentence in your answer: related species share traits, so species are not
+  # fully independent data points. Accounting for that is beyond this course.
+
+  hawks <- avonet
+  # or: hawks <- readRDS(url("https://github.com/bmaitner/biometry_course/raw/refs/heads/main/data/Avonet/AVONET1_BirdLife.rds"))
+
+  hawks <- hawks[hawks$Family1 == "Accipitridae", c("Species1", "Wing.Length", "Mass", "Migration")]
+  hawks <- na.omit(hawks)
+  hawks$migration <- factor(hawks$Migration, levels = 1:3,
+                            labels = c("resident", "partial", "migrant"))
+
+  # plot if you like
+
+  plot(log(hawks$Mass), log(hawks$Wing.Length), col = hawks$migration,
+       xlab = "log body mass", ylab = "log wing length")
+  legend("topleft", levels(hawks$migration), col = 1:3, pch = 1)
+
+  # The starting model: wing length is lognormal, and its log rises linearly
+  # with log mass. That is a power law, wing = e^int * mass^b, the usual way
+  # one body measurement scales with another.
+  #
+  #   int     wing length at a given mass (on the log scale)
+  #   b       how fast wing length rises with mass
+  #   log_s   the log of the scatter around the line. Fitting the log keeps
+  #           the standard deviation positive, as in Lecture 16
+  #
+  # parameters = lets every one of the three differ among the migration
+  # classes, which is deliberately more than the data are likely to support.
+
+  hawk.fit <- mle2(Wing.Length ~ dlnorm(meanlog = int + b * log(Mass),
+                                        sdlog = exp(log_s)),
+                   start = list(int = 3, b = 0.3, log_s = -2),
+                   parameters = list(int ~ migration,
+                                     b ~ migration,
+                                     log_s ~ migration),
+                   data = hawks)
+
+  coef(hawk.fit)
+  AIC(hawk.fit) 
+  # AIC = 2645.972
+  
+  
+  # Questions to build models around:
+  #   - Do migrants have longer wings for their mass? (Which parameter is that?)
+    hawk.fit2 <- mle2(Wing.Length ~ dlnorm(meanlog = int + b * log(Mass),
+                                        sdlog = exp(log_s)),
+                   start = list(int = 3, b = 0.3, log_s = -2),
+                   parameters = list(int ~ migration),
+                   data = hawks)
+
+  coef(hawk.fit2)
+  AIC(hawk.fit2) 
+  # AIC = 2639.21
+  
+  
+  #   - Does wing length scale with mass differently in migrants?
+    hawk.fit3 <- mle2(Wing.Length ~ dlnorm(meanlog = int + b * log(Mass),
+                                        sdlog = exp(log_s)),
+                   start = list(int = 3, b = 0.3, log_s = -2),
+                   parameters = list(b ~ migration),
+                   data = hawks)
+
+  coef(hawk.fit3)
+  AIC(hawk.fit3) 
+  # AIC = 2640.086
+  
+  
+  #   - Are some migration classes more variable than others?
+  hawk.fit4 <- mle2(Wing.Length ~ dlnorm(meanlog = int + b * log(Mass),
+                                        sdlog = exp(log_s)),
+                   start = list(int = 3, b = 0.3, log_s = -2),
+                   parameters = list(log_s ~ migration),
+                   data = hawks)
+
+  coef(hawk.fit4)
+  AIC(hawk.fit4) 
+  # AIC = 2655.095
+  
+  
+  #   - Is the distinction between partial migrants and full migrants needed,
+  #     or would migrant versus resident do? (You would need a new column.)
+  
+  hawks_edit <- hawks|>
+                mutate(migration_edit = if_else(Migration == 1, "resident", "migrant"))
+  
+  hawk.fit5 <- mle2(Wing.Length ~ dlnorm(meanlog = int + b * log(Mass),
+                                        sdlog = exp(log_s)),
+                   start = list(int = 3, b = 0.3, log_s = -2),
+                   parameters = list(int ~ migration_edit),
+                   data = hawks_edit)
+
+  coef(hawk.fit5)
+  AIC(hawk.fit5) # AIC = 2638.46
+  
+  # Compare model options
+  AICtab(hawk.fit, hawk.fit2, hawk.fit3, hawk.fit4, hawk.fit5)
+  
+```
+
+Out of the five candidate models shown above, I would choose hawk.fit5 as the best model for this data. Based on the log-transformed plot of wing length by body mass and expectation that wing length should generally scale with body mass, the starting model's power-law seems to be an appropriate function for this data. However, hawk.fit5 simplifies the starting model by first limiting int as the only parameter that varies with migration status and then removing the distinction between partial and full migrants. It's important to note that while hawk.fit5 is the best candidate model, it does not account for the fact that the data points aren't fully independent of each other because related species share traits. One possible solution for this problem could be to combine closely related species and then compare mean wing length and body masses between these subgroups.
+
+```{r}
+# 1c: Reef fish species richness ----------------------------------------------
+
+  # How many fish species does a diver record on a survey of a Florida coral
+  # reef, and what explains the differences?
+  #
+  #   species_richness   number of species recorded on the survey
+  #   depth              tens of metres (so 1.5 is 15 m)
+  #   visibility         underwater visibility, tens of metres
+  #   year               years since 2014
+  #   region             Tortugas, Keys, or North (Miami to Martin County)
+  #   protected          "yes" inside a marine protected area, otherwise "no"
+  #
+  # Depth and visibility are in tens of metres because depth is squared in
+  # the model, and squaring 30 m gives numbers large enough to stall the
+  # optimizer. Rescaling a covariate changes nothing about the biology.
+
+  reef <- reef_fish_surveys
+  # or: reef <- read.csv("https://github.com/bmaitner/biometry_course/raw/refs/heads/main/data/Reef_fish/NCRMP_reef_fish_surveys.csv")
+
+  reef$depth <- reef$DEPTH / 10
+  reef$visibility <- reef$UNDERWATER_VISIBILITY / 10
+  reef$year <- reef$YEAR - 2014
+  reef$region <- factor(reef$REGION_DESCRIPTION,
+                        levels = c("Dry Tortugas",
+                                   "Florida Keys: from Key West to Miami",
+                                   "Miami to North Martin County"),
+                        labels = c("Tortugas", "Keys", "North"))
+  reef$protected <- ifelse(reef$MPA_NAME == "Unprotected", "no", "yes")
+
+  # plot if you like
+
+  plot(reef$DEPTH, reef$species_richness, col = rgb(0, 0, 0, 0.1),
+       xlab = "depth (m)", ylab = "species recorded")
+
+  # The starting model: richness is Poisson, its log rises and then falls
+  # with depth (the d2 * depth^2 term makes a hump), and it also depends on
+  # visibility, year, region and protection.
+
+  reef.fit <- mle2(species_richness ~ dpois(lambda = exp(int +
+                                                         d1 * depth +
+                                                         d2 * depth^2 +
+                                                         v * visibility +
+                                                         t * year)),
+                   start = list(int = 3, d1 = 0, d2 = 0, v = 0, t = 0),
+                   parameters = list(int ~ region + protected),
+                   data = reef)
+
+  coef(reef.fit)
+  AIC(reef.fit) # AIC = 76092.11
+  
+
+  # Questions to build models around:
+  #   - Is the Poisson the right distribution? Check before anything else:
+  #     what did Lecture 15 use var() / mean() for? - to check for clumping
+  
+  var(reef$species_richness)/mean(reef$species_richness)
+  
+  reef.fit2 <- mle2(species_richness ~ dnbinom(mu = exp(int +
+                                                         d1 * depth +
+                                                         d2 * depth^2 +
+                                                         v * visibility +
+                                                         t * year),
+                                                       size = exp(log_phi)),
+                   start = list(int = 3, d1 = 0, d2 = 0, v = 0, t = 0, log_phi = 0),
+                   parameters = list(int ~ region + protected),
+                   data = reef)
+
+  coef(reef.fit2)
+  AIC(reef.fit2) # AIC = 62609.9
+  
+  
+  #   - With 8,560 surveys, AIC may keep nearly every term. If so, which
+  #     effects are large enough to matter? Back-transform them: exp() of a
+  #     coefficient is the multiplier on expected richness.
+   reef.fit3a <- mle2(species_richness ~ dnbinom(mu = int +
+                                                         d1 * depth +
+                                                         d2 * depth^2 +
+                                                         v * visibility +
+                                                         t * year,
+                                                       size = exp(log_phi)),
+                   start = list(int = 3, d1 = 0, d2 = 0, v = 0, t = 0, log_phi = 0),
+                   parameters = list(int ~ region + protected),
+                   method = "L-BFGS-B",
+                   data = reef)
+   
+   AIC(reef.fit3a) # AIC = 62601.39
+   
+    reef.fit3b <- mle2(species_richness ~ dnbinom(mu = int +
+                                                         exp(d1) * depth +
+                                                         exp(d2) * depth^2 +
+                                                         exp(v) * visibility +
+                                                         exp(t) * year,
+                                                       size = exp(log_phi)),
+                   start = list(int = 3, d1 = 0, d2 = 0, v = 0, t = 0, log_phi = 0),
+                   parameters = list(int ~ region + protected),
+                   method = "L-BFGS-B",
+                   data = reef)
+
+  coef(reef.fit3b)
+  AIC(reef.fit3b) # AIC = 62788.64 (I don't think I did this right)
+  
+  
+  #   - Visibility is a property of the water on the day, not of the reef.
+  #     What might a visibility effect be measuring? - tied to depth?
+  
+    reef.fit4 <- mle2(species_richness ~ dnbinom(mu = exp(int +
+                                                         d1 * depth +
+                                                         d2 * depth^2 +
+                                                         t * year),
+                                                       size = exp(log_phi)),
+                   start = list(int = 3, d1 = 0, d2 = 0, t = 0, log_phi = 0),
+                   parameters = list(int ~ region + protected),
+                   data = reef)
+
+  coef(reef.fit4)
+  AIC(reef.fit4) # AIC = 62779.82
+  
+  #   - Does protection matter once region is accounted for?
+    reef.fit5 <- mle2(species_richness ~ dnbinom(mu = exp(int +
+                                                         d1 * depth +
+                                                         d2 * depth^2 +
+                                                         v * visibility +
+                                                         t * year),
+                                                       size = exp(log_phi)),
+                   start = list(int = 3, d1 = 0, d2 = 0, v = 0, t = 0, log_phi = 0),
+                   parameters = list(int ~ region),
+                   data = reef)
+
+  coef(reef.fit5)
+  AIC(reef.fit5) # AIC = 62645.47
+  
+  # Compare candidate models
+  AICtab(reef.fit, reef.fit2, reef.fit3a, reef.fit3b, reef.fit4, reef.fit5)
+```
+
+Of the candidate models above, reef.fit3a seem to best fit the data. It first improves the starting model by changing from a Poisson to a negative binomial distribution to account for clumping and overdispersion in the data. Reef.fit3a then attempts to back-transform the coefficients to determine which effects of depth, visibility, and sampling year are large enough to matter.
+
+## Part 2: Focal Dataset Model Selection
+
+```{r}
+## R script to load in and clean CREMP Octo data for use in Biometry assignments
+
+# Read in datasets--------------------------------------------
+
+octo_tally_master <- read.csv("https://raw.githubusercontent.com/caroline-link/Biometry/refs/heads/main/CREMP_OCTO_Data/CREMP_OCTO_Tallies_Masterfile.csv")
+
+octo_conditions_master <- read.csv("https://raw.githubusercontent.com/caroline-link/Biometry/refs/heads/main/CREMP_OCTO_Data/CREMP_OCTO_Condition_Masterfile.csv")
+
+
+# Clean tally dataset-----------------------------------------------------------
+
+# Subset to observations from 2012-2025
+tally <- octo_tally_master |>
+         filter(SampleYear > 2011) 
+
+# Remove unnecessary metadata columns (PointCount site code, Transect, AbbrName, SciName)
+# unique(tally$TRANSECT) - check that all data was collected from transect 300
+tally <- tally[-c(6,10:12)]
+
+# Rename "Subregion" column to "SubRegion", "Tally" to "Tally_AllSpecies", and Density" to "Density_AllSpecies"
+tally <- tally |>
+         rename(SubRegion = Subregion,
+                Tally_AllSpecies = Tally,
+                Density_AllSpecies = Density) 
+
+# Recode DRTO pinnacle sites
+tally <- tally |>
+         mutate(Habitat = case_when(
+          SiteName == "The Maze" ~ "PIN",
+          SiteName == "Davis Rock" ~ "PIN",
+          SiteName == "Texas Rock" ~ "PIN",
+          SiteName == "Temptation Rock" ~ "PIN",
+          SiteName == "Mayer's Peak" ~ "PIN",
+          SiteName == "Black Coral Rock" ~ "PIN",
+          TRUE ~ Habitat))
+
+# Set SiteID and StationID as factors
+tally <- tally |> 
+         mutate(SiteID = as.factor(SiteID),
+                StationID = as.factor(StationID))
+
+
+# Clean conditions dataset------------------------------------------------------
+
+# Subset to observations from 2012-2025
+conditions <- octo_conditions_master |>
+              filter(SampleYear > 2011)
+
+# Remove conditions and unnecessary metadata columns (recorder, PointCount site code, transect)
+# unique(conditions$TRANSECT)  - check that all data was collected from transect 300
+conditions <- conditions[-c(4, 7, 11, 14:40)]
+
+# Rename columns to match tally dataset
+conditions <- conditions|> 
+              rename(FirstSampleDate = Date,
+                     SubRegion = subRegionId, 
+                     Habitat = habitatid,
+                     SiteID = siteid,
+                     SiteName = sitename)
+
+# Limit to current CREMP target species, update species codes (including combining NS-PAME and PAME)
+targets <- conditions |>
+           filter(SPP_Code %in% c("PAME",
+                                 "NS-PAME",
+                                 "PFLE",
+                                 "GVEN",
+                                 "PBIP",
+                                 "PPOR")) |> 
+          mutate(SPP_Code = recode(SPP_Code,
+                                   "NS-PAME" = "AAME",
+                                   "PAME" = "AAME",
+                                   "PFLE" = "EFLE",
+                                   "PBIP" = "ABIP"))
+
+# Check that counts of NS-PAME and PAME are equal to combined AAME count
+#conditions|>
+# filter(SPP_Code %in% c("PAME", "NS-PAME")) |>
+#  nrow()
+
+#targets|>
+# filter(SPP_Code == "AAME") |>
+#  nrow()
+
+# Recode DRTO pinnacle sites
+targets <- targets |> 
+           mutate(Habitat = case_when(
+           SiteName == "The Maze" ~ "PIN",
+           SiteName == "Davis Rock" ~ "PIN",
+           SiteName == "Texas Rock" ~ "PIN",
+           SiteName == "Temptation Rock" ~ "PIN",
+           SiteName == "Mayer's Peak" ~ "PIN",
+           SiteName == "Black Coral Rock" ~ "PIN",
+           TRUE ~ Habitat))
+
+# Set SiteID and StationID as factors
+targets <- targets |> 
+           mutate(SiteID = as.factor(SiteID),
+                  StationID = as.factor(StationID))
+
+# Confirm that sites are coded properly
+
+# Find number of sites in each region
+#targets |>
+#  group_by(SubRegion) |>
+#  summarise(sites_per_region = n_distinct(SiteName))
+
+# Return list of sites in each region
+#targets |>
+#  group_by(SubRegion, Habitat) |>
+#  summarise(type = paste(sort(unique(SiteName, Habitat)), collapse = ", "))
+
+# Liberman et al. 2025 used the same dataset and had 20 sites in the FL Keys (LK = 6 MK = 8, UK = 6) and 7 sites in DRTO.
+# removed from DRTO: Davis Rock, Palmata Patch, Loggerhead Patch, Texas Rock
+# removed from LK: Red Dun 
+
+
+# Create summary table with total and target counts/densities per transect---------
+
+# Add columns to targets with target count and density per transect
+combined_targets <- targets |>
+                    group_by(SampleYear, StationID) |>
+                    summarise(Tally_Targets = n(),
+                              Density_Targets = n()/10)
+
+
+# Join to tally dataset to get full grid of transects/years
+combined <- left_join(tally, combined_targets, by = c("SampleYear", "StationID")) 
+
+# Replace NAs introduced for sites w/o targets
+combined$Tally_Targets[is.na(combined$Tally_Targets)] <- 0.0
+combined$Density_Targets[is.na(combined$Density_Targets)] <- 0.0 
+
+# Transects w/o targets
+no_targets <- combined |>
+              filter(Tally_Targets == 0) |>
+              group_by(SampleYear, StationID)
+
+subset(combined, is.na(combined$SPP_Code)) |>
+              group_by(SampleYear,StationID)
+
+# Sites w/o any octos
+no_octos <- no_targets|>
+            filter(Tally_AllSpecies == 0) |>
+            group_by(SampleYear, SiteID)
+
+# Does Davis ever have octos? 
+filter(combined, SiteID == 28, Tally_AllSpecies > 0) 
+## Only 9 colonies counted between 2012-2025, think about removing site as an outlier
+```
+
+**Target Species Count Data Exploration**
+
+```{r}
+# Plot target species counts per transect per year
+ggplot(mapping = aes(combined$Tally_Targets)) +
+    geom_histogram(aes(y = after_stat(density)), bins = 30) +
+  labs(title = bquote("Total Target Colonies per Transect"),
+       y = "Density")
+
+# See if log-transforming target counts helps (added + 0.1 to account for issues with log(0))
+ggplot(mapping = aes(log(combined$Tally_Targets + 0.1))) +
+    geom_histogram(aes(y = after_stat(density)), bins = 30) +
+  labs(title = bquote("Log-Transformed Total Target Colonies per Transect"),
+       y = "Density")
+
+# Check mean/median/var 
+mean(log(combined$Tally_Targets + 0.1))
+median(log(combined$Tally_Targets + 0.1))
+var(log(combined$Tally_Targets + 0.1)) / mean(log(combined$Tally_Targets + 0.1)) 
+# variance/mean = 0.7
+
+# Scatterplot of target count
+combined |>
+  ggplot(mapping = aes(x = SampleYear, y = log(Tally_Targets + 0.1))) +
+  geom_point() +
+  facet_grid(SubRegion ~ Habitat)
+
+```
+
+**Candidate Models**
+
+```{r}
+# Center year
+combined$SampleYear <- combined$SampleYear - min(combined$SampleYear)
+
+# Find starting parameter for target tally
+start_target_tally <- log(mean(combined$Tally_Targets + 0.1))
+
+# Target count candidate models
+target_pois1 <-mle2(Tally_Targets ~ dpois(
+                                    lambda = exp(tally + b_yr * SampleYear)),
+                    start = list(tally = start_target_tally, b_yr = 0),
+                    data = combined)
+
+target_nb1 <-mle2(Tally_Targets ~ dnbinom(
+                                  mu = exp(tally + b_yr * SampleYear),
+                                  size = exp(log_k)),
+                   start = list(tally = start_target_tally, b_yr = 0, log_k = 0),
+                   data = combined)
+
+AICtab(target_pois1, target_nb1)
+
+# Negative binomial fit better, try letting parameters differ based on site characteristics
+target_nb2 <- mle2(Tally_Targets ~ dnbinom(
+                                  mu = exp(tally + b_yr * SampleYear),
+                                  size = exp(log_k)),
+                   start = list(tally = start_target_tally, b_yr = 0, log_k = 0),
+                   parameters = list(tally ~ SiteID),
+                   data = combined)
+  
+  
+target_nb3 <- mle2(Tally_Targets ~ dnbinom(
+                                  mu = exp(tally + b_yr * SampleYear),
+                                  size = exp(log_k)),
+                   start = list(tally = start_target_tally, b_yr = 0, log_k = 0),
+                   parameters = list(tally ~ Habitat),
+                   data = combined)
+
+target_nb4 <- mle2(Tally_Targets ~ dnbinom(
+                                   mu = exp(tally + b_yr * SampleYear),
+                                   size = exp(log_k)),
+                   start = list(tally = start_target_tally, b_yr = 0, log_k = 0),
+                   parameters = list(tally ~ Habitat + SubRegion),
+                   data = combined)
+
+AICtab(target_nb1, target_nb2, target_nb3, target_nb4)
+
+# Habitat and SubRegion are accounted for by SiteID, try adding a new parameter
+target_nb5 <- mle2(Tally_Targets ~ dnbinom(
+                                  mu = exp(tally + b_yr * SampleYear),
+                                  size = exp(log_k)),
+                   start = list(tally = start_target_tally, b_yr = 0, log_k = 0),
+                   parameters = list(tally ~ SiteID, log_k ~ SubRegion),
+                   method = "L-BFGS-B",
+                   data = combined) 
+# convergence failure
+
+AICtab(target_nb1, target_nb2, target_nb3, target_nb4, target_nb5)
+
+```
+
+Of the models shown above, I would choose target_nb2 as the best model for predicting the number of target octocoral colonies observed at a given transect on a given year. Since dataset is made up of count data and the distribution is made more normal by log-transformation, a negative binomial seemed to be a strong fit for the distribution, which I confirmed by comparing the AICs of target_pois1 and target_nb1. I then tried to improve target_nb1 by allowing the tally parameter to differ based on site, habitat, and subregion. Target_nb2, which allowed the tally parameter to vary by site, resulted in the lowest AIC. This makes intuitive sense it allows for variation at the most specified level and site-level variances also inherently account for habitat and subregion effects.
