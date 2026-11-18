@@ -1,0 +1,244 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(readr)
+library(bbmle)
+```
+
+
+```{r}
+# R script to load in and clean CREMP Octo data for use in Biometry assignments
+
+# Read in datasets------------------------------------------------------------------------------------------------------------------------------
+
+octo_tally_master <- read.csv("https://raw.githubusercontent.com/caroline-link/Biometry/refs/heads/main/CREMP_OCTO_Data/CREMP_OCTO_Tallies_Masterfile.csv")
+
+octo_conditions_master <- read.csv("https://raw.githubusercontent.com/caroline-link/Biometry/refs/heads/main/CREMP_OCTO_Data/CREMP_OCTO_Condition_Masterfile.csv")
+
+
+# Clean tally dataset----------------------------------------------------------------------------------------------------------------------------
+
+# Subset to observations from 2012-2025
+tally <- octo_tally_master |>
+         filter(SampleYear > 2011) 
+
+# Remove unnecessary metadata columns (PointCount site code, Transect, AbbrName, SciName)
+# unique(tally$TRANSECT) # all data was collected from transect 300
+tally <- tally[-c(6,10:12)]
+
+# Rename "Subregion" column to "SubRegion", "Tally" to "Tally_AllSpecies", and Density" to "Density_AllSpecies"
+tally <- tally |>
+  rename(SubRegion = Subregion,
+         Tally_AllSpecies = Tally,
+         Density_AllSpecies = Density) 
+
+# Recode DRTO pinnacle sites
+tally <- tally |>
+         mutate(Habitat = case_when(
+          SiteName == "The Maze" ~ "PIN",
+          SiteName == "Davis Rock" ~ "PIN",
+          SiteName == "Texas Rock" ~ "PIN",
+          SiteName == "Temptation Rock" ~ "PIN",
+          SiteName == "Mayer's Peak" ~ "PIN",
+          SiteName == "Black Coral Rock" ~ "PIN",
+          TRUE ~ Habitat))
+
+# Set SiteID and StationID as factors
+tally <- tally |> 
+         mutate(SiteID = as.factor(SiteID),
+         StationID = as.factor(StationID))
+
+
+# Clean conditions dataset-----------------------------------------------------------------------------------------------------------------------------
+
+# Subset to observations from 2012-2025
+conditions <- octo_conditions_master |>
+              filter(SampleYear > 2011)
+
+# Remove conditions and unnecessary metadata columns (recorder, PointCount site code, transect)
+# unique(conditions$TRANSECT) # all data was collected from transect 300
+conditions <- conditions[-c(4, 7, 11, 14:40)]
+
+# Rename columns to match tally dataset
+conditions <- conditions|> 
+              rename(FirstSampleDate = Date,
+                     SubRegion = subRegionId, 
+                     Habitat = habitatid,
+                     SiteID = siteid,
+                     SiteName = sitename)
+
+# Limit to current CREMP target species, update species codes (including combining NS-PAME and PAME)
+targets <- conditions |>
+           filter(SPP_Code %in% c("PAME",
+                                 "NS-PAME",
+                                 "PFLE",
+                                 "GVEN",
+                                 "PBIP",
+                                 "PPOR")) |> 
+           mutate(SPP_Code = recode(SPP_Code,
+                                 "NS-PAME" = "AAME",
+                                 "PAME" = "AAME",
+                                 "PFLE" = "EFLE",
+                                 "PBIP" = "ABIP"))
+
+# Check that counts of NS-PAME and PAME are equal to combined AAME count
+#conditions|>
+# filter(SPP_Code %in% c("PAME", "NS-PAME")) |>
+#  nrow()
+
+#targets|>
+# filter(SPP_Code == "AAME") |>
+#  nrow()
+
+# Recode DRTO pinnacle sites
+targets <- targets |> 
+           mutate(Habitat = case_when(
+           SiteName == "The Maze" ~ "PIN",
+           SiteName == "Davis Rock" ~ "PIN",
+           SiteName == "Texas Rock" ~ "PIN",
+           SiteName == "Temptation Rock" ~ "PIN",
+           SiteName == "Mayer's Peak" ~ "PIN",
+           SiteName == "Black Coral Rock" ~ "PIN",
+           TRUE ~ Habitat))
+
+# Set SiteID and StationID as factors
+targets <- targets |> 
+           mutate(SiteID = as.factor(SiteID),
+           StationID = as.factor(StationID))
+
+
+# Create summary tables with total and target tally/densities per transect--------------------------------------------------------------------------
+# Find combined target tally and density per transect
+combined_targets <- targets |>
+  group_by(SampleYear, StationID) |>
+  summarise(Tally_Targets = n(), Density_Targets = n()/10)
+
+# Join to tally dataset to get full grid of transects/years
+combined <- left_join(tally, combined_targets, by = c("SampleYear", "StationID")) 
+
+# Replace NAs introduced for sites w/o targets
+combined$Tally_Targets[is.na(combined$Tally_Targets)] <- 0.0
+combined$Density_Targets[is.na(combined$Density_Targets)] <- 0.0 
+
+
+# Check if I need to recode or remove any sites --------------------------------------------------------------------------------------------------
+
+# Liberman et al. 2025 used the same dataset and had 20 sites in the FL Keys (LK = 6 MK = 8, UK = 6) and 7 sites in DRTO.
+# removed from DRTO: Davis Rock, Palmata Patch, Loggerhead Patch, Texas Rock
+# removed from LK: Red Dun 
+
+# Find number of sites in each region
+# combined |>
+#   group_by(SubRegion) |>
+#   summarise(sites_per_region = n_distinct(SiteName))
+
+# Return list of sites in each region
+# combined |>
+#  group_by(SubRegion, Habitat) |>
+#   summarise(type = paste(sort(unique(SiteName, Habitat)), collapse = ", "))
+
+# Did all surveys start in 2012?
+combined |> slice_min(SampleYear, by = StationID) |> filter(SampleYear != 2012)
+# No, Molasses Shallow and Molasses Deep were added in 2014, Red Dun was added in 2015
+
+# Transects w/o targets
+no_targets <- combined |>
+  filter(Tally_Targets == 0) |>
+  group_by(SampleYear, StationID)
+
+# Sites w/o any octos
+no_octos <- no_targets|>
+  filter(Tally_AllSpecies == 0) |>
+  group_by(SampleYear, SiteID)
+
+# Does Davis ever have octos? 
+filter(combined, SiteID == 28, Tally_AllSpecies > 0) 
+## Only 9 colonies counted between 2012-2025, remove as an outlier
+
+combined <- combined |> filter(SiteID != 28)
+```
+
+```{r}
+# Plot counts of target species per transect per year
+ggplot(mapping = aes(combined$Tally_Targets)) +
+    geom_histogram(aes(y = after_stat(density)), bins = 30) +
+  labs(title = bquote("Total Target Colonies per Transect"),
+       y = "Density")
+
+# See if log-transforming target counts helps (added + 0.1 to account for issues with log(0))
+ggplot(mapping = aes(log(combined$Tally_Targets + 0.1))) +
+    geom_histogram(aes(y = after_stat(density)), bins = 30) +
+  labs(title = bquote("Log-Transformed Total Target Colonies per Transect"),
+       y = "Density")
+
+# Check mean/median/var 
+mean(log(combined$Tally_Targets + 0.1))
+median(log(combined$Tally_Targets + 0.1))
+var(log(combined$Tally_Targets + 0.1)) / mean(log(combined$Tally_Targets + 0.1)) 
+# variance/mean = 0.399
+
+# Scatterplot of target count
+combined |>
+  ggplot(mapping = aes(x = SampleYear, y = log(Tally_Targets + 0.1))) +
+  geom_point() +
+  facet_grid(SubRegion ~ Habitat)
+
+```
+
+```{r}
+# Count data, right skewed but distribution is normal after log-transformation
+
+# I want to model temporal change of target counts (density) and see what the most significant factors are
+
+# Stations are nested within sites so random effect (1 | SiteID/StationID) 
+
+# Counts are also linked through time (each year's density builds on the last)
+# plot residuals of best model against year seperately for each site 
+# acf(residuals(m))
+
+```
+
+```{r}
+# I want to model temporal change of target counts (density) and see which factors (subregion, habitat) are most influential
+# Count data, right skewed but distribution is normal after log-transformation
+
+# Start by modeling glm w/ Poisson distribution and check scatter
+g_pois <- glm(Tally_Targets ~ SampleYear, family = poisson, data = combined)
+
+mu <- fitted(g_pois)
+lower <- qpois(0.025, mu)
+upper <- qpois(0.975, mu)
+mean(combined$Tally_Targets >= lower & combined$Tally_Targets <= upper) 
+
+# Only 22% of surveys fall into this range, so fit with a negative binomial
+g_null <- MASS::glm.nb(Tally_Targets ~ 1, data = combined)
+
+g_nb <- MASS::glm.nb(Tally_Targets ~ SampleYear, data = combined)
+
+AICtab(g_null, g_nb, g_pois)
+# shifting to negative binomial improves AIC by +80,000
+# dAIC for g_null and g_nb is 1.9, so models can be treated as equally effective (maybe sample year isn't very informative)
+
+# Counts are grouped stations nested within sites, so use glmmTMB and add random effect (1 | SiteID/StationID)
+mm_pois <- glmmTMB(Tally_Targets ~ SampleYear + (1 | SiteID/StationID),
+                 family = poisson,
+                 data = combined)
+
+mm_nb1 <- glmmTB(Tally_Targets ~ SampleYear + (1 | SiteID/StationID),
+                family = nbinom1,
+                data = combined)
+
+mm_nb2 <- glmmTB(Tally_Targets ~ SampleYear + (1 | SiteID/StationID), 
+                family = nbinom2, # zero-inflated negative-binomial
+                data = combined)
+
+AICtab(g_null, g_nb, g_pois, mm_pois, mm_nb1, mm_nb2)
+
+
+
+# fixed effect (count ~ year + SiteID/StationID)
+
+# random effect (count ~ year + (1 | SiteID/StationID)
+```
+
