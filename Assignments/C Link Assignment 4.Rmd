@@ -5,21 +5,27 @@ library(tidyverse)
 library(readr)
 library(bbmle)
 library(lme4)
+library(glmmTMB)
+library(emmeans)
 ```
 
+## Assignment 4: GLMs
+
+Caroline Link
+
+11/20/26
+
+### Load and Clean Dataset:
 
 ```{r}
-# R script to load in and clean CREMP Octo data for use in Biometry assignments
-
-
-# Read in datasets----------------------------------------------------------------------------------------------------
+# Read in datasets-----------------------------------------------------------------------------
 
 octo_tally_master <- read.csv("https://raw.githubusercontent.com/caroline-link/Biometry/refs/heads/main/CREMP_OCTO_Data/CREMP_OCTO_Tallies_Masterfile.csv")
 
 octo_conditions_master <- read.csv("https://raw.githubusercontent.com/caroline-link/Biometry/refs/heads/main/CREMP_OCTO_Data/CREMP_OCTO_Condition_Masterfile.csv")
 
 
-# Clean tally dataset-------------------------------------------------------------------------------------------------
+# Clean tally dataset--------------------------------------------------------------------------
 
 # Subset to observations from 2012-2025
 tally <- octo_tally_master |>
@@ -31,7 +37,7 @@ tally <- tally[-c(6,10:12)]
 
 # Rename "Subregion" column to "SubRegion", "Tally" to "Tally_AllSpecies", and Density" to "Density_AllSpecies"
 tally <- tally |>
-  rename(SubRegion = Subregion,
+         rename(SubRegion = Subregion,
          Tally_AllSpecies = Tally,
          Density_AllSpecies = Density) 
 
@@ -47,7 +53,7 @@ tally <- tally |>
           TRUE ~ Habitat))
 
 
-# Clean conditions dataset-------------------------------------------------------------------------------------------------
+# Clean conditions dataset---------------------------------------------------------------------
 
 # Subset to observations from 2012-2025
 conditions <- octo_conditions_master |>
@@ -100,7 +106,8 @@ targets <- targets |>
            TRUE ~ Habitat))
 
 
-# Create summary tables with total and target tally/densities per transect--------------------------------------------------
+# Create summary tables with total and target tally/densities per transect--------------------
+
 # Find combined target tally and density per transect
 combined_targets <- targets |>
                     group_by(SampleYear, StationID) |>
@@ -114,7 +121,7 @@ all_octos_all_sites$Tally_Targets[is.na(all_octos_all_sites$Tally_Targets)] <- 0
 all_octos_all_sites$Density_Targets[is.na(all_octos_all_sites$Density_Targets)] <- 0.0 
 
 
-# Check if I need to recode or remove any sites -----------------------------------------------------------------------------
+# Check if I need to recode or remove any sites ----------------------------------------------
 
 # Liberman et al. 2025 used the same dataset and had 20 sites in the FL Keys (LK = 6 MK = 8, UK = 6) and 7 sites in DRTO.
 # removed from DRTO: Davis Rock, Palmata Patch, Loggerhead Patch, Texas Rock
@@ -151,6 +158,8 @@ filter(all_octos_all_sites, SiteID == 28, Tally_AllSpecies > 0)
 all_octos_wo_davis <- all_octos_all_sites |> filter(SiteID != 28)
 ```
 
+### Data Visualization:
+
 ```{r}
 # Plot counts of target species per transect per year
 ggplot(mapping = aes(all_octos_wo_davis$Tally_Targets)) +
@@ -178,28 +187,38 @@ all_octos_wo_davis |>
 
 ```
 
+### Candidate Models: 
+
 ```{r}
-# I want to model temporal change of target counts (density) and see which factors (subregion, habitat) are most influential
+# For this assignment, I wanted to model the temporal change of target octocoral species density at CREMP sites from 2012-2025 and see if subregion or habitat might serve as a strong spatial predictor.
 
-# Count data, right skewed but distribution is normal after log-transformation
-
-# To follow Liberman et al 2025: "sample year was incorporated as a fixed categorical predictor so that the results were not skewed by the first or last sample year and to allow for between-year comparisons to be explored further during post hoc analysis."
+# Set site characteristics (spatial scales) as factors
 all_octos_wo_davis$SampleYear <- as.factor(all_octos_wo_davis$SampleYear)
 all_octos_wo_davis$SubRegion <- as.factor(all_octos_wo_davis$SubRegion)
 all_octos_wo_davis$Habitat <- as.factor(all_octos_wo_davis$Habitat)
 all_octos_wo_davis$SiteID <- as.factor(all_octos_wo_davis$SiteID)
 all_octos_wo_davis$StationID <- as.factor(all_octos_wo_davis$StationID)
 
+# To follow Liberman et al 2025: "sample year was incorporated as a fixed categorical predictor so that the results were not skewed by the first or last sample year and to allow for between-year comparisons to be explored further during post hoc analysis."
+
+
+# I'm working with count data, that I already know is right-skewed before log-transformation. I'm assuming that the data will be best fit with a negative binomial distribution, but will start using a Poisson distribution just in case.
 
 # Compare three starting models: glms w/ Poisson distributions and different predictor variables
-g_pois_null <- glm(Tally_Targets ~ 1, family = poisson, data = all_octos_wo_davis)
+g_pois_null <- glm(Tally_Targets ~ 1, 
+                   family = poisson, 
+                   data = all_octos_wo_davis)
 
-g_pois_year <- glm(Tally_Targets ~ SampleYear, family = poisson, data = all_octos_wo_davis)
+g_pois_year <- glm(Tally_Targets ~ SampleYear, 
+                   family = poisson, 
+                   data = all_octos_wo_davis)
 
-g_pois_all <- glm(Tally_Targets ~ SampleYear * SubRegion + Habitat, family = poisson, data = all_octos_wo_davis) 
+g_pois_all <- glm(Tally_Targets ~ SampleYear * SubRegion + Habitat, 
+                  family = poisson, 
+                  data = all_octos_wo_davis) 
 
 AICtab(g_pois_null, g_pois_year, g_pois_all) 
-# g_pois_all had lowest AIC by 21993. 
+# g_pois_all had lowest AIC by 21993 
 
 
 # Test scatter of g_pois_all: if Poisson is a good fit, 95% of surveys should fall in this range
@@ -210,54 +229,150 @@ mean(all_octos_wo_davis$Tally_Targets >= lower & all_octos_wo_davis$Tally_Target
 
 
 # Only 27% of surveys fall into Poisson 95% range, so fit with a negative binomial
-g_null <- MASS::glm.nb(Tally_Targets ~ 1, data = all_octos_wo_davis)
+g_null <- MASS::glm.nb(Tally_Targets ~ 1, 
+                       data = all_octos_wo_davis)
 
-g_nb <- MASS::glm.nb(Tally_Targets ~ SampleYear * SubRegion + Habitat, data = all_octos_wo_davis)
+g_nb <- MASS::glm.nb(Tally_Targets ~ SampleYear * SubRegion + Habitat, 
+                     data = all_octos_wo_davis)
 
 AICtab(g_null, g_nb, g_pois_all)
 # shifting to negative binomial improved AIC by ~54,800, g_nb model with predictors was 449 better than g_null
 
 
-# Counts are grouped by stations nested within sites, so use glmmTMB and add random effect (1 | SiteID/StationID)
-# Compare using nbinom1 vs nbinom2 (zero-inflated)
-mm_nb1 <- glmmTB(Tally_Targets ~ SampleYear * SubRegion + Habitat + (1 | SiteID/StationID), family = nbinom1, data = all_octos_wo_davis)
+# Counts are grouped by stations nested within sites, so add random effect (1 | SiteID/StationID)
+# Counts at each transect are also linked through time (each year's density is dependent on the last), so use glmmTMB
+# Compare using nbinom1 vs nbinom2 (quadratic parameterization)
+mm_nb1 <- glmmTMB(Tally_Targets ~ SampleYear * SubRegion + Habitat + (1 | SiteID/StationID), 
+                  family = nbinom1, 
+                  data = all_octos_wo_davis)
 
-mm_nb2 <- glmmTB(Tally_Targets ~ SampleYear * SubRegion + Habitat + (1 | SiteID/StationID), family = nbinom2, data = all_octos_wo_davis)
+mm_nb2 <- glmmTMB(Tally_Targets ~ SampleYear * SubRegion + Habitat + (1 | SiteID/StationID), 
+                  family = nbinom2, 
+                  data = all_octos_wo_davis)
 
 AICtab(mm_nb1, mm_nb2)
+# mm_nb2 (zero-inflated negative binomial) improved AIC by 106.1
 
 
-# fixed effect (count ~ year + SiteID/StationID)
+# Using mm_nb2 as a staring model, compare different combinations of potential predictors
+mm_nb2_null <- glmmTMB(Tally_Targets ~ 1 + (1 | SiteID/StationID), 
+                       family = nbinom2, 
+                       data = all_octos_wo_davis)
 
-# random effect (count ~ year + (1 | SiteID/StationID)
+
+mm_nb2_year1 <- glmmTMB(Tally_Targets ~ SampleYear + (1 | SiteID/StationID), 
+                        family = nbinom2, 
+                        data = all_octos_wo_davis)
+
+mm_nb2_year2 <- glmmTMB(Tally_Targets ~ as.numeric(SampleYear) + (1 | SiteID/StationID), 
+                        family = nbinom2, 
+                        data = all_octos_wo_davis)
 
 
+mm_nb2_subregion1 <- glmmTMB(Tally_Targets ~ SampleYear + SubRegion + (1 | SiteID/StationID), 
+                             family = nbinom2, 
+                             data = all_octos_wo_davis)
 
-# Counts are also linked through time (each year's density builds on the last)
-# plot residuals of best model against year seperately for each site 
-# acf(residuals(m))
+mm_nb2_subregion2 <- glmmTMB(Tally_Targets ~ SampleYear * SubRegion + (1 | SiteID/StationID), 
+                             family = nbinom2, 
+                             data = all_octos_wo_davis)
+
+
+mm_nb2_habitat1 <- glmmTMB(Tally_Targets ~ SampleYear + Habitat + (1 | SiteID/StationID), 
+                           family = nbinom2, 
+                           data = all_octos_wo_davis)
+
+mm_nb2_habitat2 <- glmmTMB(Tally_Targets ~ SampleYear * Habitat + (1 | SiteID/StationID), 
+                           family = nbinom2, 
+                           data = all_octos_wo_davis)
+
+
+mm_nb2_all1 <- glmmTMB(Tally_Targets ~ SampleYear + SubRegion + Habitat + (1|SiteID/StationID),
+                       family = nbinom2, 
+                       data = all_octos_wo_davis)
+
+mm_nb2_all2 <- glmmTMB(Tally_Targets ~ SampleYear * SubRegion + Habitat + (1|SiteID/StationID),
+                       family = nbinom2, 
+                       data = all_octos_wo_davis)
+
+# mm_nb2_all3 <- glmmTMB(Tally_Targets ~ SampleYear * SubRegion * Habitat + (1 | SiteID/StationID), 
+#                       family = nbinom2, 
+#                       data = all_octos_wo_davis)
+
+# model failed to converge: assuming there's not enough data to support this comparison, but might be worthwhile to come back and try again after re-scaling
+
+AICtab(mm_nb2_null,
+       mm_nb2_year1,
+       mm_nb2_year2,
+       mm_nb2_subregion1,
+       mm_nb2_subregion2, 
+       mm_nb2_habitat1, 
+       mm_nb2_habitat2,
+       mm_nb2_all1,
+       mm_nb2_all2)
+
+# best: mm_nb_habitat2 improved AIC by 324.6
+# 2nd best: mm_nb2_subregion1
+# 3rd best: mm_nb2_all1
+
+# Compare mm_nb_habiat2 to same model w/o random effect
+mm_nb2_habitat_null <- glmmTMB(Tally_Targets ~ SampleYear * Habitat, 
+                               family = nbinom2, 
+                               data = all_octos_wo_davis)
+
+AICtab(mm_nb2_habitat2, mm_nb2_habitat_null)
+# including random effect improves AIC by 2331.9
 ```
+
+### Best Model:
+
 ```{r}
+# Check how many observed counts fall within the model's expected 95% range
+inside <- function(low, high){
+  mean(all_octos_wo_davis$Tally_Targets >= low & all_octos_wo_davis$Tally_Targets <= high)
+}
 
+theta <- sigma(mm_nb2_habitat2)
+mu <- fitted(mm_nb2_habitat2)
+c(mm_nb2_habitat2 = inside(qnbinom(0.025, mu = mu, size = theta),
+                           qnbinom(0.975, mu = mu, size = theta)))
+# 95% of observed counts fall within model's 95% range
 
-# Start by modeling glms w/ Poisson distributions: year as numeric or categorical factor, with or without subregion and habitat as predictors
-g_pois_yr_numeric <- glm(Tally_Targets ~ as.numeric(SampleYear), 
-                         family = poisson, 
-                         data = all_octos_wo_davis) 
+# Plot residuals from best model
+acf(residuals(mm_nb2_habitat2))
+# Spike at lag 0, followed by tail off pattern, I think this indicates that data is stationary between years?
 
-g_pois_yr <- glm(Tally_Targets ~ SampleYear, 
-                 family = poisson, 
-                 data = all_octos_wo_davis) 
+# Get summary of best model
+summary(mm_nb2_habitat2)
 
-g_pois_all_numeric <- glm(Tally_Targets ~ as.numeric(SampleYear) * SubRegion + Habitat, 
-                          family = poisson, 
-                          data = all_octos_wo_davis) 
+# Points of interest
+#                            Estimate Std. Error z value Pr(>|z|)
+# (Intercept)                4.893976   0.290847  16.827  < 2e-16 ***
+# SampleYear2024:HabitatP   -0.774207   0.126168  -6.136 8.45e-10 ***
+# SampleYear2025:HabitatP   -0.507832   0.120227  -4.224 2.40e-05 ***
 
+# Find odds ratio for intercept 
+# (number of target colonies counted at offshore deep site in 2012)
+exp(4.89397)
 
-g_pois_all <- glm(Tally_Targets ~ SampleYear * SubRegion + Habitat, 
-                  family = poisson, 
-                  data = all_octos_wo_davis) 
+# Calculate predicted counts for each combination of year/habitat
+emmeans(mm_nb2_habitat2, ~ SampleYear * Habitat, type = "response")
 
-AICtab(g_pois_yr_numeric, g_pois_yr, g_pois_all_numeric, g_pois_all)
-# g_pois_all had lowest AIC by 5193
+# Find average counts in patch reefs in 2024/2025
+all_octos_wo_davis |>
+  filter(SampleYear == 2024 & Habitat == "P")|>
+  summarise(avg_tally = mean(Tally_Targets))
+# 20 compared to predicted 11.9 (range 7.20-19.5)
 
+all_octos_wo_davis |>
+  filter(SampleYear == 2025 & Habitat == "P")|>
+  summarise(avg_tally = mean(Tally_Targets))
+# 23 compared to predicted 13.8 (range 8.41-22.7)
+
+```
+
+As explored above, the number of target octocoral colonies recorded at a given CREMP site between 2012-2025 was best fitted using a glmm with a negative binomial 2 distribution (quadratic parameterization and loglink) that modeled count as a function of year as a categorical fixed factor and added a random effect of stations nested within each site to account for repeated sampling.
+
+The three best models built upon this framework with different fixed effects. The 3rd best model (mm_nb2_all1) assumes that count is a function of year and that intercepts vary by subregion and habitat type. The 2nd best model (mm_nb2_subregion1) removes habitat as a fixed effect and fits count as a function of year with intercepts that vary based only on subregion. Finally, mm_nb2_habitat2 improved AIC by 324.6 units by assuming that count is a function of both sample year and habitat type.
+
+I would be keep mm_nb2_habitat2 as my best model for this data because it had the lowest AIC value of any candidate and an additional check confirmed that 95% of the observed counts fell inside the model's 95% range. The model highlighted significant decline in target colony count across habitat types from 2017 to 2018, likely reflective of the impact of Hurricane Irma. There were also significant declines in response to the 2023-2024 marine heatwave, particularly on patch and offshore shallow reefs. The model also produced fairly accurate predicted values for the number of colonies at a patch reef in either 2024 or 2025, though the mean observed counts were slightly above the upper confidence limit (ie. predicted range of 7.2-19.5 colonies in 2024 compared to observed average count of 20).
